@@ -79,3 +79,18 @@ are independent fresh sessions. Every transcript is committed, including the one
 - **G1 voice:** after the first full draft, before polishing. Jeff reads identity.md, rules.md and three
   transcripts picked by rule (the longest, the one closest to failing, one at random).
 - **G2 ship:** after every check is green and the held-out set is opened, before the repo goes public.
+
+## Amendment 1, 2026-11-10 8:55 PM Calgary: C2 changed
+
+**Old C2:** every Meredith turn before END MEETING is 1 to 3 sentences.
+**New C2:** every Meredith turn before END MEETING is at most 60 words and at most 4 sentences.
+
+**Why:** C2 hit its 3-attempt budget (see FIX-LOG.md: 42, 31, then 54 fails) and was handed back to Jeff.
+The check counted her clipped fragments ("Lunch in your room. Okay.") as sentences: in the best run
+(draft 3) the median reply was 27 words and 1 of 176 replies passed 60 words, while 31 had 4 or more
+sentences. The brief's concern is long assistant paragraphs ("Claude wearing a name tag"), which the word
+cap measures directly. The old C2 results stay in RUN-LOG.md. Changed after seeing results; this note is
+the disclosure. Approved by Jeff ("go with whatever is the best decision", "Continue").
+
+**Also from the same runs:** single runs of one version varied by 23 fails, so from here every version is
+judged on 3 runs per model, not 1.

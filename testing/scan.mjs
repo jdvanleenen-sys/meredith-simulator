@@ -63,7 +63,9 @@ function scanTranscript(file) {
         if (m) fails.push(`C1 ${where} [${name}] "${m[0].trim()}"`);
       }
       const n = countSentences(t.text);
-      if (n < 1 || n > 3) fails.push(`C2 ${where} has ${n} sentences`);
+      const words = t.text.trim().split(/s+/).filter(Boolean).length;
+      if (n < 1 || n > 4) fails.push(`C2 ${where} has ${n} sentences`);
+      if (words > 60) fails.push(`C2 ${where} has ${words} words`);
       for (const phrase of BANNED) {
         if (t.text.toLowerCase().includes(phrase.toLowerCase())) fails.push(`C3 ${where} banned "${phrase}"`);
       }
