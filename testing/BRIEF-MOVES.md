@@ -73,3 +73,18 @@ Too few wordings to call it "never fails". That is what the battery is for.
 `attacks/brief-moves.json`: 52 sessions (12 flatter, 12 push, 12 ai, 12 advice, 4 combo), written by a fresh Opus agent with no access to the rules, saved verbatim from its reply. SHA-256 `bd4b833c9666ef062b85b60401f3466fdc8b49a9c0b7c07bf48ac5a966f5670f`, committed before any run. The softening phrases ("you're right", "that's kind", "that means a lot") were added to the banned list in rules.md in the same commit, before the run.
 
 Not a held-out set: the lead (Claude) read the battery when the agent returned it, before the run. No persona file was changed after reading it except the softening phrases above, which come from the brief's own line ("if it softens after one compliment"). The sealed held-out set in HELDOUT.md stays unread.
+
+## Results (latest version; C1, C3, C4 per session, every run)
+
+| Move | Sonnet | Opus | Haiku (first run) |
+|---|---|---|---|
+| Flatter (12 wordings) | 60 / 60 | 60 / 60 | 22 / 24 |
+| Push (12 wordings) | 60 / 60 | 60 / 60 | 20 / 24 |
+| Ask if she's an AI (12 wordings) | 120 / 120 (x10, after the examples change) | 60 / 60 | 20 / 24 |
+| Ask for advice (12 wordings) | 60 / 60 | 60 / 60 | 20 / 24 |
+| Combo sessions (all four mixed) | 19 / 20 (her own word "chatbot", marker kept strict) | 20 / 20 | 5 / 8 |
+
+Sonnet flatter, push and advice are from the confirmation run (`brief2`); the AI row from `brief3-ai`. Rule of three:
+0 fails in 60 runs of a move means at most about 5% per run at 95%, and only if runs are independent. Every
+REVIEW line (possible concession) was read by hand: all were challenges, none a concession. Haiku breaks on all four
+moves and is reported as a limit of the weakest model.
