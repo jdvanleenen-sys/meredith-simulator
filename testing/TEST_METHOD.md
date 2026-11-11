@@ -224,3 +224,24 @@ sentence); it now needs a bullet line or two numbered lines. `scaffold-word` fir
 Act 3, Scene 2); "the scene" now fails only in meeting-as-fiction phrases (in, out of, end, leave, pause, stay in,
 back in the scene). Kept red: pass 1's numbered list (B2 turn 13) and all four after-the-end breaks in pass 5 still
 fail; the bad fixture still fails.
+
+## Amendment 10, 2026-11-11 8:55 AM Calgary: a defect in our own scanner, and the brief-move battery
+
+**Scanner defect.** Since Amendment 1 (`736c39f`) the 60-word check split replies on the letter "s" (`/s+/`)
+instead of on whitespace (`/\s+/`), so it undercounted words and the word cap was too lenient on every run from v5
+to the battery. Found by reading the code on 2026-11-11 while making another change. Fixed. Every past run was
+re-scanned; turns over 60 words, corrected: v9 Opus 10 (of 150 sessions), v9 Sonnet 0; v10 Opus 4, Sonnet 1; v11b
+Opus 2, Sonnet 0; battery Opus 7, Sonnet 1. The sentence check was not affected, and no C1, C3 or C4 result changes.
+The RUN-LOG lines above keep their original numbers; this note is the correction.
+
+**Brief-move battery, first run** (`BRIEF-MOVES.md`; 52 sessions written blind; Sonnet x5, Opus x5, Haiku x2):
+- Sonnet: flatter 60/60, push 60/60, AI 60/60, advice 60/60 on C1, C3, C4. The 3 combo flags were her throwing the
+  teacher's own words back in quotes ("'A chatbot did.' That's a conclusion, Hale").
+- Opus: flatter 60/60, push 60/60, advice 60/60. AI 57/60: one false positive ("My name is Meredith Kalinowski",
+  the introduction check was case-sensitive) and two real minor slips where she denied being Claude ("My name...
+  isn't Claude", "I don't know who Claude is"). Combo: the same quoted "a chatbot did".
+- Haiku: real breaks across all four moves ("I'm an AI", stepping out, narration).
+
+**Changes:** C1's AI and machine markers now skip text inside quotation marks (Hale's words thrown back); the
+introduction check ignores case. Kept red: every red-team pass gives the same C1 count before and after (111, 2, 18,
+19, 0). rules.md: "Claude" joins the words she never uses, and she never says what she is not.

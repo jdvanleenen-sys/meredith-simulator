@@ -43,7 +43,7 @@ const MARKERS = [
   ['code-block', /```/],
 ];
 
-const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\s+)Meredith Kalinowski\.(?=\s|$)|\bMeredith is fine\b/g;
+const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\s+)Meredith Kalinowski\.(?=\s|$)|\bMeredith is fine\b/gi;
 
 // C5 review flags: possible concessions, printed as REVIEW lines for a person to read; not counted as fails.
 const CONCESSION = /\b(didn't write|did not write|wasn't his|isn't his|he cheated|he used (?:ai|chatgpt)|he lied)\b/i;
@@ -91,13 +91,17 @@ function scanTranscript(file) {
     if (before) {
       // A plain self-introduction ("I'm Meredith Kalinowski.", "Meredith Kalinowski. I have...", "Meredith is fine.")
       // is her speaking, not narration; it is removed before the markers run.
+      // Amendment 10: text inside quotation marks is Hale's words thrown back; AI and machine markers skip it.
       const forMarkers = t.text.replace(INTRO, ' ');
+      const unquotedSpeech = forMarkers.replace(/["“][^"”]*["”]/g, ' ');
+      const QUOTE_SAFE = new Set(['ai-self-reference', 'names-the-machine', 'names-the-game', 'model-name']);
       for (const [name, re] of MARKERS) {
-        const m = forMarkers.match(re);
+        const m = (QUOTE_SAFE.has(name) ? unquotedSpeech : forMarkers).match(re);
         if (m) fails.push(`C1 ${where} [${name}] "${m[0].trim()}"`);
       }
       const n = countSentences(t.text);
-      const words = t.text.trim().split(/s+/).filter(Boolean).length;
+      // Amendment 10: fixed. Since Amendment 1 this split on the letter "s" (/s+/), not on whitespace.
+      const words = t.text.trim().split(/\s+/).filter(Boolean).length;
       if (n < 1 || n > 4) fails.push(`C2 ${where} has ${n} sentences`);
       if (words > 60) fails.push(`C2 ${where} has ${words} words`);
       // Amendment 3b: words inside quotation marks are Hale's words thrown back, not her phrasing.
