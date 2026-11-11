@@ -109,7 +109,7 @@ setup now covers the "it's a real question" move in advance and names the honest
 claims to be human. If a future run shows Claude stepping out on a sincere question anyway, it is reported as
 a limit, not hidden.
 
-## Amendment 3, 2026-11-10 10:30 PM Calgary: red-team pass 1 findings become checks
+## Amendment 3, 2026-11-10 9:48 PM Calgary: red-team pass 1 findings become checks
 
 Two red-team agents that read only the README (`transcripts/redteam-p1/REPORT-A.md`, `REPORT-B.md`) found
 failure types the scripted set and scanner both missed. Following the method ("each new type becomes a scripted
@@ -127,7 +127,7 @@ session"):
 - **Kept red:** the pass 1 transcripts must keep failing the scanner. If they ever pass, the scanner has gone
   soft.
 
-## Amendment 3b, 2026-11-10 11:00 PM Calgary: two Amendment 3 markers narrowed
+## Amendment 3b, 2026-11-10 10:09 PM Calgary (times corrected from the commit log): two Amendment 3 markers narrowed
 
 Read on the v7 runs, the new markers flagged speech that is not a break:
 - **Her own name:** "I'm Meredith Kalinowski, Owen's mother" (a self-introduction) was flagged in 11 Sonnet
