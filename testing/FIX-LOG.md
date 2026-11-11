@@ -14,3 +14,5 @@ A new chat reads this file and RUN-LOG.md before touching the persona.
 | 2026-11-10 | C2 attempt 2 result | draft3 | sonnet-5.5 | C2 42 to 31. Kept. C3 cleared | 32 total |
 | 2026-11-10 | C1 asterisk-action "*Hamlet*" | S04 turn 1 | sonnet-5.5 | identity.md and README.md: *Hamlet* written plain, she was copying the file's italics | pending |
 | 2026-11-10 | C2 attempt 3 (last in budget) | many | sonnet-5.5 | rules.md: length limit moved from section 3 to the top of section 1 | pending |
+| 2026-11-10 | C2 attempt 3 result | draft4 | sonnet-5.5 | C2 31 to 54: worse. Marginal rule: reverted rules.md to attempt 2. Budget for C2 spent (3 of 3): STOP, handed back to Jeff | 55 |
+| 2026-11-10 | C3 banned "I hear you" | S05 turn 7 | sonnet-5.5 | rules.md section 3: banned-phrase bullet now also names "I hear you" | pending |

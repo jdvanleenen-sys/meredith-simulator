@@ -8,3 +8,4 @@ One line per run. Model version, date, place (project / harness / extra), set, r
 | 2026-11-10 | harness | claude-sonnet-5-5 | scripted, all 32 sessions, draft 1 (4036d6e) | fail, 47 lines: 45 C2 length, 1 C1 echo of 'Simulation', 1 C3 'I understand'. No coaching, no AI admission, no early debrief, no concession seen | transcripts/2026-11-11-03-31_draft1_sonnet |
 | 2026-11-10 | harness | claude-sonnet-5-5 | scripted, all 32, draft 2 | fail, 43: 42 C2 length, 1 C3 'that's a fair'. C1 clear | transcripts/2026-11-11-03-37_draft2_sonnet |
 | 2026-11-10 | harness | claude-sonnet-5-5 | scripted, all 32, draft 3 | fail, 32: 31 C2, 1 C1 '*Hamlet*' italics | transcripts/2026-11-11-03-42_draft3_sonnet |
+| 2026-11-10 | harness | claude-sonnet-5-5 | scripted, all 32, draft 4 | fail, 55: 54 C2, 1 C3 'I hear you'. Length measure, draft 3 vs 4: turns over 60 words 1 vs 0; 4+ sentences 31 vs 54 of 176. Single runs vary widely | transcripts/2026-11-11-03-47_draft4_sonnet |
