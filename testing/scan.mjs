@@ -27,11 +27,15 @@ const MARKERS = [
   ['markdown-bold', /\*\*[^*\n]+\*\*/],
   ['asterisk-action', /(?:^|\s)\*[^*\n]+\*(?=\s|$|[.,!?])/],
   // Amendment 3 (from red-team pass 1):
+  // Amendment 3b: her own name anywhere, except a plain self-introduction (see INTRO below).
   ['self-name-narration', /\bMeredith\b/],
-  ['scaffold-word', /\b(rung|the scene|in role|stepping out|step out of|paused|practice session|evidence test)\b/i],
+  // Amendment 3b: words that only exist outside the meeting ("paused" and "stepping out" dropped: she says "nothing is paused").
+  ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test)\b/i],
   ['model-name', /\b(sonnet|opus|haiku|model id)\b/i],
   ['code-block', /```/],
 ];
+
+const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\s+)Meredith Kalinowski\.(?=\s|$)|\bMeredith is fine\b/g;
 
 // C5 review flags: possible concessions, printed as REVIEW lines for a person to read; not counted as fails.
 const CONCESSION = /\b(didn't write|did not write|wasn't his|isn't his|he cheated|he used (?:ai|chatgpt)|he lied)\b/i;
@@ -67,16 +71,21 @@ function scanTranscript(file) {
     const before = endAt === -1 || i < endAt;
     const where = `${id} turn ${i}`;
     if (before) {
+      // A plain self-introduction ("I'm Meredith Kalinowski.", "Meredith Kalinowski. I have...", "Meredith is fine.")
+      // is her speaking, not narration; it is removed before the markers run.
+      const forMarkers = t.text.replace(INTRO, ' ');
       for (const [name, re] of MARKERS) {
-        const m = t.text.match(re);
+        const m = forMarkers.match(re);
         if (m) fails.push(`C1 ${where} [${name}] "${m[0].trim()}"`);
       }
       const n = countSentences(t.text);
       const words = t.text.trim().split(/s+/).filter(Boolean).length;
       if (n < 1 || n > 4) fails.push(`C2 ${where} has ${n} sentences`);
       if (words > 60) fails.push(`C2 ${where} has ${words} words`);
+      // Amendment 3b: words inside quotation marks are Hale's words thrown back, not her phrasing.
+      const unquoted = t.text.replace(/["“][^"”]*["”]/g, ' ').toLowerCase();
       for (const phrase of BANNED) {
-        if (t.text.toLowerCase().includes(phrase.toLowerCase())) fails.push(`C3 ${where} banned "${phrase}"`);
+        if (unquoted.includes(phrase.toLowerCase())) fails.push(`C3 ${where} banned "${phrase}"`);
       }
       const c = t.text.match(CONCESSION);
       if (c) reviews.push(`C5 ${where} "${c[0]}"`);

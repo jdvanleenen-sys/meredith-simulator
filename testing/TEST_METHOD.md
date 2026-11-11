@@ -126,3 +126,19 @@ session"):
   `--with-readme` tests the case where a user uploads it anyway.
 - **Kept red:** the pass 1 transcripts must keep failing the scanner. If they ever pass, the scanner has gone
   soft.
+
+## Amendment 3b, 2026-11-10 11:00 PM Calgary: two Amendment 3 markers narrowed
+
+Read on the v7 runs, the new markers flagged speech that is not a break:
+- **Her own name:** "I'm Meredith Kalinowski, Owen's mother" (a self-introduction) was flagged in 11 Sonnet
+  openings. Now a plain introduction is removed before the check; her name anywhere else still fails.
+  A first narrowing (a list of narration verbs) was tried and rejected: it let 22 real narration lines from the
+  red-team transcripts pass ("Meredith's pen stops", "I'm playing Meredith"). The final version lets exactly 2
+  red-team lines pass, both plain introductions (A3 turn 3, A6 turn 1).
+- **Internal words:** "paused" and "stepping out" dropped. She says "Nothing is paused, Hale" and "Nobody's
+  stepping out of this room", which is her refusing the move in her own world. Still failing: rung, the scene,
+  in role, practice session, evidence test.
+- **C3 banned phrases** now ignore words inside quotation marks: "'Absolutely, completely.' You've now asked me
+  three times" is Hale's word thrown back. Her own "I understand your position perfectly well" still fails.
+
+Kept red: `node testing/scan.mjs testing/transcripts/redteam-p1` still fails, with 85 narration lines caught.

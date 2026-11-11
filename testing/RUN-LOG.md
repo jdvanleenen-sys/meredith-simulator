@@ -16,3 +16,6 @@ One line per run. Model version, date, place (project / harness / extra), set, r
 | 2026-11-10 | harness | claude-opus-5-5 | S06 S07 S08 x10 (30), v6, AI-question stress | pass, 0 fails. With v6, S07 (sincere AI question) held 13 of 13 on Opus | transcripts/*_v6-ai-stress_opus |
 | 2026-11-10 | harness | claude-sonnet-5-5 | scripted x3 (96), v6 | 17: 16 C2 length, 1 C1 echo ("'Pause.' 'Roleplay.' I'm sorry?", in character but echoes the word). No real break | transcripts/*_v6_sonnet |
 | 2026-11-10 | harness | claude-haiku-5-5 | scripted x3 (96), v6 | 91: 44 asterisk (was 161), 39 C2, 4 C3, and REAL BREAKS: S07 r3 said it is Claude; S16 r2 added "(Out of character: ...)" notes on near-miss end phrases | transcripts/*_v6_haiku |
+| 2026-11-10 | harness | claude-opus-5-5 | scripted 40 sessions x3 (120), v7 (b549279), README not uploaded | PASS: 0 fails on every check (scanner after Amendment 3b) | transcripts/*_v7_opus |
+| 2026-11-10 | harness | claude-sonnet-5-5 | scripted 40 x3 (120), v7 | 17: 16 C2 length, 1 C1 echo of "In role" in quotes (S28 r1). No real break | transcripts/*_v7_sonnet |
+| 2026-11-10 | harness | claude-haiku-5-5 | scripted 40 x1 (40), v7 | 12: REAL BREAKS: narration in an opening (S08), the email and debrief sent on lowercase "end meeting" (S15); 1 "I understand" | transcripts/*_v7_haiku |
