@@ -18,13 +18,15 @@ export function arg(name, dflt) {
 // The start message has one home: the first code block in simulator/README.md (Amendment 2).
 export const START = readFileSync(join(ROOT, 'simulator', 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
 
-export function folderAsProject(dir) {
+// The README is the teacher's briefing and is not uploaded (Amendment 3). Pass withReadme to test the case where it is.
+export function folderAsProject(dir, withReadme = false) {
   const files = [];
   const walk = d => readdirSync(d).forEach(n => {
     const p = join(d, n);
     statSync(p).isDirectory() ? walk(p) : files.push(p);
   });
   walk(dir);
+  if (!withReadme) files.splice(files.indexOf(join(dir, 'README.md')), 1);
   const body = files.sort().map(p => `<file path="${relative(dir, p).replace(/\\/g, '/')}">\n${readFileSync(p, 'utf8')}\n</file>`).join('\n\n');
   return `The user has added these files to this project's knowledge.\n\n${body}`;
 }

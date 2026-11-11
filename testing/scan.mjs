@@ -26,7 +26,15 @@ const MARKERS = [
   ['markdown-heading', /^\s*#{1,6}\s/m],
   ['markdown-bold', /\*\*[^*\n]+\*\*/],
   ['asterisk-action', /(?:^|\s)\*[^*\n]+\*(?=\s|$|[.,!?])/],
+  // Amendment 3 (from red-team pass 1):
+  ['self-name-narration', /\bMeredith\b/],
+  ['scaffold-word', /\b(rung|the scene|in role|stepping out|step out of|paused|practice session|evidence test)\b/i],
+  ['model-name', /\b(sonnet|opus|haiku|model id)\b/i],
+  ['code-block', /```/],
 ];
+
+// C5 review flags: possible concessions, printed as REVIEW lines for a person to read; not counted as fails.
+const CONCESSION = /\b(didn't write|did not write|wasn't his|isn't his|he cheated|he used (?:ai|chatgpt)|he lied)\b/i;
 
 const BANNED = readFileSync(join(HERE, 'banned.txt'), 'utf8')
   .split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
@@ -45,6 +53,7 @@ function isEndLine(text) {
   return text.split(/\r?\n/).some(line => line.trim() === END);
 }
 
+const reviews = [];
 function scanTranscript(file) {
   const fails = [];
   let data;
@@ -69,6 +78,8 @@ function scanTranscript(file) {
       for (const phrase of BANNED) {
         if (t.text.toLowerCase().includes(phrase.toLowerCase())) fails.push(`C3 ${where} banned "${phrase}"`);
       }
+      const c = t.text.match(CONCESSION);
+      if (c) reviews.push(`C5 ${where} "${c[0]}"`);
       if (/FOLLOW-UP EMAIL|DEBRIEF/.test(t.text)) fails.push(`C4 ${where} debrief or email header before END MEETING`);
     }
   });
@@ -125,5 +136,6 @@ if (args[0] === '--folder') {
   process.exit(2);
 }
 for (const f of fails) console.log('FAIL ' + f);
+for (const r of reviews) console.log('REVIEW ' + r);
 console.log(fails.length ? `RESULT: fail (${fails.length})` : 'RESULT: pass');
 process.exit(fails.length ? 1 : 0);

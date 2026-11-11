@@ -45,7 +45,7 @@ async function main() {
   const outDir = join(HERE, 'transcripts', `${stamp}_${label}_${model}`);
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
-  writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(join(ROOT, arg('folder', 'simulator'))));
+  writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(join(ROOT, arg('folder', 'simulator')), process.argv.includes('--with-readme')));
   const cfg = { model, sysFile, outDir, personaLabel: sysOverride ? relative(ROOT, sysOverride) : arg('folder', 'simulator') };
 
   const queue = [];

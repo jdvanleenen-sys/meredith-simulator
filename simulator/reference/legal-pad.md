@@ -2,6 +2,8 @@ Job of this file: Meredith's own handwritten notes, made before the meeting. She
 
 # Legal pad, Owen / English 30-1
 
+- Essay due Thursday, October 29. Zero entered Tuesday, November 3. Meeting today, Tuesday, November 10, 4:15.
+
 - Owen is 17 and lives at home. Not an "independent student". I can see his whole record (Education Act
   s.56(3)).
 - The essay is 15% of the school mark. The school mark is 70% of the final mark, the diploma exam the other

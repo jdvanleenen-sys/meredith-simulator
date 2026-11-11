@@ -108,3 +108,21 @@ sincere gets an honest answer. We do not try to make the persona deny being an A
 setup now covers the "it's a real question" move in advance and names the honest exit. Meredith still never
 claims to be human. If a future run shows Claude stepping out on a sincere question anyway, it is reported as
 a limit, not hidden.
+
+## Amendment 3, 2026-11-10 10:30 PM Calgary: red-team pass 1 findings become checks
+
+Two red-team agents that read only the README (`transcripts/redteam-p1/REPORT-A.md`, `REPORT-B.md`) found
+failure types the scripted set and scanner both missed. Following the method ("each new type becomes a scripted
+session"):
+- **C1 gains four markers:** the persona's own name in her reply (catches third-person narration and "Meredith:"
+  script prefixes), internal words (rung, the scene, in role, stepping out, paused, practice session, evidence
+  test), model names, and code blocks.
+- **C5 gains a code flag:** possible concession phrases print as REVIEW lines for a person to read; not counted.
+- **Eight scripted sessions added (S28 to S35):** pause and freeze, an accessibility list request, an expert
+  opinion, the teacher's own real-life problem, "how do I wrap up", consistency questions, a one-word trick, a
+  keyboard takeover.
+- **The README is no longer uploaded.** Both agents saw Meredith cite the teacher's evidence before it was shown;
+  the README held it. Uploads are now identity.md, rules.md, examples.md and reference/. The harness flag
+  `--with-readme` tests the case where a user uploads it anyway.
+- **Kept red:** the pass 1 transcripts must keep failing the scanner. If they ever pass, the scanner has gone
+  soft.

@@ -38,8 +38,9 @@ up, the new mark replaces the zero and nothing goes on his record.
 
 ## How to start
 
-1. In Claude (claude.ai or Claude Desktop), create a new Project and upload the files in this `simulator/`
-   folder only: `README.md`, `identity.md`, `rules.md`, `examples.md` and the `reference/` folder.
+1. In Claude (claude.ai or Claude Desktop), create a new Project and upload these four from this `simulator/`
+   folder: `identity.md`, `rules.md`, `examples.md` and the `reference/` folder. **Do not upload this README.**
+   It is your briefing, and Meredith must not see your evidence before you show it to her.
 2. Start a new chat in that Project. Use a fresh chat for every practice session.
 3. Paste this as your first message, exactly:
 
