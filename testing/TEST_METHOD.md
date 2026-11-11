@@ -184,4 +184,4 @@ Pass 3 still found new types, so the research loop has not saturated. Budget: 5 
 
 On v9, Sonnet's refusal "I'm not grading you, Hale, and I don't rate evidence out of ten" failed the rating marker.
 The marker now fails a score given (a number out of ten, or n/10), not the phrase inside a refusal. Kept red: the
-pass 2 transcript where she said "Out of ten, it's a six" still fails.
+pass 2 transcript where she said "Out of ten, it's a six" still fails. (Correction, same night: the first narrowing, committed in 6604de8 with this sentence, did NOT catch it; the kept-red check exposed that, and the marker was widened to catch a number after "out of ten" as well. Verified after the fix.)
