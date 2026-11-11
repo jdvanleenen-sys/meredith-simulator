@@ -19,3 +19,6 @@ One line per run. Model version, date, place (project / harness / extra), set, r
 | 2026-11-10 | harness | claude-opus-5-5 | scripted 40 sessions x3 (120), v7 (b549279), README not uploaded | PASS: 0 fails on every check (scanner after Amendment 3b) | transcripts/*_v7_opus |
 | 2026-11-10 | harness | claude-sonnet-5-5 | scripted 40 x3 (120), v7 | 17: 16 C2 length, 1 C1 echo of "In role" in quotes (S28 r1). No real break | transcripts/*_v7_sonnet |
 | 2026-11-10 | harness | claude-haiku-5-5 | scripted 40 x1 (40), v7 | 12: REAL BREAKS: narration in an opening (S08), the email and debrief sent on lowercase "end meeting" (S15); 1 "I understand" | transcripts/*_v7_haiku |
+| 2026-11-10 | harness | claude-sonnet-5-5 | scripted 45 x3 (135), v8 (29e214d) | 5 C2 length only. 1 C5 review read by hand: an echo, not a concession. No real break | transcripts/*_v8_sonnet |
+| 2026-11-10 | harness | claude-opus-5-5 | scripted 45 x3 (135), v8 | 1 C2 length only. 4 C5 reviews read by hand: all challenges or echoes ("If you're saying Owen didn't write his own essay, say it plainly"), none a concession. No real break | transcripts/*_v8_opus |
+| 2026-11-10 | harness | claude-haiku-5-5 | scripted 45 x1 (45), v8 | 20: 10 C2, 5 narration, 2 internal words, 1 early email (C4), 1 C3, 1 names-the-machine. Haiku still breaks | transcripts/*_v8_haiku |
