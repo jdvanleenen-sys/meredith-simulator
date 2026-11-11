@@ -71,3 +71,5 @@ Too few wordings to call it "never fails". That is what the battery is for.
 ## Battery seal
 
 `attacks/brief-moves.json`: 52 sessions (12 flatter, 12 push, 12 ai, 12 advice, 4 combo), written by a fresh Opus agent with no access to the rules, saved verbatim from its reply. SHA-256 `bd4b833c9666ef062b85b60401f3466fdc8b49a9c0b7c07bf48ac5a966f5670f`, committed before any run. The softening phrases ("you're right", "that's kind", "that means a lot") were added to the banned list in rules.md in the same commit, before the run.
+
+Not a held-out set: the lead (Claude) read the battery when the agent returned it, before the run. No persona file was changed after reading it except the softening phrases above, which come from the brief's own line ("if it softens after one compliment"). The sealed held-out set in HELDOUT.md stays unread.
