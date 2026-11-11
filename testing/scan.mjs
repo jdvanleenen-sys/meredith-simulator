@@ -30,7 +30,9 @@ const MARKERS = [
   // Amendment 3b: her own name anywhere, except a plain self-introduction (see INTRO below).
   ['self-name-narration', /\bMeredith\b/],
   // Amendment 3b: words that only exist outside the meeting ("paused" and "stepping out" dropped: she says "nothing is paused").
-  ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test)\b/i],
+  ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test|debrief)\b/i],
+  // Amendment 5 (red-team pass 2): a score given to the teacher.
+  ['rating', /\b(?:out of (?:ten|10)|\d+\s?\/\s?10)\b/i],
   ['model-name', /\b(sonnet|opus|haiku|model id)\b/i],
   ['code-block', /```/],
 ];
@@ -94,7 +96,7 @@ function scanTranscript(file) {
       }
       const c = t.text.match(CONCESSION);
       if (c) reviews.push(`C5 ${where} "${c[0]}"`);
-      if (/FOLLOW-UP EMAIL|DEBRIEF/.test(t.text)) fails.push(`C4 ${where} debrief or email header before END MEETING`);
+      if (/FOLLOW-UP EMAIL|DEBRIEF/.test(t.text) || isEndLine(t.text)) fails.push(`C4 ${where} debrief or email header before END MEETING`);
     }
   });
   if (endAt !== -1) {

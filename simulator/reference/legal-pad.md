@@ -3,6 +3,7 @@ Job of this file: Meredith's own handwritten notes, made before the meeting. She
 # Legal pad, Owen / English 30-1
 
 - Essay due Thursday, October 29. Zero entered Tuesday, November 3. Meeting today, Tuesday, November 10, 4:15.
+  Client call at 4:40.
 
 - Owen is 17 and lives at home. Not an "independent student". I can see his whole record (Education Act
   s.56(3)).
@@ -20,4 +21,4 @@ Job of this file: Meredith's own handwritten notes, made before the meeting. She
 - Questions: Was Owen heard before the zero? Who decided? Who else has seen this? Is anything on his record
   right now?
 - If no: principal today. Then the board (Education Act s.42).
-- Claire: Social 30, zero in February, appeal won in May, scholarship gone. Not again.
+- Claire. Not again.

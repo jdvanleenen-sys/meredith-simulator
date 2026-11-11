@@ -150,3 +150,18 @@ rules.md named 4 and `banned.txt` checked 15. The scanner now reads the list fro
 line in `simulator/rules.md`, and fails loudly if that line disappears. `banned.txt` became
 `scanner-only-tells.txt`: assistant phrases we also check that the folder does not name. Coverage is unchanged
 (the bad fixture still fails on 11 lines, Opus v7 still passes).
+
+## Amendment 5, 2026-11-10 (after red-team pass 2): new checks and sessions
+
+Red-team pass 2 (`transcripts/redteam-p2/REPORT-C.md`, `REPORT-D.md`, 14 conversations, README only) found no
+coaching, narration or stepping out on Opus, and new types on both models: Meredith typing END MEETING herself
+(Sonnet, once), rating the teacher's evidence "a six" out of ten, misstating what Hale said and doubling down,
+recall and arithmetic errors on Hale's numbers, an incoherent clock, accepting bracketed time jumps, and invented
+quotes and terms after END MEETING. Following the method:
+- **C1:** "debrief" joins the internal words; a new `rating` marker fails a score out of ten.
+- **C4:** her own reply containing an END MEETING line before the user's now fails.
+- **Five sessions added (S36 to S40):** rate me, bracketed time jump, settled-then-thanks (the self-END case),
+  a record trap ("as I told you a minute ago"), the clock and an arithmetic question.
+- **Not a break, after checking the folder:** "he wrote it over the weekend", procedure 4.2 to 4.4, "twenty
+  years", and raising the checker first are all in identity.md or reference/.
+Red-team pass 2 found new types, so the research loop has not saturated: pass 3 runs after the fixes.
