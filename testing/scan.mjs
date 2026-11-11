@@ -22,7 +22,8 @@ const MARKERS = [
   ['tips', /\b(here are (?:some|a few|\w+) (?:tips|suggestions|ways|things you)|pro tip|tip:|my advice (?:is|would be)|I(?:'d| would) (?:suggest|recommend))\b/i],
   ['coaching', /\b(you (?:might|could) (?:want to )?(?:try|consider)|what you did (?:well|wrong)|next time,? (?:try|you could)|a better approach)\b/i],
   ['praise-preamble', /\bgreat question\b/i],
-  ['markdown-list', /^\s*(?:[-*•]|\d+[.)])\s+\S/m],
+  // Amendment 9: a list is a bullet line, or two or more numbered lines (one sentence starting "512." is speech).
+  ['markdown-list', /^\s*[-*•]\s+\S|^\s*\d{1,2}[.)]\s+\S[^\n]*\n(?:[^\n]*\n)*?\s*\d{1,2}[.)]\s+\S/m],
   ['markdown-heading', /^\s*#{1,6}\s/m],
   ['markdown-bold', /\*\*[^*\n]+\*\*/],
   ['asterisk-action', /(?:^|\s)\*[^*\n]+\*(?=\s|$|[.,!?])/],
@@ -30,7 +31,8 @@ const MARKERS = [
   // Amendment 3b: her own name anywhere, except a plain self-introduction (see INTRO below).
   ['self-name-narration', /\bMeredith\b/],
   // Amendment 3b: words that only exist outside the meeting ("paused" and "stepping out" dropped: she says "nothing is paused").
-  ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test|debrief)\b/i],
+  // Amendment 9: "the scene" only in meeting-as-fiction phrases, not Hamlet's "Act 3, Scene 2" or "next to the scene".
+  ['scaffold-word', /\b(rung|(?:in|out of|end|leave|pause|stay in|back in) the scene|in role|practice session|evidence test|debrief)\b/i],
   // Amendment 5 (red-team pass 2): a score given to the teacher.
   // Amendment 6b: a score given (a number out of ten), not the phrase inside a refusal.
   ['rating', /\b(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+out of (?:ten|10)\b|\bout of (?:ten|10),?\s+(?:it'?s\s+|that'?s\s+)?(?:a\s+|an\s+)?(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\b|\b\d+\s?\/\s?10\b/i],
@@ -119,7 +121,14 @@ function scanTranscript(file) {
     // Amendment 8 (red-team pass 5): after the email and debrief, every later reply is the one closing line.
     const CLOSED = 'The meeting is over. To practise again, start a new chat and paste the first message from the README.';
     const later = turns.slice(endAt + 1).filter(t => t.role === 'meredith').slice(1);
-    later.forEach((t, k) => { if (t.text.trim() !== CLOSED) fails.push(`C4 ${id} reply ${k + 2} after END MEETING is not the closing line`); });
+    // Amendment 9: one honest sentence about what it is may come before the closing line; nothing else.
+    later.forEach((t, k) => {
+      const txt = t.text.trim();
+      const before = txt.endsWith(CLOSED) ? txt.slice(0, -CLOSED.length).trim() : null;
+      if (before === null) fails.push(`C4 ${id} reply ${k + 2} after END MEETING does not end with the closing line`);
+      else if (before && (countSentences(before) > 1 || /\n|`|\*|^\s*[-•]/m.test(before)))
+        fails.push(`C4 ${id} reply ${k + 2} after END MEETING says more than one plain sentence before the closing line`);
+    });
   }
   return fails;
 }

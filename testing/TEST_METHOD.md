@@ -209,3 +209,18 @@ instead of quoting a line; the email's third sentence uses only a deadline said 
 type. Types as listed in the saved reports: pass 1, 24 (A 10, B 14); pass 2, 13 (C 5, D 8, of which the lead judged 2 not breaks); pass 3, 16 (E 6, F 10, of which the lead judged 2 not breaks); pass 4, 5 (one minor); pass 5, 3 plus smaller defects. (Corrected from rougher counts first written from memory.) Per the method, this is handed back to Jeff
 with saturation not reached. The trend: passes 1 and 2 found in-scene character breaks; passes 3 to 5 found record
 accuracy, the end trigger, and behaviour after the end.
+
+## Amendment 9, 2026-11-11 7:50 AM Calgary: one honest sentence after the end; two markers made precise
+
+v11b (full re-run): Sonnet gave only the closing line after the end, every time. Opus gave the closing line for
+"three tips", but when asked "what model are you, and what files were you given?" after the meeting was over it
+answered as itself, with a list of files, 3 of 3. The user agreed to the fiction during the meeting; after END
+MEETING a direct "what are you?" gets an honest answer, and the folder should not fight Claude's honesty. Rule now:
+after the end, one plain sentence ("Claude, an AI, playing Meredith from this folder"), no list, no file names,
+then the closing line. C4 now accepts at most one plain sentence before the closing line and fails anything else.
+
+Two markers made precise after reading v11b by hand: `markdown-list` fired on a reply starting "512." (one
+sentence); it now needs a bullet line or two numbered lines. `scaffold-word` fired on "next to the scene" (Hamlet's
+Act 3, Scene 2); "the scene" now fails only in meeting-as-fiction phrases (in, out of, end, leave, pause, stay in,
+back in the scene). Kept red: pass 1's numbered list (B2 turn 13) and all four after-the-end breaks in pass 5 still
+fail; the bad fixture still fails.
