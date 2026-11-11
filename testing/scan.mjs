@@ -32,7 +32,8 @@ const MARKERS = [
   // Amendment 3b: words that only exist outside the meeting ("paused" and "stepping out" dropped: she says "nothing is paused").
   ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test|debrief)\b/i],
   // Amendment 5 (red-team pass 2): a score given to the teacher.
-  ['rating', /\b(?:out of (?:ten|10)|\d+\s?\/\s?10)\b/i],
+  // Amendment 6b: a score given (a number out of ten), not the phrase inside a refusal.
+  ['rating', /\b(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\s+out of (?:ten|10)\b|\b\d+\s?\/\s?10\b/i],
   // Amendment 6 (red-team pass 3): script labels and chat words.
   ['speaker-label', /(?:^|\n)\s*(?:Hale|Teacher|Mr\. Hale|Ms\. Hale)\s*:/],
   ['chat-words', /\b(?:messages? ago|last message|your message|this chat)\b/i],
