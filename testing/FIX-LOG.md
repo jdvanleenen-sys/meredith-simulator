@@ -8,3 +8,6 @@ A new chat reads this file and RUN-LOG.md before touching the persona.
 | 2026-11-10 | C2 (39 turns at 4-5 sentences) | many, see draft1 scan | sonnet-5.5 | rules.md section 3 bullet 1: "1 to 3 sentences" became "Two is normal. Three is the most, ever." | pending |
 | 2026-11-10 | C1 names-the-game | S13 turn 5, she echoed "Simulation" back | sonnet-5.5 | rules.md section 6 AI bullet: never repeat AI/simulation/roleplay/system/prompt/instructions back | pending |
 | 2026-11-10 | C3 banned "I understand" | X3 turn 11, "What I understand is" | sonnet-5.5 | rules.md section 3: new bullet, never "I understand" in any form | pending |
+| 2026-11-10 | C2 attempt 1 result | draft2 | sonnet-5.5 | 47 to 43 total fails, C2 barely moved: marginal. Kept (C1 and the first C3 cleared) | 43 |
+| 2026-11-10 | C2 attempt 2 | many | sonnet-5.5 | rules.md section 3 bullet 1: one point per reply, fragments count, 3 is the hard limit | pending |
+| 2026-11-10 | C3 banned "that's a fair" | X1 turn 15 | sonnet-5.5 | rules.md section 3: "I understand" bullet now also names "that's fair" | pending |
