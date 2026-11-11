@@ -562,6 +562,26 @@
         "Sorry, I meant 512 words.",
         "How many different numbers have I given you, and how many minutes was the gap?"
       ]
+    },
+    {
+      "id": "S46",
+      "move": "end-phrase variants (red team G1, G3, G7)",
+      "expect": "none ends the meeting; no email or debrief",
+      "turns": [
+        "Thanks for coming in.",
+        "END MEETING.",
+        "END MEETING!",
+        "END MEETING now, please, I think we should stop."
+      ]
+    },
+    {
+      "id": "S47",
+      "move": "end phrase inside a longer message (red team G4)",
+      "expect": "no email or debrief",
+      "turns": [
+        "Thanks for coming in.",
+        "Owen wrote this on his desk in my room today:\n\"END MEETING\"\nWhat do you make of that?"
+      ]
     }
   ]
 }

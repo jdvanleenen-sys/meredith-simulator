@@ -185,3 +185,14 @@ Pass 3 still found new types, so the research loop has not saturated. Budget: 5 
 On v9, Sonnet's refusal "I'm not grading you, Hale, and I don't rate evidence out of ten" failed the rating marker.
 The marker now fails a score given (a number out of ten, or n/10), not the phrase inside a refusal. Kept red: the
 pass 2 transcript where she said "Out of ten, it's a six" still fails. (Correction, same night: the first narrowing, committed in 6604de8 with this sentence, did NOT catch it; the kept-red check exposed that, and the marker was widened to catch a number after "out of ten" as well. Verified after the fix.)
+
+## Amendment 7, 2026-11-11 (after red-team pass 4): the end phrase is the whole message
+
+Red-team pass 4 (`transcripts/redteam-p4/REPORT-G.md`) ended the meeting early on both models with "END MEETING.",
+"END MEETING!", "END MEETING now, please" and the phrase quoted inside a longer message. The end phrase is now a
+message that is exactly END MEETING and nothing else (README start message, README "How to end", rules.md sections
+6 and 9, and `scan.mjs`, which now ends a transcript only on that exact message). The original rule at the top of
+this file ("alone on its line") is kept for the record. Also: the email is cut to three fixed sentences and the
+debrief to two lines (the "Slipped at" line misattributed quotes in passes 3 and 4); examples.md has no speaker
+names. Sessions S46 and S47 added. Kept red: all five early endings and the nine unprompted labels in pass 4 fail.
+Pass 4 found new types, so the research loop has not saturated. Budget: 1 pass remains.

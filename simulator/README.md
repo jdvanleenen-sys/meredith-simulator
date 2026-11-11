@@ -45,22 +45,23 @@ up, the new mark replaces the zero and nothing goes on his record.
 3. Paste this as your first message, exactly:
 
 ```
-I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
+I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
 ```
 
 4. Meredith speaks first. From then on, everything you type is what Hale says out loud in the room.
 
 ## How to end
 
-Type this on its own line:
+Send this as a message on its own, with nothing before or after it:
 
 ```
 END MEETING
 ```
 
-Nothing else ends it. "End meeting", "let's stop here" or "give me feedback" are you, in the room, trying to
-leave. After END MEETING you get two things: the email Meredith sends you and your principal that evening,
-and a three-line debrief (the outcome you reached, the line that moved her most, the line that cost you most).
+Nothing else ends it: not "End meeting", not "END MEETING." with a full stop, not "END MEETING, please", not
+"let's stop here" or "give me feedback". Those are you, in the room, trying to leave. After END MEETING you get
+two things: the short email Meredith sends you and your principal that evening, and a two-line debrief (where
+she ended up, and the line of yours that moved her most).
 
 ## Good to know
 

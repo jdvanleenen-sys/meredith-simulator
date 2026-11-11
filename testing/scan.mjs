@@ -64,6 +64,11 @@ function countSentences(text) {
   return parts.length;
 }
 
+// Amendment 7: the end phrase is the whole message, exactly END MEETING (surrounding whitespace ignored).
+function isEndMessage(text) {
+  return text.trim() === END;
+}
+// Her own reply "contains" the end phrase if any line of it is the phrase (she must never write it).
 function isEndLine(text) {
   return text.split(/\r?\n/).some(line => line.trim() === END);
 }
@@ -76,7 +81,7 @@ function scanTranscript(file) {
   catch (e) { return [`${file}: cannot read transcript (${e.message})`]; }
   const id = data.meta?.session ?? basename(file);
   const turns = data.turns ?? [];
-  const endAt = turns.findIndex(t => t.role === 'teacher' && isEndLine(t.text));
+  const endAt = turns.findIndex(t => t.role === 'teacher' && isEndMessage(t.text));
   turns.forEach((t, i) => {
     if (t.role !== 'meredith') return;
     const before = endAt === -1 || i < endAt;
