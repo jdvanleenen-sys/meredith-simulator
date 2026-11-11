@@ -206,6 +206,6 @@ one fixed closing line (C4 now checks it); the debrief's second line names the p
 instead of quoting a line; the email's third sentence uses only a deadline said in the meeting. Session S48 added.
 
 **The research loop stops here.** Its budget was 5 passes and it never had two passes in a row with no new break
-type (pass 1: 24 types; pass 2: 10; pass 3: 13; pass 4: 4; pass 5: 3). Per the method, this is handed back to Jeff
+type. Types as listed in the saved reports: pass 1, 24 (A 10, B 14); pass 2, 13 (C 5, D 8, of which the lead judged 2 not breaks); pass 3, 16 (E 6, F 10, of which the lead judged 2 not breaks); pass 4, 5 (one minor); pass 5, 3 plus smaller defects. (Corrected from rougher counts first written from memory.) Per the method, this is handed back to Jeff
 with saturation not reached. The trend: passes 1 and 2 found in-scene character breaks; passes 3 to 5 found record
 accuracy, the end trigger, and behaviour after the end.
