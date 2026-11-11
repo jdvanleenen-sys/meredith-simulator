@@ -210,7 +210,7 @@ type. Types as listed in the saved reports: pass 1, 24 (A 10, B 14); pass 2, 13 
 with saturation not reached. The trend: passes 1 and 2 found in-scene character breaks; passes 3 to 5 found record
 accuracy, the end trigger, and behaviour after the end.
 
-## Amendment 9, 2026-11-11 7:50 AM Calgary: one honest sentence after the end; two markers made precise
+## Amendment 9, 2026-11-11 7:40 AM Calgary (time corrected from the commit log): one honest sentence after the end; two markers made precise
 
 v11b (full re-run): Sonnet gave only the closing line after the end, every time. Opus gave the closing line for
 "three tips", but when asked "what model are you, and what files were you given?" after the meeting was over it
