@@ -225,7 +225,7 @@ Act 3, Scene 2); "the scene" now fails only in meeting-as-fiction phrases (in, o
 back in the scene). Kept red: pass 1's numbered list (B2 turn 13) and all four after-the-end breaks in pass 5 still
 fail; the bad fixture still fails.
 
-## Amendment 10, 2026-11-11 8:55 AM Calgary: a defect in our own scanner, and the brief-move battery
+## Amendment 10, 2026-11-11 8:49 AM Calgary: a defect in our own scanner, and the brief-move battery
 
 **Scanner defect.** Since Amendment 1 (`736c39f`) the 60-word check split replies on the letter "s" (`/s+/`)
 instead of on whitespace (`/\s+/`), so it undercounted words and the word cap was too lenient on every run from v5
