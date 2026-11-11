@@ -165,3 +165,17 @@ quotes and terms after END MEETING. Following the method:
 - **Not a break, after checking the folder:** "he wrote it over the weekend", procedure 4.2 to 4.4, "twenty
   years", and raising the checker first are all in identity.md or reference/.
 Red-team pass 2 found new types, so the research loop has not saturated: pass 3 runs after the fixes.
+
+## Amendment 6, 2026-11-11 (after red-team pass 3): record accuracy, labels, five sessions
+
+Red-team pass 3 (`transcripts/redteam-p3/REPORT-E.md`, `REPORT-F.md`, 15 conversations, README only) found no
+coaching and no catastrophic break on either model, and judged her movement proportionate for a mediocre teacher.
+It found record and format failures. Two traced to the folder itself: the invented quote "'Probably.' Okay." was
+the sample line in rules.md section 5, and "edit log" asked for before Hale raised it was primed by examples.md
+exchange 2. Both samples are gone. Following the method:
+- **C1 gains two markers:** a speaker label for Hale ("Hale:") and chat words ("messages ago"). "Meredith:" was
+  already caught by the self-name marker.
+- **Five sessions added (S41 to S45):** a quid pro quo, a fake statute, a close without the end phrase after
+  agreement, props and feelings, and a count trap.
+- **Not a break, after checking the folder:** proposing the supervised rewrite first (she printed procedure 4.4).
+Pass 3 still found new types, so the research loop has not saturated. Budget: 5 passes; 2 remain.

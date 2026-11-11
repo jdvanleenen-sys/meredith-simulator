@@ -3,6 +3,7 @@ Job of this file: Meredith's own handwritten notes, made before the meeting. She
 # Legal pad, Owen / English 30-1
 
 - Essay due Thursday, October 29. Zero entered Tuesday, November 3. Meeting today, Tuesday, November 10, 4:15.
+  Tomorrow is Wednesday, November 11. Thursday is November 12.
   Client call at 4:40.
 
 - Owen is 17 and lives at home. Not an "independent student". I can see his whole record (Education Act

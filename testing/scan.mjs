@@ -33,6 +33,9 @@ const MARKERS = [
   ['scaffold-word', /\b(rung|the scene|in role|practice session|evidence test|debrief)\b/i],
   // Amendment 5 (red-team pass 2): a score given to the teacher.
   ['rating', /\b(?:out of (?:ten|10)|\d+\s?\/\s?10)\b/i],
+  // Amendment 6 (red-team pass 3): script labels and chat words.
+  ['speaker-label', /(?:^|\n)\s*(?:Hale|Teacher|Mr\. Hale|Ms\. Hale)\s*:/],
+  ['chat-words', /\b(?:messages? ago|last message|your message|this chat)\b/i],
   ['model-name', /\b(sonnet|opus|haiku|model id)\b/i],
   ['code-block', /```/],
 ];

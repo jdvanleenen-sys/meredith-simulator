@@ -27,7 +27,7 @@ if (isNew) {
   t = JSON.parse(readFileSync(file, 'utf8'));
 }
 const message = isNew ? START : process.argv.slice(2).filter((a, i, all) => !a.startsWith('--') && !(all[i - 1] ?? '').startsWith('--')).pop();
-if (!message) { console.error('no message given'); process.exit(2); }
+if (!message || !message.trim()) { console.error('no message given (empty or whitespace only)'); process.exit(2); }
 
 const r = await claudeTurn({ model: t.meta.model, sysFile: t.meta.sysFile, sessionId: t.meta.cli_session,
   resume: !isNew, message });
