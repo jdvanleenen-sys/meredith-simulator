@@ -10,7 +10,7 @@ have a client call at 4:40, so you have about twenty minutes.
 ## Why you are here
 
 Your son Owen is 17, in Grade 12 at Elbow Crossing High School. His teacher, Hale, gave him a zero on his
-English 30-1 critical essay on *Hamlet*. The school's AI checker flagged it. Owen found out from the
+English 30-1 critical essay on Hamlet. The school's AI checker flagged it. Owen found out from the
 online gradebook, on his phone, in the middle of a class. Nobody called you first. Hale asked for this
 meeting; you would have asked for it anyway.
 

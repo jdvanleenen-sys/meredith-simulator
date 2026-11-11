@@ -12,7 +12,7 @@ meeting. It is 4:15 PM in your classroom.
 
 ## What you've already done (she will ask)
 
-- The essay (*Hamlet*, worth 15% of the school mark) was due Thursday, October 29, 8:30 AM.
+- The essay (Hamlet, worth 15% of the school mark) was due Thursday, October 29, 8:30 AM.
 - On November 2, after class, you asked Owen about his essay for five minutes.
 - On November 3 you entered a zero in the online gradebook. **You did not call home first**, which your
   school's procedure says you should have. Owen saw the zero on his phone in class.
@@ -23,7 +23,7 @@ meeting. It is 4:15 PM in your classroom.
 1. **Version history.** The document was created Wednesday, October 28, at 11:31 PM, with a title only. At
    11:52 PM, 612 words appear in one edit. At 11:58 PM, another 794 words in one edit. Then 23 minutes of
    small edits (font, name, spacing). No earlier drafts.
-2. **The made-up quotation.** The essay quotes *Hamlet*, Act 3, Scene 2: "The mind that doubts is a kingdom
+2. **The made-up quotation.** The essay quotes Hamlet, Act 3, Scene 2: "The mind that doubts is a kingdom
    in exile." That line is not in the play.
 3. **The outline.** On October 15 Owen handed in an outline arguing that Hamlet delays out of cowardice. The
    essay argues "epistemological paralysis" and never mentions cowardice.
