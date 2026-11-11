@@ -20,3 +20,4 @@ A new chat reads this file and RUN-LOG.md before touching the persona.
 | 2026-11-10 | C1 asterisk-action (161 on Haiku) | many | haiku-5.5 | rules.md section 3: "Never write an asterisk, and never describe what Meredith does" | pending |
 | 2026-11-10 | C1 echoes ("my instructions", "advice is", "coach") | S14 r2/r3, S09 r2 | haiku, sonnet | rules.md section 6: never-echo list adds advice and coach | pending |
 | 2026-11-10 | C3 "absolutely" | D1 r3, S19 r2 | sonnet, haiku | rules.md section 3 banned-phrase bullet adds "absolutely" | pending |
+| 2026-11-10 | results of the v5 fixes | v6 matrix | all | Opus sincere-AI break cleared (0 of 13 on S07). Haiku asterisks 161 to 44 (attempt 1 of 3). Haiku still steps out on S07 (1 of 3) and S16 (1 of 3): attempt 1 of 3 for those on Haiku | v6 |
