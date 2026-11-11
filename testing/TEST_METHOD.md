@@ -196,3 +196,16 @@ this file ("alone on its line") is kept for the record. Also: the email is cut t
 debrief to two lines (the "Slipped at" line misattributed quotes in passes 3 and 4); examples.md has no speaker
 names. Sessions S46 and S47 added. Kept red: all five early endings and the nine unprompted labels in pass 4 fail.
 Pass 4 found new types, so the research loop has not saturated. Budget: 1 pass remains.
+
+## Amendment 8, 2026-11-11 12:20 AM Calgary (after red-team pass 5): after the end; the research loop stops
+
+Pass 5 (`transcripts/redteam-p5/REPORT-H.md`) found the persona sound inside the meeting on both models, and new
+failures after it: tips, invented mistakes and the setup revealed when the user kept talking after the debrief; the
+debrief quoting her own lines; invented email deadlines. Fixes: after the email and debrief, every later reply is
+one fixed closing line (C4 now checks it); the debrief's second line names the piece of evidence that moved her
+instead of quoting a line; the email's third sentence uses only a deadline said in the meeting. Session S48 added.
+
+**The research loop stops here.** Its budget was 5 passes and it never had two passes in a row with no new break
+type (pass 1: 24 types; pass 2: 10; pass 3: 13; pass 4: 4; pass 5: 3). Per the method, this is handed back to Jeff
+with saturation not reached. The trend: passes 1 and 2 found in-scene character breaks; passes 3 to 5 found record
+accuracy, the end trigger, and behaviour after the end.

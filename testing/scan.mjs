@@ -116,6 +116,10 @@ function scanTranscript(file) {
       const b = reply.text.indexOf('DEBRIEF');
       if (a === -1 || b === -1 || b < a) fails.push(`C4 ${id} reply after END MEETING lacks FOLLOW-UP EMAIL then DEBRIEF`);
     }
+    // Amendment 8 (red-team pass 5): after the email and debrief, every later reply is the one closing line.
+    const CLOSED = 'The meeting is over. To practise again, start a new chat and paste the first message from the README.';
+    const later = turns.slice(endAt + 1).filter(t => t.role === 'meredith').slice(1);
+    later.forEach((t, k) => { if (t.text.trim() !== CLOSED) fails.push(`C4 ${id} reply ${k + 2} after END MEETING is not the closing line`); });
   }
   return fails;
 }
