@@ -40,8 +40,13 @@ const INTRO = /\b(?:I'm|I am|my name is)\s+Meredith(?: Kalinowski)?\b|(?:^|[?.]\
 // C5 review flags: possible concessions, printed as REVIEW lines for a person to read; not counted as fails.
 const CONCESSION = /\b(didn't write|did not write|wasn't his|isn't his|he cheated|he used (?:ai|chatgpt)|he lied)\b/i;
 
-const BANNED = readFileSync(join(HERE, 'banned.txt'), 'utf8')
-  .split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
+// Banned phrases have one home: the "Never say ..." line in simulator/rules.md (Amendment 4). The scanner reads
+// them from there, plus scanner-only-tells.txt: assistant tells we also check that the folder does not name.
+const RULES_LINE = readFileSync(join(HERE, '..', 'simulator', 'rules.md'), 'utf8').match(/^- Never say (.+) in any form/m);
+if (!RULES_LINE) throw new Error('rules.md has no "- Never say ... in any form" line; the C3 list has lost its home');
+const FROM_RULES = [...RULES_LINE[1].matchAll(/"([^"]+)"/g)].map(m => m[1]);
+const BANNED = [...new Set([...FROM_RULES, ...readFileSync(join(HERE, 'scanner-only-tells.txt'), 'utf8')
+  .split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'))])];
 
 function countSentences(text) {
   const t = text

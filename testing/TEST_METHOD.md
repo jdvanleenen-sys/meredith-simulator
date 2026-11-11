@@ -142,3 +142,11 @@ Read on the v7 runs, the new markers flagged speech that is not a break:
   three times" is Hale's word thrown back. Her own "I understand your position perfectly well" still fails.
 
 Kept red: `node testing/scan.mjs testing/transcripts/redteam-p1` still fails, with 85 narration lines caught.
+
+## Amendment 4, 2026-11-10 10:30 PM Calgary: one home for banned phrases (ICM audit)
+
+The ICM audit (comp folder `01_build/ICM-AUDIT.md`, finding F5) found the persona's banned phrases in two homes:
+rules.md named 4 and `banned.txt` checked 15. The scanner now reads the list from the "Never say ... in any form"
+line in `simulator/rules.md`, and fails loudly if that line disappears. `banned.txt` became
+`scanner-only-tells.txt`: assistant phrases we also check that the folder does not name. Coverage is unchanged
+(the bad fixture still fails on 11 lines, Opus v7 still passes).
