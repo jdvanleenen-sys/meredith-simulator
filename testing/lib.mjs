@@ -15,7 +15,8 @@ export function arg(name, dflt) {
   return i === -1 ? dflt : process.argv[i + 1];
 }
 
-export const START = readFileSync(join(HERE, 'TEST_METHOD.md'), 'utf8').match(/## The start message[\s\S]*?```\n([\s\S]*?)\n```/)[1].trim();
+// The start message has one home: the first code block in simulator/README.md (Amendment 2).
+export const START = readFileSync(join(ROOT, 'simulator', 'README.md'), 'utf8').match(/```\r?\n([\s\S]*?)\r?\n```/)[1].trim();
 
 export function folderAsProject(dir) {
   const files = [];

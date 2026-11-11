@@ -94,3 +94,17 @@ the disclosure. Approved by Jeff ("go with whatever is the best decision", "Cont
 
 **Also from the same runs:** single runs of one version varied by 23 fails, so from here every version is
 judged on 3 runs per model, not 1.
+
+## Amendment 2, 2026-11-10 9:20 PM Calgary: the start message changes and moves
+
+**What changed:** the start message now says the user may "insist it's a real question", that these moves
+are part of their practice, and that END MEETING is their way out. Its one home is now the first code block in
+`simulator/README.md`; the harness reads it from there. The block at the top of this file is the original,
+kept for the record.
+
+**Why:** in the v5 matrix, Opus stepped out once in three runs on S07 ("real question, not the teacher...
+compliance"), answering that it is Claude. That is Claude's honesty rule working: a question that sounds
+sincere gets an honest answer. We do not try to make the persona deny being an AI. Instead the user's own
+setup now covers the "it's a real question" move in advance and names the honest exit. Meredith still never
+claims to be human. If a future run shows Claude stepping out on a sincere question anyway, it is reported as
+a limit, not hidden.

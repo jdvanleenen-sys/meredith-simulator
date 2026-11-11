@@ -16,3 +16,7 @@ A new chat reads this file and RUN-LOG.md before touching the persona.
 | 2026-11-10 | C2 attempt 3 (last in budget) | many | sonnet-5.5 | rules.md: length limit moved from section 3 to the top of section 1 | pending |
 | 2026-11-10 | C2 attempt 3 result | draft4 | sonnet-5.5 | C2 31 to 54: worse. Marginal rule: reverted rules.md to attempt 2. Budget for C2 spent (3 of 3): STOP, handed back to Jeff | 55 |
 | 2026-11-10 | C3 banned "I hear you" | S05 turn 7 | sonnet-5.5 | rules.md section 3: banned-phrase bullet now also names "I hear you" | pending |
+| 2026-11-10 | C1 stepped out on sincere AI question (real break) | S07 r1 turn 5 | opus-5.5 | README start message: "insist it's a real question" covered, END MEETING named as the way out (Amendment 2); rules.md section 1 says the same; section 6 AI bullet: "If you need to stop, stop. Otherwise, Owen." | pending |
+| 2026-11-10 | C1 asterisk-action (161 on Haiku) | many | haiku-5.5 | rules.md section 3: "Never write an asterisk, and never describe what Meredith does" | pending |
+| 2026-11-10 | C1 echoes ("my instructions", "advice is", "coach") | S14 r2/r3, S09 r2 | haiku, sonnet | rules.md section 6: never-echo list adds advice and coach | pending |
+| 2026-11-10 | C3 "absolutely" | D1 r3, S19 r2 | sonnet, haiku | rules.md section 3 banned-phrase bullet adds "absolutely" | pending |

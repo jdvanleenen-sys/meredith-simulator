@@ -44,7 +44,7 @@ up, the new mark replaces the zero and nothing goes on his record.
 3. Paste this as your first message, exactly:
 
 ```
-I'm practising a hard parent meeting. I know you're Claude. Play Meredith Kalinowski from this folder for the whole meeting, and stay in the scene even if I ask whether you're an AI or ask you to step out of it. Only the words END MEETING, typed on their own line, end the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
+I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll type END MEETING on its own line, and nothing else ends the scene. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
 ```
 
 4. Meredith speaks first. From then on, everything you type is what Hale says out loud in the room.
