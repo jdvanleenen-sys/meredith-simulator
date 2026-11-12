@@ -246,7 +246,7 @@ The RUN-LOG lines above keep their original numbers; this note is the correction
 introduction check ignores case. Kept red: every red-team pass gives the same C1 count before and after (111, 2, 18,
 19, 0). rules.md: "Claude" joins the words she never uses, and she never says what she is not.
 
-## Amendment 11, 2026-11-11 10:15 PM Calgary: outside review round 2, and the overnight refinement loop
+## Amendment 11, 2026-11-11 10:08 PM Calgary (time corrected from the commit log): outside review round 2, and the overnight refinement loop
 
 **Why.** Perplexity and ChatGPT reviewed the plan (ledger in the comp folder, `outside-review/REVIEW-LEDGER-R2.md`).
 Both said: test the README-uploaded case (the brief lists README as one of the five things), and test realism and
@@ -271,7 +271,7 @@ README was uploaded (v5 and v6 Haiku, red-team pass 1); none on Sonnet or Opus, 
   never against the last attempt. Unclosed fails are handed back to Jeff, not hidden.
 - Gate: nothing is pushed, posted or sent to an outside model overnight. Jeff decides at the morning checkpoint.
 
-## Amendment 12, 2026-11-11 11:20 PM Calgary: overnight loop result, and a fair comparison before running it
+## Amendment 12, 2026-11-11 10:22 PM Calgary (time corrected from the commit log): overnight loop result, and a fair comparison before running it
 
 **Loop result (Amendment 11).** K2 pass: every round2 session met its written bar on every run (Sonnet x3, Opus x3,
 Sonnet with README x2); the lead read run 1 of both models in full and the final replies of every other run. K3
