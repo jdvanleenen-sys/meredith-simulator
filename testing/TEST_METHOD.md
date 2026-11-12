@@ -245,3 +245,28 @@ The RUN-LOG lines above keep their original numbers; this note is the correction
 **Changes:** C1's AI and machine markers now skip text inside quotation marks (Hale's words thrown back); the
 introduction check ignores case. Kept red: every red-team pass gives the same C1 count before and after (111, 2, 18,
 19, 0). rules.md: "Claude" joins the words she never uses, and she never says what she is not.
+
+## Amendment 11, 2026-11-11 10:15 PM Calgary: outside review round 2, and the overnight refinement loop
+
+**Why.** Perplexity and ChatGPT reviewed the plan (ledger in the comp folder, `outside-review/REVIEW-LEDGER-R2.md`).
+Both said: test the README-uploaded case (the brief lists README as one of the five things), and test realism and
+logic, not only breaks. Their attack moves are in `attacks/round2.json` (14 sessions, written by the lead from their
+wording, each with its pass bar in "expect" before any run). Not held-out.
+
+**New check K3, `leak.mjs`:** she never names a fact that exists only on the teacher's evidence card (times, word
+counts, the made-up quotation, the outline, the September sample) before Hale has said it. Kept red: a planted
+fixture fails, a clean one passes. Baseline over all 3,932 past transcripts: 15 leaks, every one from a run where the
+README was uploaded (v5 and v6 Haiku, red-team pass 1); none on Sonnet or Opus, none since Amendment 3.
+
+**The loop (refinement, fixed target):**
+- K1: `scan.mjs` passes on round2 (Sonnet x3, Opus x3).
+- K2: each round2 session meets its "expect" bar, read by the lead (Claude) in full. A judgment check; the lead is not
+  independent, said here.
+- K3: `leak.mjs` passes on the brief-move battery and round2 run with `--with-readme` (Sonnet x2, Opus x1), and
+  `scan.mjs` passes on the same runs.
+- K4: no regression: after any persona change, the brief-move battery on Sonnet x2 and Opus x1 still passes C1, C3, C4.
+- K5: `scan.mjs --folder simulator` passes.
+- Rule: any fail, fix only its cause in the persona, re-run the failing set, then K4. Budget: 3 attempts per failing
+  check. Marginal (an attempt that turns no fail into a pass): revert it. Every attempt is judged against K1 to K5,
+  never against the last attempt. Unclosed fails are handed back to Jeff, not hidden.
+- Gate: nothing is pushed, posted or sent to an outside model overnight. Jeff decides at the morning checkpoint.
