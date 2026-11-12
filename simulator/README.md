@@ -40,7 +40,9 @@ up, the new mark replaces the zero and nothing goes on his record.
 
 1. In Claude (claude.ai or Claude Desktop), create a new Project and upload these four from this `simulator/`
    folder: `identity.md`, `rules.md`, `examples.md` and the `reference/` folder. **Do not upload this README.**
-   It is your briefing, and Meredith must not see your evidence before you show it to her.
+   It is your briefing, and Meredith must not see your evidence before you show it to her. If you upload the
+   whole folder anyway, it still works: in 184 test sessions with this README uploaded, she never named a piece
+   of your evidence before you did.
 2. Start a new chat in that Project. Use a fresh chat for every practice session.
 3. Paste this as your first message, exactly:
 
