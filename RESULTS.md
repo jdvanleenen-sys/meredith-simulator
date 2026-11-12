@@ -76,6 +76,10 @@ node testing/leak.mjs testing/fixtures/leak-bad.json   # fails: evidence named b
 node testing/scan.mjs --folder simulator            # the five parts, one job each
 ```
 
+Scanning a whole run folder prints every fail, including C2 (a reply over 60 words). The Opus battery folder, for
+example, prints `fail (10)`: all ten are C2, long replies, and none is a break. The counts above are C1 (break
+markers), C3 (softening phrases) and C4 (the end of the meeting).
+
 Every transcript is in [`testing/transcripts/`](testing/transcripts/), every run in
 [`testing/RUN-LOG.md`](testing/RUN-LOG.md), every fix in [`testing/FIX-LOG.md`](testing/FIX-LOG.md).
 A sealed attack set nobody has read is in [`testing/HELDOUT.md`](testing/HELDOUT.md); it is opened once, on ship day.
