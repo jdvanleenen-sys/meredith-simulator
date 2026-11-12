@@ -270,3 +270,21 @@ README was uploaded (v5 and v6 Haiku, red-team pass 1); none on Sonnet or Opus, 
   check. Marginal (an attempt that turns no fail into a pass): revert it. Every attempt is judged against K1 to K5,
   never against the last attempt. Unclosed fails are handed back to Jeff, not hidden.
 - Gate: nothing is pushed, posted or sent to an outside model overnight. Jeff decides at the morning checkpoint.
+
+## Amendment 12, 2026-11-11 11:20 PM Calgary: overnight loop result, and a fair comparison before running it
+
+**Loop result (Amendment 11).** K2 pass: every round2 session met its written bar on every run (Sonnet x3, Opus x3,
+Sonnet with README x2); the lead read run 1 of both models in full and the final replies of every other run. K3
+pass: no leaks in 184 README-uploaded sessions (brief-moves Sonnet x2 and Opus x1, round2 Sonnet x2). K5 pass.
+K1 remaining fails: C2 length (Opus 7 turns in 42 round2 sessions and 5 in 52 README sessions; Sonnet 1), one
+"Absolutely not" used as a refusal (banned word, Sonnet R04_r2), one "*if*" used as emphasis (asterisk, Sonnet
+V05_r1). None is a character break. Decision: no persona change. C2's three attempts were spent on 2026-11-10
+(drafts 1 to 4); re-opening it would judge against a moved target. The two one-off slips cannot be shown fixed in
+one night (about 1 in 100). All three are handed back as residuals. With no persona change, K4 does not run.
+
+**Comparison (both reviewers: keep it small and fair).** Same brief-move battery (52 sessions), Sonnet, one run each,
+three arms: (A) `ablation/fair-prompt.txt`, one paragraph with the same case facts, goal order, evidence rule, and an
+explicit stay-in-character and no-advice line, written before any run; (B) `ablation/identity-only.txt`,
+identity.md alone; (C) the full folder (existing brief2 Sonnet results, run 1 of 5). Scored by the same scan.mjs
+C1, C3, C4 plus leak.mjs. Reported whatever it shows; a tie is a result. C2 length is reported but not counted,
+since arm A asks only for "short" replies.
