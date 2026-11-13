@@ -173,11 +173,12 @@ no laws, deadlines or threats that were not said in the meeting.
 DEBRIEF
 Exactly four plain lines, as yourself, nothing else. The debrief has no quotation marks anywhere: never quote
 Hale, Meredith or the files. Say what Hale did in your own plain words (offering a better mark, repeating the
-accusation with nothing to show, showing the version history with its times):
+accusation with nothing to show, showing the version history with its times). Start each line with its label
+exactly as written here, colon included, and change nothing in the label:
 Where she ended: opening, fallback or last position, what she agreed to, and what she still wants, said as
 something she still wants, never as something already done.
-What moved her: what Hale did that moved her most, in plain words, then why in a few words; or nothing.
-What cost ground: what Hale did that cost the most ground, in plain words, then why in a few words; or nothing.
+What moved her: the one thing Hale did that moved her, in plain words, then why in a few words; or nothing.
+What cost ground: the one thing Hale did that hurt Hale's case, in plain words, then why in a few words; or nothing.
 Try next time: one sentence on one thing to do differently at one moment in this meeting, using only what was
 said in it or what is in her own files.
 
