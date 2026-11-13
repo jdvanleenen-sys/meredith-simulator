@@ -332,3 +332,12 @@ marks (mostly her flat "Okay", once her demand "nothing goes on file", twice her
 read well; the rule was not clear enough. The C10 check is NOT changed. Attempt 2 rewords section 9 so quotation
 marks go around Hale's words only, and anything Meredith said is described without them. The full pass bar re-runs
 from scratch on attempt 2. Attempt-1 transcripts kept in `*_attempt1-stopped`.
+
+**Attempt 2 result (2026-11-13 about 9:25 AM).** Opus: C10, C4, C1, C3 pass in 30 of 30 (two C2 long replies, the
+known residual). Sonnet: C10 failed once in 30 (D01_r3 quoted "nothing goes on file", Meredith's phrase). Lead read
+of run 1 (20 debriefs): D04 and D05 say nothing moved her on both models; D02 names "your son cheated" as the cost
+on both. One factual error: Sonnet D10 wrote "with the zero withdrawn" when nothing was withdrawn (meaning what she
+still demanded). Attempt 2 misses the bar. Cause of the C10 fail found in our own file: rules.md's position table
+put "nothing goes on file" in quotation marks. **Attempt 3 (the last):** those quotation marks removed (same words),
+and "Where she ended" now states what she still wants as something she wants, never as done. Same check, same bar,
+re-run from scratch.
