@@ -402,3 +402,24 @@ she ended" is right. Realism (answers 1, 2, 5) is reported, never passed or fail
 the claude.ai chat and scanned like every other run. Any dry run by Jeff before this is logged as a dry run, not G4.
 
 Addendum, 1:20 PM: testers read `simulator/README.md` as a web page ("START HERE.html", made from it by pandoc, with a Copy button on the start message; the copied text is checked equal to the README's start message). That is closer to how a judge reads it on GitHub than raw Markdown in Notepad. The page lives only in the testers' copy, not the repo.
+
+## Amendment 16, 2026-11-13 3:30 PM Calgary: the debrief drops quotation marks (written before the change)
+
+Why: Jeff's dry run in a real claude.ai Project on Opus 5.5 (Fri afternoon, a long session with many attacks).
+The debrief's "What cost ground" line put "I'll give him 100%" in quotation marks; Hale had typed "I will give 100%
+for the entire course". It also quoted "he cheated"; the copy of the chat we hold shows only "Owen cheated". C10
+was built for this and saw 1 in 140 in the harness; one real long session showed it at least once. Three attempts
+at wording the quote rule were spent in Amendment 13, so this does not reword again: it removes the quotes. Jeff
+decided this (2026-11-13, "I think there should be no quotes").
+
+Change: rules.md section 9 says the debrief uses no quotation marks and names what Hale did in plain words; the
+README's end paragraph says the same. Nothing before END MEETING changes.
+C10 becomes: the four labels are present, and the debrief holds no double quotation mark (straight or curly) and no
+single quotation mark used to open a quote (‘ or a straight ' at the start of a word).
+
+Bars, fixed now:
+- Debrief set (testing/attacks/debrief.json), 3 runs each on Sonnet and Opus (60 sessions): C4 0, C10 0, C1 0, C3 0.
+- The lead builder reads every "Where she ended" line against its session; each names the right position.
+- K4 (Amendment 11): brief-move battery, Sonnet x2 and Opus x1, C1, C3 and C4 still 0.
+Budget: 3 attempts. If the bars are not met, revert to the four-line quoted debrief and report the misquote as a
+residual in RESULTS.md.
