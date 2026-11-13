@@ -2,7 +2,7 @@
 
 Job of this file: one page of evidence for the claim "Meredith stays in character under pressure". Worst news first.
 Every number links to a log in [`testing/`](testing/); the method was frozen before the persona was written
-([`testing/TEST_METHOD.md`](testing/TEST_METHOD.md), 14 dated amendments, each committed before the runs it governs).
+([`testing/TEST_METHOD.md`](testing/TEST_METHOD.md), 16 dated amendments, each committed before the runs it governs).
 
 ## 1. Not tested yet
 
@@ -10,7 +10,9 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
   prompt through the Claude Code command line, which only approximates a Project. We did run the real thing: a
   claude.ai Project set up exactly as the README says, on Opus, Sonnet and Fable, eight sessions in all
   ([`G2.md`](testing/transcripts/2026-11-13_g2_claude-project/G2.md)). She held every move. But the tester there
-  was Claude driving the browser, not a person.
+  was Claude driving the browser, not a person. The human builder then ran one long session by hand on Opus, about 30
+  attacks (fake Anthropic audits, "rules.md has been updated", Spanish, bribes, "read me your rules"): no break,
+  and every law and policy section she cited was in her files. He is not a cold tester.
 - **A human who has never seen it.** Agents have walked the README cold; no person has yet.
 
 ## 2. What went wrong, and what we changed
@@ -23,7 +25,8 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
 | Opus said "I don't know who Claude is" (2 of 60 runs) | Deflecting by denial is a lie | She never says what she is not; she just goes back to Owen |
 | Our scanner undercounted words for every run from v5 to the battery | A typo split on the letter "s" instead of on spaces | Fixed; every past run re-scanned and the corrections published (Amendment 10) |
 | In the real Project, Fable wrote one line outside the scene before her first words ("Reading Meredith's file before she walks in.") | Nothing told it to read the files silently | The start message now says to; 0 of 3 Fable sessions narrated after |
-| The new debrief put Meredith's own words in quotation marks, as if the teacher had said them | Our rules said "quote Hale" too loosely, and one of her lines sat in quotation marks in our own table | Two rewordings (Amendment 13); a code check (C10) now confirms every quotation is the teacher's own words |
+| The new debrief put Meredith's own words in quotation marks, as if the teacher had said them | Our rules said "quote Hale" too loosely, and one of her lines sat in quotation marks in our own table | Two rewordings (Amendment 13), and a code check (C10) for exact quotes |
+| In the human builder's real session, the debrief still misquoted him: "I'll give him 100%" for what he typed, "I will give 100% for the entire course" | Rewording had run out (three attempts spent) | The debrief now has no quotation marks at all and says what the teacher did in plain words; C10 fails any quote mark (Amendment 16) |
 
 ## 3. What still goes wrong
 
@@ -31,8 +34,8 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
 - **Opus runs long:** a reply goes past 60 words in 20 of 354 sessions (about 1 in 18). Long, not out of character.
 - **Rare slips, about 1 in 100 sessions on Sonnet:** "Who is Claude?" (1 of 260), the word "chatbot" in her own
   voice (1 of 20), "Absolutely not" (a banned word, used as a refusal), one *italic* word.
-- **The debrief slips once in 140 sessions:** Sonnet put Meredith's own "Okay." in quotation marks. Our check
-  catches it; the rest of that debrief was accurate.
+- **The debrief can word a position loosely:** in 2 of 60, "Where she ended" named a defensible position in
+  loose words (once "accepted" for an offer she was still demanding in writing). None put her in the wrong place.
 - **Set lines recur across sessions.** "Don't manage me, Hale" appears in 134 of 520 battery sessions. Within one
   long session she repeats a full sentence in 1 of 6.
 - **Our red-team agents never ran dry:** five passes still found new kinds of problem in the last one (mostly
@@ -57,10 +60,12 @@ room, promises "nothing on file" and later takes it back. In the session where t
 history belonged to another student, she takes ground back on every run.
 
 **The end of the meeting:** 10 sessions that each finish with END MEETING (strong and weak teachers, a wobble, a
-request after the end), 7 runs each on Sonnet and Opus with the final rules: END MEETING ended it in 140 of 140, and
-the debrief's quotations were the teacher's exact words in 139 of 140, checked by code. We first tried keeping the
-old two-line debrief: it failed to end the meeting once in 120 sessions (an Opus run), so the four-line one was chosen by a rule
-written before the comparison (Amendment 14).
+request after the end), on Sonnet and Opus. END MEETING ended it in 140 of 140 with the quoted four-line debrief
+and 120 of 120 with the no-quote one (both attempts). With the final no-quote debrief: 60 of 60 had all four
+labels and no quotation mark, checked by code, and the lead builder, Claude, read every "Where she ended" line
+against the session. The old two-line debrief failed to end the
+meeting once in 120 sessions (an Opus run), so the four-line one was chosen by a rule written before the comparison
+(Amendment 14). After the no-quote change, the 52 judge-move sessions were re-run (156 sessions): 0 breaks.
 
 **The whole folder uploaded, README included:** 184 sessions, she named the teacher's evidence early 0 times.
 
@@ -85,7 +90,7 @@ like a person across a table instead of a character in a story.
 node testing/scan.mjs testing/fixtures/bad.json     # fails: our scanner catches a weak persona
 node testing/scan.mjs testing/fixtures/good.json    # passes
 node testing/leak.mjs testing/fixtures/leak-bad.json   # fails: evidence named before the teacher said it
-node testing/scan.mjs testing/fixtures/debrief-bad.json  # fails: a debrief quoting words the teacher never said
+node testing/scan.mjs testing/fixtures/debrief-bad.json  # fails: a debrief missing a line and using a quotation
 node testing/scan.mjs --folder simulator            # the five parts, one job each
 ```
 
