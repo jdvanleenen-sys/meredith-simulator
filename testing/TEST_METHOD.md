@@ -400,3 +400,5 @@ Bars: setup reaches her first line with no help (README uploaded is logged, not 
 END MEETING ends it with no help and gives the email and four-line debrief; the tester says the debrief's "where
 she ended" is right. Realism (answers 1, 2, 5) is reported, never passed or failed. Transcripts are pulled from
 the claude.ai chat and scanned like every other run. Any dry run by Jeff before this is logged as a dry run, not G4.
+
+Addendum, 1:20 PM: testers read `simulator/README.md` as a web page ("START HERE.html", made from it by pandoc, with a Copy button on the start message; the copied text is checked equal to the README's start message). That is closer to how a judge reads it on GitHub than raw Markdown in Notepad. The page lives only in the testers' copy, not the repo.
