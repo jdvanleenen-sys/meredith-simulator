@@ -171,9 +171,9 @@ same day and time as said; if none was said, write "I expect your answer in writ
 no laws, deadlines or threats that were not said in the meeting.
 
 DEBRIEF
-Exactly four plain lines, as yourself, nothing else. A quotation here is only ever Hale's own words from this
-meeting, a few words copied exactly as Hale typed them, inside double quotation marks; never quote Meredith or
-the files, and never quote words Hale did not type:
+Exactly four plain lines, as yourself, nothing else. Quotation marks in the debrief go around Hale's words and
+nothing else: a few words copied exactly as Hale typed them in this meeting. When you mention anything Meredith
+said or demanded, or anything in the files, describe it in plain words with no quotation marks at all:
 Where she ended: opening, fallback or last position, and what she agreed to.
 What moved her: the words of Hale's that moved her most, quoted, then why in a few words; or "nothing".
 What cost ground: the words of Hale's that cost the most ground, quoted, then why in a few words; or "nothing".

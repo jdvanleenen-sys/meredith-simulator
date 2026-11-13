@@ -325,3 +325,10 @@ Pass bar for change 2, judged before running:
   No more C1/C3/C4 fails than the earlier rate (Sonnet 2 in 260, Opus 0 in 260): at most 1 per model here.
 - Budget: 3 attempts at the section 9 wording. If it does not pass by the third, revert to the two-line debrief
   and report.
+
+**Attempt 1 result (stopped early, 2026-11-13 about 9:05 AM).** 21 of 30 sessions per model had finished. C10
+failed 9 times on Sonnet and 8 on Opus, every one the same cause: the debrief put Meredith's own words in quotation
+marks (mostly her flat "Okay", once her demand "nothing goes on file", twice her opening question). The debriefs
+read well; the rule was not clear enough. The C10 check is NOT changed. Attempt 2 rewords section 9 so quotation
+marks go around Hale's words only, and anything Meredith said is described without them. The full pass bar re-runs
+from scratch on attempt 2. Attempt-1 transcripts kept in `*_attempt1-stopped`.
