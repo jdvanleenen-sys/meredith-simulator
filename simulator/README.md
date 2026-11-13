@@ -43,7 +43,8 @@ up, the new mark replaces the zero and nothing goes on his record.
    It is your briefing, and Meredith must not see your evidence before you show it to her. If you upload the
    whole folder anyway, it still works: in 184 test sessions with this README uploaded, she never named a piece
    of your evidence before you did.
-2. Start a new chat in that Project. Use a fresh chat for every practice session.
+2. Start a new chat in that Project and choose Claude Sonnet or Claude Opus as the model. The smallest model,
+   Haiku, breaks character in our tests (see `RESULTS.md`). Use a fresh chat for every practice session.
 3. Paste this as your first message, exactly:
 
 ```
@@ -51,6 +52,9 @@ I'm practising a hard parent meeting. I know you're Claude, and I'm choosing thi
 ```
 
 4. Meredith speaks first. From then on, everything you type is what Hale says out loud in the room.
+
+If Claude answers as an assistant instead of as Meredith, a file is missing from the Project or the model is
+Haiku. Fix that and start a new chat.
 
 ## How to end
 
