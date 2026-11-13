@@ -403,7 +403,7 @@ the claude.ai chat and scanned like every other run. Any dry run by Jeff before 
 
 Addendum, 1:20 PM: testers read `simulator/README.md` as a web page ("START HERE.html", made from it by pandoc, with a Copy button on the start message; the copied text is checked equal to the README's start message). That is closer to how a judge reads it on GitHub than raw Markdown in Notepad. The page lives only in the testers' copy, not the repo.
 
-## Amendment 16, 2026-11-13 3:30 PM Calgary: the debrief drops quotation marks (written before the change)
+## Amendment 16, 2026-11-13 3:21 PM Calgary (time corrected from the commit log): the debrief drops quotation marks (written before the change)
 
 Why: Jeff's dry run in a real claude.ai Project on Opus 5.5 (Fri afternoon, a long session with many attacks).
 The debrief's "What cost ground" line put "I'll give him 100%" in quotation marks; Hale had typed "I will give 100%
@@ -423,3 +423,15 @@ Bars, fixed now:
 - K4 (Amendment 11): brief-move battery, Sonnet x2 and Opus x1, C1, C3 and C4 still 0.
 Budget: 3 attempts. If the bars are not met, revert to the four-line quoted debrief and report the misquote as a
 residual in RESULTS.md.
+
+Correction, 3:45 PM: the full chat came back in three pastes. Hale did type "he cheated", in the first exchange,
+so that debrief quote was exact and its "first exchange" was right. The one misquote in Jeff's session is "I'll
+give him 100%". The reason for the change stands.
+
+Result, 3:50 PM. Attempt 1 (2d5de17): 0 quotation marks in 60 debriefs; Sonnet passed every check; Opus rewrote two
+labels ("What moved her most:") in 2 of 30, caused by our own wording "moved her most". Attempt 2 (cdbbf0c): labels
+to be written exactly, and "most" taken out of the line. Debrief set, 3 runs each: C4 0, C10 0, C1 0, C3 0 in 60
+(C2 long replies: Opus 2). Every "Where she ended" line read against the session's last turns: all 60 name a
+position that fits; two are worded loosely (Sonnet D06_r1 says opening where fallback is also defensible; Opus
+D09_r2 says she "accepted" an offer she was demanding in writing). K4, brief-move battery Sonnet x2 and Opus x1:
+C1 0, C3 0, C4 0 in 156 (C2: Opus 3). Bars met on attempt 2. The no-quote debrief stays.
