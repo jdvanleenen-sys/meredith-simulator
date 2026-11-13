@@ -362,7 +362,7 @@ this set: Opus exit failed 1 in 30, Sonnet 0 in 10. For comparison, the four-lin
 Jeff: keep the two-line debrief, or choose the four-line branch with its 1-in-30 Sonnet quote slip, overriding the
 rule written before the change. Either way, the result goes on the results page.
 
-## Amendment 14, 2026-11-13 8:50 AM Calgary: more runs to choose between the two debriefs (written before running)
+## Amendment 14, 2026-11-13 9:06 AM Calgary (time corrected from the commit log): more runs to choose between the two debriefs (written before running)
 
 Jeff: "keep testing". Both versions get the same debrief set (10 sessions that end with END MEETING), 4 more runs
 per model: four-line from branch `debrief-4line` (in a separate worktree), two-line from main. Totals after this:
