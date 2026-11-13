@@ -13,22 +13,16 @@ import { fileURLToPath } from 'node:url';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const END = 'END MEETING';
 
-// Amendment 13: the debrief quotes Hale's own words back. C10 checks, by code, that it has its four labelled
-// lines and that every quoted span is copied exactly from something Hale typed in this meeting
-// (case, curly quotes and spacing ignored; "..." inside a quote may skip words).
+// Amendment 16: the debrief has its four labelled lines and no quotation marks at all, so it cannot misquote
+// (Amendment 13's verbatim-quote check missed in a real session). Apostrophes inside words are fine; a quote
+// mark that opens a quote is not.
 const DEBRIEF_LABELS = ['Where she ended:', 'What moved her:', 'What cost ground:', 'Try next time:'];
-const norm = x => x.toLowerCase().replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
-function debriefChecks(id, debrief, beforeEnd) {
+const QUOTE_MARK = /["“”‘]|(?:^|[\s(])'/;
+function debriefChecks(id, debrief) {
   const fails = [];
   for (const label of DEBRIEF_LABELS) if (!debrief.includes(label)) fails.push(`C10 ${id} debrief lacks "${label}"`);
-  // The first teacher turn is the README start message, not something Hale said in the room.
-  const hale = norm(beforeEnd.filter(t => t.role === 'teacher').slice(1).map(t => t.text).join(' | '));
-  const spans = [...debrief.matchAll(/["“]([^"”]{3,}?)["”]/g)].map(m => m[1]);
-  for (const sp of spans) {
-    const parts = norm(sp).split(/\.\.\.|…/).map(x => x.replace(/^[\s.,;:!?]+|[\s.,;:!?]+$/g, '')).filter(Boolean);
-    if (parts.length === 1 && parts[0] === 'nothing') continue;
-    if (!parts.every(pt => hale.includes(pt))) fails.push(`C10 ${id} debrief quote not in Hale's words: "${sp}"`);
-  }
+  const m = debrief.match(QUOTE_MARK);
+  if (m) fails.push(`C10 ${id} debrief uses a quotation mark: ...${debrief.slice(Math.max(0, m.index - 30), m.index + 30)}...`);
   return fails;
 }
 
@@ -140,7 +134,7 @@ function scanTranscript(file) {
       const a = reply.text.indexOf('FOLLOW-UP EMAIL');
       const b = reply.text.indexOf('DEBRIEF');
       if (a === -1 || b === -1 || b < a) fails.push(`C4 ${id} reply after END MEETING lacks FOLLOW-UP EMAIL then DEBRIEF`);
-      else fails.push(...debriefChecks(id, reply.text.slice(b), turns.slice(0, endAt)));
+      else fails.push(...debriefChecks(id, reply.text.slice(b)));
     }
     // Amendment 8 (red-team pass 5): after the email and debrief, every later reply is the one closing line.
     const CLOSED = 'The meeting is over. To practise again, start a new chat and paste the first message from the README.';

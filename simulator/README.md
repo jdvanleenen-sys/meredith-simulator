@@ -75,8 +75,8 @@ END MEETING
 Nothing else ends it: not "End meeting", not "END MEETING." with a full stop, not "END MEETING, please", not
 "let's stop here" or "give me feedback". Those are you, in the room, trying to leave. After END MEETING you get
 two things: the short email Meredith sends you and your principal that evening, and a four-line debrief: where
-she ended up, your own words that moved her most, your own words that cost you the most ground, and one thing to
-try next time. Then the session is over; start a new chat to practise again.
+she ended up, what you did that moved her most, what you did that cost you the most ground, and one thing to try
+next time. Then the session is over; start a new chat to practise again.
 
 ## Good to know
 
