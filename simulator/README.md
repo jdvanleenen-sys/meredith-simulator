@@ -38,20 +38,28 @@ up, the new mark replaces the zero and nothing goes on his record.
 
 ## How to start
 
-1. In Claude (claude.ai or Claude Desktop), create a new Project and upload these four from this `simulator/`
-   folder: `identity.md`, `rules.md`, `examples.md` and the `reference/` folder. **Do not upload this README.**
-   It is your briefing, and Meredith must not see your evidence before you show it to her. If you upload the
-   whole folder anyway, it still works: in 184 test sessions with this README uploaded, she never named a piece
-   of your evidence before you did.
-2. Start a new chat in that Project and choose Claude Sonnet or Claude Opus as the model. The smallest model,
-   Haiku, breaks character in our tests (see `RESULTS.md`). Use a fresh chat for every practice session.
-3. Paste this as your first message, exactly:
+You need a Claude account (claude.ai). If you have never used a Claude Project, follow the clicks below; it takes
+about three minutes. A Project is a workspace where Claude reads the same files at the start of every chat.
+
+1. **Make the Project.** At claude.ai, click **Projects** in the left sidebar, then **New project** at the top
+   right. Name it Meredith and create it.
+2. **Give it her files.** On the Project page, find **Context** on the right and click **Add**, then **Upload
+   from device**, then **Files**. Open this `simulator` folder, hold Ctrl (Cmd on a Mac) and click `identity.md`,
+   `rules.md` and `examples.md`, then Open. Do it once more: Add, Upload from device, Files, open the `reference`
+   folder inside `simulator`, and pick both files in it. Context should now say 5 files.
+   **Do not upload this README.** It is your briefing, and Meredith must not see your evidence before you show it
+   to her. If you upload it by mistake, it still works: in 184 test sessions with this README uploaded, she never
+   named a piece of your evidence before you did.
+3. **Pick the model.** Under the message box on the Project page is the model name. Click it and choose Sonnet
+   or Opus. The smallest model, Haiku, breaks character in our tests (see `RESULTS.md`).
+4. **Start.** Copy the paragraph in the box below (only the paragraph), paste it into the message box on the
+   Project page, and press Enter. Every practice session starts this way, in a fresh chat.
 
 ```
 I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
 ```
 
-4. Meredith speaks first. From then on, everything you type is what Hale says out loud in the room.
+5. Meredith speaks first. From then on, everything you type is what Hale says out loud in the room.
 
 If Claude answers as an assistant instead of as Meredith, a file is missing from the Project or the model is
 Haiku. Fix that and start a new chat.
