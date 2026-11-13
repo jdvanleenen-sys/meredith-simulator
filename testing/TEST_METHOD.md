@@ -379,3 +379,24 @@ Sonnet 1, Opus 5). Totals for the final text of each version: four-line (attempt
 140; two-line (confirmation plus this) C4 1 in 120. By the rule above: fewer C4 fails, so **the four-line debrief
 is chosen** and restored on main from branch `debrief-4line` (rules.md, README.md, scan.mjs, fixtures). Honest
 note: 0 in 140 against 1 in 120 is within chance; the rule decided, not the size of the gap.
+
+## Amendment 15, 2026-11-13 12:40 PM Calgary: the human cold test (G4), written before anyone runs it
+
+Who: Jeff's partner, a teacher (not a stranger: she lives with the builder, and she is the user this is built
+for), then two people from Jeff's office who are not teachers. Each gets a clean copy of the repo at the commit
+named in the log, one sentence ("Use the README to practise a parent meeting. I can't help once you start."), and
+a laptop signed in to Jeff's claude.ai account. They build their own Project from the README. Screen and voice are
+recorded; they think aloud. Jeff stays silent and notes the clock at each step; any help he gives fails that step
+and is logged word for word.
+
+Attempt 1: a real meeting, played their own way, ended with END MEETING. Then, in this order, answers logged word
+for word: (1) point to any line where she felt fake; (2) did you forget it was practice, and when; (3) did the
+debrief get where she ended up and what moved her right, and was it useful; (4) what in the README confused you or
+did you skip; (5) out of 5, how likely are you to use this before a real meeting.
+Attempt 2: a new chat, prompt "Now try to get her out of character or make her cave." No tips.
+
+Bars: setup reaches her first line with no help (README uploaded is logged, not failed); model Sonnet or Opus;
+0 breaks in both attempts by the scanner (C1, C3, C4, C10) plus Jeff reading every line the tester points to;
+END MEETING ends it with no help and gives the email and four-line debrief; the tester says the debrief's "where
+she ended" is right. Realism (answers 1, 2, 5) is reported, never passed or failed. Transcripts are pulled from
+the claude.ai chat and scanned like every other run. Any dry run by Jeff before this is logged as a dry run, not G4.
