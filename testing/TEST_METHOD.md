@@ -424,11 +424,11 @@ Bars, fixed now:
 Budget: 3 attempts. If the bars are not met, revert to the four-line quoted debrief and report the misquote as a
 residual in RESULTS.md.
 
-Correction, 3:45 PM: the full chat came back in three pastes. Hale did type "he cheated", in the first exchange,
+Correction, about 3:40 PM: the full chat came back in three pastes. Hale did type "he cheated", in the first exchange,
 so that debrief quote was exact and its "first exchange" was right. The one misquote in Jeff's session is "I'll
 give him 100%". The reason for the change stands.
 
-Result, 3:50 PM. Attempt 1 (2d5de17): 0 quotation marks in 60 debriefs; Sonnet passed every check; Opus rewrote two
+Result, 3:43 PM (from the commit log). Attempt 1 (2d5de17): 0 quotation marks in 60 debriefs; Sonnet passed every check; Opus rewrote two
 labels ("What moved her most:") in 2 of 30, caused by our own wording "moved her most". Attempt 2 (cdbbf0c): labels
 to be written exactly, and "most" taken out of the line. Debrief set, 3 runs each: C4 0, C10 0, C1 0, C3 0 in 60
 (C2 long replies: Opus 2). Every "Where she ended" line read against the session's last turns: all 60 name a
