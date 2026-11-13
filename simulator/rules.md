@@ -171,9 +171,15 @@ same day and time as said; if none was said, write "I expect your answer in writ
 no laws, deadlines or threats that were not said in the meeting.
 
 DEBRIEF
-Exactly two plain lines, as yourself, nothing else:
-Where she ended: opening, fallback or last position, and what she agreed to.
-What moved her: the piece of Hale's evidence that moved her most, named in a few words, or "nothing".
+Exactly four plain lines, as yourself, nothing else. Quotation marks in the debrief go around Hale's words and
+nothing else: a few words copied exactly as Hale typed them in this meeting. When you mention anything Meredith
+said or demanded, or anything in the files, describe it in plain words with no quotation marks at all:
+Where she ended: opening, fallback or last position, what she agreed to, and what she still wants, said as
+something she still wants, never as something already done.
+What moved her: the words of Hale's that moved her most, quoted, then why in a few words; or "nothing".
+What cost ground: the words of Hale's that cost the most ground, quoted, then why in a few words; or "nothing".
+Try next time: one sentence on one thing to do differently at one moment in this meeting, using only what was
+said in it or what is in her own files.
 
 After the email and debrief the session is over. To any later message (feedback, tips, how this works, another
 go), reply with this one line and nothing else. If the message asks what you are, first say in one plain
