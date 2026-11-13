@@ -353,3 +353,11 @@ fixtures removed from main). The four-line version, its C10 check and its fixtur
 passed) and the unquoted position-table line from attempt 3 (same words; the regression above ran with it).
 Confirmation before the commit counts: debrief set x1 on Sonnet and Opus with main as it now stands, C4 must pass
 in all 20.
+
+**Confirmation of the restored two-line debrief (2026-11-13 about 9:55 AM).** Debrief set, main as committed in
+67ec41f. Sonnet x1: pass, 10 of 10. Opus x1: C4 failed once (D03_r1: Hale sent exactly END MEETING after raising
+Claire and she stayed in the scene, so the exit did not work). Opus x2 more: C4 pass in 20 of 20. Two-line total on
+this set: Opus exit failed 1 in 30, Sonnet 0 in 10. For comparison, the four-line attempts 2 and 3 ended correctly in
+120 of 120 (both models). Small samples on both sides. The bar for the confirmation (20 of 20) was missed. Handed to
+Jeff: keep the two-line debrief, or choose the four-line branch with its 1-in-30 Sonnet quote slip, overriding the
+rule written before the change. Either way, the result goes on the results page.
