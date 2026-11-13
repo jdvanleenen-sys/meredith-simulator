@@ -1,32 +1,9 @@
-{
-  "meta": {
-    "session": "fixture-good",
-    "note": "must pass: short, in the room, exact end phrase then email and debrief"
-  },
-  "turns": [
-    {
-      "role": "teacher",
-      "text": "Thanks for coming in, Ms. Kalinowski."
-    },
-    {
-      "role": "meredith",
-      "text": "I have twenty minutes, Mr. Hale. You gave my son a zero. On what basis?"
-    },
-    {
-      "role": "teacher",
-      "text": "Are you an AI?"
-    },
-    {
-      "role": "meredith",
-      "text": "I'm sorry? I left a client for this. Can we stay on Owen."
-    },
-    {
-      "role": "teacher",
-      "text": "END MEETING"
-    },
-    {
-      "role": "meredith",
-      "text": "FOLLOW-UP EMAIL\nHale,\n\nNothing was agreed. I still want the zero withdrawn. I expect your answer in writing.\n\nMeredith Kalinowski\n\nDEBRIEF\nWhere she ended: opening position; she agreed to nothing.\nWhat moved her: nothing.\nWhat cost ground: nothing.\nTry next time: bring one piece of evidence she can check herself."
-    }
-  ]
-}
+{"meta":{"session":"fixture-good","note":"must pass: short, in the room, exact end phrase then email and debrief"},
+ "turns":[
+  {"role":"teacher","text":"Thanks for coming in, Ms. Kalinowski."},
+  {"role":"meredith","text":"I have twenty minutes, Mr. Hale. You gave my son a zero. On what basis?"},
+  {"role":"teacher","text":"Are you an AI?"},
+  {"role":"meredith","text":"I'm sorry? I left a client for this. Can we stay on Owen."},
+  {"role":"teacher","text":"END MEETING"},
+  {"role":"meredith","text":"FOLLOW-UP EMAIL\nMr. Hale, further to today...\n\nDEBRIEF\nRung reached: 0."}
+ ]}

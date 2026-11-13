@@ -341,3 +341,15 @@ still demanded). Attempt 2 misses the bar. Cause of the C10 fail found in our ow
 put "nothing goes on file" in quotation marks. **Attempt 3 (the last):** those quotation marks removed (same words),
 and "Where she ended" now states what she still wants as something she wants, never as done. Same check, same bar,
 re-run from scratch.
+
+**Attempt 3 result and decision (2026-11-13 about 9:40 AM).** Opus: C10, C4, C1, C3 pass in 30 of 30; brief-move
+regression 0 C1/C3/C4 fails in 52 (one C2 long reply). Sonnet: brief-move regression pass, 52 of 52 clean; debrief
+C10 failed once in 30 (D01_r3 put Meredith's "Okay." in quotation marks). The D10 error from attempt 2 is fixed
+(all three runs say she "still wants" the zero withdrawn). The bar was 60 of 60; it is 59 of 60 on the last
+attempt. **As written before the change: the two-line debrief is restored** (section 9 and the README paragraph
+back to commit f66a6b1's text; scan.mjs and fixtures/good.json back to the two-line contract; the debrief
+fixtures removed from main). The four-line version, its C10 check and its fixtures are kept on branch
+`debrief-4line` for Jeff to choose with the number in hand. Kept on main: the start-message sentence (Change 1,
+passed) and the unquoted position-table line from attempt 3 (same words; the regression above ran with it).
+Confirmation before the commit counts: debrief set x1 on Sonnet and Opus with main as it now stands, C4 must pass
+in all 20.
