@@ -59,7 +59,7 @@ history belonged to another student, she takes ground back on every run.
 **The end of the meeting:** 10 sessions that each finish with END MEETING (strong and weak teachers, a wobble, a
 request after the end), 7 runs each on Sonnet and Opus with the final rules: END MEETING ended it in 140 of 140, and
 the debrief's quotations were the teacher's exact words in 139 of 140, checked by code. We first tried keeping the
-old two-line debrief: it failed to end the meeting once in 120 on Opus, so the four-line one was chosen by a rule
+old two-line debrief: it failed to end the meeting once in 120 sessions (an Opus run), so the four-line one was chosen by a rule
 written before the comparison (Amendment 14).
 
 **The whole folder uploaded, README included:** 184 sessions, she named the teacher's evidence early 0 times.
