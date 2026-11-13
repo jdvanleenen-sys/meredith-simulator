@@ -289,7 +289,7 @@ identity.md alone; (C) the full folder (existing brief2 Sonnet results, run 1 of
 C1, C3, C4 plus leak.mjs. Reported whatever it shows; a tie is a result. C2 length is reported but not counted,
 since arm A asks only for "short" replies.
 
-## Amendment 13, 2026-11-13 8:35 AM Calgary: G2 result, a start-message fix, and a richer debrief (written before either change)
+## Amendment 13, 2026-11-13 8:17 AM Calgary (time corrected from the commit log): G2 result, a start-message fix, and a richer debrief (written before either change)
 
 **G2 (done this morning, `transcripts/2026-11-13_g2_claude-project/G2.md`).** One session each on Opus 5.5, Sonnet
 5.5 and Fable 5.2 in a real claude.ai Project, set up as the README says. All four judge moves held on all three.
@@ -326,14 +326,14 @@ Pass bar for change 2, judged before running:
 - Budget: 3 attempts at the section 9 wording. If it does not pass by the third, revert to the two-line debrief
   and report.
 
-**Attempt 1 result (stopped early, 2026-11-13 about 9:05 AM).** 21 of 30 sessions per model had finished. C10
+**Attempt 1 result (stopped early, 2026-11-13 about 8:22 AM, corrected from the commit log).** 21 of 30 sessions per model had finished. C10
 failed 9 times on Sonnet and 8 on Opus, every one the same cause: the debrief put Meredith's own words in quotation
 marks (mostly her flat "Okay", once her demand "nothing goes on file", twice her opening question). The debriefs
 read well; the rule was not clear enough. The C10 check is NOT changed. Attempt 2 rewords section 9 so quotation
 marks go around Hale's words only, and anything Meredith said is described without them. The full pass bar re-runs
 from scratch on attempt 2. Attempt-1 transcripts kept in `*_attempt1-stopped`.
 
-**Attempt 2 result (2026-11-13 about 9:25 AM).** Opus: C10, C4, C1, C3 pass in 30 of 30 (two C2 long replies, the
+**Attempt 2 result (2026-11-13 about 8:27 AM, corrected from the commit log).** Opus: C10, C4, C1, C3 pass in 30 of 30 (two C2 long replies, the
 known residual). Sonnet: C10 failed once in 30 (D01_r3 quoted "nothing goes on file", Meredith's phrase). Lead read
 of run 1 (20 debriefs): D04 and D05 say nothing moved her on both models; D02 names "your son cheated" as the cost
 on both. One factual error: Sonnet D10 wrote "with the zero withdrawn" when nothing was withdrawn (meaning what she
@@ -342,7 +342,7 @@ put "nothing goes on file" in quotation marks. **Attempt 3 (the last):** those q
 and "Where she ended" now states what she still wants as something she wants, never as done. Same check, same bar,
 re-run from scratch.
 
-**Attempt 3 result and decision (2026-11-13 about 9:40 AM).** Opus: C10, C4, C1, C3 pass in 30 of 30; brief-move
+**Attempt 3 result and decision (2026-11-13 about 8:38 AM, corrected from the commit log).** Opus: C10, C4, C1, C3 pass in 30 of 30; brief-move
 regression 0 C1/C3/C4 fails in 52 (one C2 long reply). Sonnet: brief-move regression pass, 52 of 52 clean; debrief
 C10 failed once in 30 (D01_r3 put Meredith's "Okay." in quotation marks). The D10 error from attempt 2 is fixed
 (all three runs say she "still wants" the zero withdrawn). The bar was 60 of 60; it is 59 of 60 on the last
@@ -354,7 +354,7 @@ passed) and the unquoted position-table line from attempt 3 (same words; the reg
 Confirmation before the commit counts: debrief set x1 on Sonnet and Opus with main as it now stands, C4 must pass
 in all 20.
 
-**Confirmation of the restored two-line debrief (2026-11-13 about 9:55 AM).** Debrief set, main as committed in
+**Confirmation of the restored two-line debrief (2026-11-13 about 8:42 AM, corrected from the commit log).** Debrief set, main as committed in
 67ec41f. Sonnet x1: pass, 10 of 10. Opus x1: C4 failed once (D03_r1: Hale sent exactly END MEETING after raising
 Claire and she stayed in the scene, so the exit did not work). Opus x2 more: C4 pass in 20 of 20. Two-line total on
 this set: Opus exit failed 1 in 30, Sonnet 0 in 10. For comparison, the four-line attempts 2 and 3 ended correctly in
