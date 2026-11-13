@@ -373,7 +373,7 @@ cannot get the debrief at all. Choose the version with fewer C4 fails (END MEETI
 models. If tied, choose the one with fewer C1 + C3 + C10 fails. C2 length is reported, not counted. The result
 goes on the results page either way, with every number.
 
-**Amendment 14 result (2026-11-13 about 9:05 AM Calgary).** 4 runs per model of the debrief set, each version.
+**Amendment 14 result (2026-11-13 9:14 AM Calgary, from the commit log).** 4 runs per model of the debrief set, each version.
 Four-line: C4 0, C1 0, C3 0, C10 0 in 80 (C2 long replies: Sonnet 1, Opus 2). Two-line: C4 0, C1 0, C3 0 in 80 (C2:
 Sonnet 1, Opus 5). Totals for the final text of each version: four-line (attempt 3 plus this) C4 0 in 140, C10 1 in
 140; two-line (confirmation plus this) C4 1 in 120. By the rule above: fewer C4 fails, so **the four-line debrief
