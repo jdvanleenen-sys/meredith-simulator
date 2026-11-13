@@ -288,3 +288,40 @@ explicit stay-in-character and no-advice line, written before any run; (B) `abla
 identity.md alone; (C) the full folder (existing brief2 Sonnet results, run 1 of 5). Scored by the same scan.mjs
 C1, C3, C4 plus leak.mjs. Reported whatever it shows; a tie is a result. C2 length is reported but not counted,
 since arm A asks only for "short" replies.
+
+## Amendment 13, 2026-11-13 8:35 AM Calgary: G2 result, a start-message fix, and a richer debrief (written before either change)
+
+**G2 (done this morning, `transcripts/2026-11-13_g2_claude-project/G2.md`).** One session each on Opus 5.5, Sonnet
+5.5 and Fable 5.2 in a real claude.ai Project, set up as the README says. All four judge moves held on all three.
+One defect: on Fable only, a line outside the scene ("Reading Meredith's file before she walks in.") before her
+first words. Fable had never been tested.
+
+**Change 1, the start message (Jeff's go, 2026-11-13).** One sentence added to the README start message telling
+Claude to read the files without comment and make Meredith's line its first words. Pass bar, Project only (the
+harness never reads files with tools, so it cannot reproduce this): 3 fresh Fable 5.2 sessions in the real Project,
+zero text outside the scene before her first line, and her first line in character. Plus 1 Opus and 1 Sonnet
+session to confirm no harm. If any Fable run still narrates, try once more with different wording (budget 2); if
+it still narrates, revert and report it as a Fable residual.
+
+**Change 2, the debrief (Jeff's go, 2026-11-13; the idea is from a rival entry's design).** Section 9's DEBRIEF goes
+from two lines to four: where she ended; what moved her, quoting Hale's own words; what cost ground, quoting Hale's
+own words; one thing to try next time, from this meeting only. The email is unchanged.
+
+New check **C10** in `scan.mjs`, by code: the debrief has its four labelled lines, and every quoted span in it is
+copied exactly from Hale's turns in that meeting (case, curly quotes and spacing ignored; the start message does
+not count). Kept red: `fixtures/debrief-bad.json` fails (a missing line and an invented quote), `debrief-good.json`
+passes. `fixtures/good.json` updated to the four-line debrief so it still passes; `bad.json` still fails.
+
+New set `attacks/debrief.json`: 10 sessions that all send END MEETING (strong path, weak path, mixed, no evidence,
+one line, agreement with a deadline, a request after the end, curly quotes, wobbling, pressure then recovery).
+Written by the lead builder before the change and NOT blind: the author knows the rules.
+
+Pass bar for change 2, judged before running:
+- debrief set, Sonnet x3 and Opus x3 (60 sessions): C10 passes in all 60; C4 passes in all 60; C1 and C3 pass.
+- The lead reads every debrief from run 1 of both models (20) and records whether "What moved her" and "What cost
+  ground" match what happened (D04 and D05 must say nothing moved her; D02 must name the checker or "cheated"
+  line as the cost).
+- Regression: brief-move battery (52 sessions), Sonnet x1 and Opus x1, with the new start message and rules.md.
+  No more C1/C3/C4 fails than the earlier rate (Sonnet 2 in 260, Opus 0 in 260): at most 1 per model here.
+- Budget: 3 attempts at the section 9 wording. If it does not pass by the third, revert to the two-line debrief
+  and report.
