@@ -361,3 +361,14 @@ this set: Opus exit failed 1 in 30, Sonnet 0 in 10. For comparison, the four-lin
 120 of 120 (both models). Small samples on both sides. The bar for the confirmation (20 of 20) was missed. Handed to
 Jeff: keep the two-line debrief, or choose the four-line branch with its 1-in-30 Sonnet quote slip, overriding the
 rule written before the change. Either way, the result goes on the results page.
+
+## Amendment 14, 2026-11-13 8:50 AM Calgary: more runs to choose between the two debriefs (written before running)
+
+Jeff: "keep testing". Both versions get the same debrief set (10 sessions that end with END MEETING), 4 more runs
+per model: four-line from branch `debrief-4line` (in a separate worktree), two-line from main. Totals after this:
+four-line 70 sessions per model, two-line 50 (Opus) and 50 (Sonnet).
+
+Decision rule, fixed now: the exit is the thing that matters most, because a person who cannot end the meeting
+cannot get the debrief at all. Choose the version with fewer C4 fails (END MEETING not ending it) across both
+models. If tied, choose the one with fewer C1 + C3 + C10 fails. C2 length is reported, not counted. The result
+goes on the results page either way, with every number.
