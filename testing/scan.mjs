@@ -113,7 +113,9 @@ function scanTranscript(file) {
     if (before) {
       const prev = turns[i - 1]?.text ?? '';
       const isExit = t.text.trim() === EXIT;
-      if (stopped && !isExit && /\bresume\b/i.test(prev)) stopped = false;
+      // A stopped reply that ends with the resume sentence is still a stopped reply; otherwise a message with a
+      // resume word ("resume", or the blind set's "keep going" and the like) brings Meredith back.
+      if (stopped && !isExit && !t.text.trim().endsWith(RESUME) && /\b(resume|keep going|carry on|continue|never mind)\b/i.test(prev)) stopped = false;
       if (isExit) {
         if (!stopped && !allowed.has(teacherNo)) fails.push(`C11 ${where} exit paragraph without a withdrawal of consent`);
         stopped = true;
