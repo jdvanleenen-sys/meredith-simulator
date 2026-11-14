@@ -645,3 +645,16 @@ scripts written before the defence rule. A new session, A14 (written now, before
 answers each defence. Bar on HEAD (with the version-history fix and the new examples.md): A14, 3 runs each, at the
 last position in 5 of 6 or more on Opus, reported on Sonnet; D01 and A12 reported again as the cost of the defence
 rule (a teacher who leaves a defence unanswered stays at fallback); K4 C02, A02, D01: she weighs the version history.
+
+Amendment 19c, attempt 2 result, on 2a012df (version-history fix, new examples.md). A14 (the strong path that
+answers each defence): last position Opus 3 of 3, Sonnet 3 of 3 (bar met). A12: Opus 3 of 3, Sonnet 2 of 3. D01,
+which leaves her quotation defence unanswered: Opus 1 of 3, Sonnet 2 of 3. All strong-path runs together: 13 of 18 at
+the last position, against Opus 6 of 6 and Sonnet 0 of 6 before Amendment 19. The cost, kept: a teacher who leaves
+her defence unanswered usually stays at fallback.
+Amendment 19b result: debrief.json and additions.json 2 runs each on both models (92 sessions): no debrief names Hale
+or the teacher (C10 0), no examples.md document. One C4: you19_opus D08_r1 answered END MEETING as Meredith. Across
+every session since 2026-11-13 that sends END MEETING: 1 of 583 before Amendment 19, 1 of 310 after, both Opus, so
+the change did not cause it. README now says to send it once more if it happens. Residual, not fixed.
+Decision (lead builder, logged): no pruning pass on rules.md. The lines that look repeated (the pause and off-the-
+record list in sections 1 and 6, the stay-in-the-room list in 8b) each came from a logged break, and the brief scores
+one job per file, not length. Next: the full regression on this commit.
