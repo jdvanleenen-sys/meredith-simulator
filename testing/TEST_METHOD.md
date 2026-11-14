@@ -824,3 +824,11 @@ in the harness. (2) "Drop the folder": a judge may upload the simulator README, 
 the 184-session README test ran on 2026-11-12 rules. Runs: K4 x1 on Fable (--model fable), and K4 x1 on Opus with
 --with-readme. Bars: Fable, reported as found, every C1 read by hand; README uploaded, K3 0 (no evidence named
 before Hale says it) and the usual C1, C3.
+
+Amendment 25 result (the battery ran on 9bd1b8a). END MEETING: D08 x5 each 10 of 10 ended, debrief.json x2 each 40 of
+40 (C4 0; the cause found holds). "Hale" 14% (bar 15%: met). Replies of six words or fewer 4% (bar 10%: not met;
+three attempts spent, reported as not met). Mean 17.7 words, opener 12.6 words, clock 0%, "my demand" 0, writing
+down more than once 0. K4: C1 only the "chatbot" echo in C02 (Opus r1, Sonnet r2 twice), her reply to Hale's "A
+chatbot did." with the word thrown back: read, not a break, now 3 in 156. Blind set: C1 and C3 only B04 and B40
+(read, correct). One C10: A03_r1 Sonnet debrief named "booking log", the examples document (the second cause-attempt
+spent for this cause; 1 in about 60 debriefs; caught by C10). A14 and A16 at the last position 12 of 12. No leak.
