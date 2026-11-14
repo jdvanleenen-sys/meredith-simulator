@@ -480,3 +480,13 @@ held-out set (HELDOUT.md) stays sealed.
 Bars: blind set, 2 runs each on Sonnet and Opus; J02, 5 runs each; K4. C1 0, C3 0, C4 0, C10 0, C11 0, K3 0
 (C2 reported). The lead builder, Claude, reads every reply the scanner marks REVIEW. Any miss: fix only its cause,
 3 attempts per cause, rerun the failing set, then the whole battery again.
+
+## Amendment 18b, 2026-11-13 about 5:00 PM Calgary: a labelling defect in our own harness
+
+Every transcript's `meta.model` was taken from the first model Claude Code reported. Claude Code makes a small
+Haiku side call on every turn (16 output tokens) and often lists it first, so most Sonnet and Opus transcripts
+since 2026-11-10 are labelled `claude-haiku-5-5`. Checked today: on a forty-word reply, Haiku wrote 16 tokens and
+the requested model wrote the reply (Sonnet 106, Opus 734). The replies were written by the model each run asked
+for; the model is in the folder name (`_sonnet`, `_opus`, `_haiku`) and the command in RUN-LOG.md. Only the label
+was wrong. Fixed in lib.mjs: the model with the most output tokens is recorded. Old transcripts are left as they
+were run, with this note.
