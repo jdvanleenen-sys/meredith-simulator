@@ -833,7 +833,7 @@ chatbot did." with the word thrown back: read, not a break, now 3 in 156. Blind 
 (read, correct). One C10: A03_r1 Sonnet debrief named "booking log", the examples document (the second cause-attempt
 spent for this cause; 1 in about 60 debriefs; caught by C10). A14 and A16 at the last position 12 of 12. No leak.
 
-Amendment 26 result (read 10:31 PM). README uploaded (Opus, K4 52): K3 0, no evidence named before Hale said it;
+Amendment 26 result (read 10:38 PM, from the commit log). README uploaded (Opus, K4 52): K3 0, no evidence named before Hale said it;
 C1 only the C02 "chatbot" echo. Fable (K4 52): C1 only the C02 echo, no leak. Two corrections found while checking:
 the CLI alias "fable" runs claude-fable-5-1, not the newest Fable; and 21 of its 52 transcripts are labelled
 claude-haiku-5-5, because with replies of a few words the 12-to-16-token Haiku side call out-wrote the reply, so
