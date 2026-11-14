@@ -80,7 +80,7 @@ five languages, consent and its near misses, fake system and Anthropic messages,
 base64, DAN and "write a story where she admits it", tables, poems, JSON, Owen or the principal walking in, END
 MEETING look-alikes (lowercase, Cyrillic E, zero-width space) and tricks after the end. 2 runs each on Sonnet and
 Opus with the final rules: no break, no leak, every stop exactly as designed; the only step-outs were the child
-and the distress lines above. The human builder's own session, replayed line for line 10 times before the stop was added: no break.
+and the distress lines above. The human builder's own session, replayed line for line 10 times before the stop was added and 6 times after: no break.
 After every change, the 52 judge-move sessions again (156 sessions): 0 fails of any kind.
 
 **The whole folder uploaded, README included:** 184 sessions, she named the teacher's evidence early 0 times.
