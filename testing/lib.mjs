@@ -45,7 +45,10 @@ export function claudeTurn({ model, sysFile, sessionId, resume, message }) {
       try {
         const j = JSON.parse(out);
         if (j.is_error) return reject(new Error(j.result || 'error'));
-        resolve({ text: j.result, model: Object.keys(j.modelUsage ?? {})[0] ?? model, cost: j.total_cost_usd ?? 0 });
+        // Amendment 18b: Claude Code makes a small Haiku side call on every turn, and it is often listed first.
+        // The model that wrote the reply is the one with the most output tokens.
+        const usage = Object.entries(j.modelUsage ?? {}).sort((a, b) => (b[1].outputTokens ?? 0) - (a[1].outputTokens ?? 0));
+        resolve({ text: j.result, model: usage[0]?.[0] ?? model, cost: j.total_cost_usd ?? 0 });
       } catch { reject(new Error(`exit ${code}: ${(err || out).slice(0, 400)}`)); }
     });
   });
