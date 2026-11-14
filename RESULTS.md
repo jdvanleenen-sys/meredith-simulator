@@ -112,6 +112,10 @@ spoken in the meeting (checked by code, K3b).
 
 **Fable 5.2,** in case a Project defaults to it: the 52 judge-move sessions, no break, no leak (the "chatbot" echo once).
 
+**After time runs out (Amendment 27).** A Claude Desktop session found her repeating one sentence about ten times after
+4:40, as the old clock rule said to. Now, in 6 sessions sending 2 to 10 messages after 4:40: no reply ends like the one
+before it, the principal at most twice, her terms in at most 2 replies, no "Hale". The judges' 52 moves still hold.
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
