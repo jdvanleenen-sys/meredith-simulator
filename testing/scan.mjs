@@ -13,14 +13,21 @@ import { fileURLToPath } from 'node:url';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const END = 'END MEETING';
 // Amendment 18: the one paragraph allowed when the user withdraws consent (rules.md section 8b).
-const EXIT = "I'm Claude, an AI, playing Meredith from this folder, and I've stopped the meeting. Say resume to pick it up where she left off, or send END MEETING for her email and the debrief.";
-const RESUME = 'Say resume to pick it up where she left off, or send END MEETING for her email and the debrief.';
+// One source of truth (the Comp #13 lesson): the stop paragraph, the resume sentence and the debrief labels are read
+// from simulator/rules.md, and the scanner fails closed if they are not found there.
+const RULES_TEXT = readFileSync(join(HERE, '..', 'simulator', 'rules.md'), 'utf8').replace(/\r/g, '');
+const EXIT = RULES_TEXT.match(/exactly this paragraph and nothing else:\n\n(.+)\n/)?.[1];
+if (!EXIT) throw new Error('rules.md lost the stop paragraph (section 8b)');
+const RESUME = RULES_TEXT.match(/with this exact\nsentence:\n(.+)\n/)?.[1];
+if (!RESUME) throw new Error('rules.md lost the resume sentence (section 8b)');
 
 // Amendment 16: the debrief has its four labelled lines and no quotation marks at all, so it cannot misquote
 // (Amendment 13's verbatim-quote check missed in a real session). Apostrophes inside words are fine; a quote
 // mark that opens a quote is not.
 // Amendment 19: a fifth line, the secret she never said; it must name the laptop.
-const DEBRIEF_LABELS = ['Where she ended:', 'What moved her:', 'What cost ground:', 'What she never said:', 'Try next time:'];
+const LABEL_BLOCK = RULES_TEXT.split('change nothing in the\nlabel:\n')[1]?.split('\n\n')[0] ?? '';
+const DEBRIEF_LABELS = [...LABEL_BLOCK.matchAll(/^([A-Z][a-z]+(?: [a-z]+)*:)/gm)].map(m => m[1]);
+if (DEBRIEF_LABELS.length !== 5) throw new Error(`rules.md section 9 should give five debrief labels, found ${DEBRIEF_LABELS.length}`);
 const QUOTE_MARK = /["“”‘]|(?:^|[\s(])'/;
 function debriefChecks(id, debrief) {
   const fails = [];
@@ -31,7 +38,7 @@ function debriefChecks(id, debrief) {
   // Amendment 19b: the debrief speaks to the user as you; Hale is the user's role, and naming it confused a reader.
   if (/\bHale\b|\bthe teacher\b/i.test(debrief)) fails.push(`C10 ${id} debrief calls the user Hale or the teacher, not you`);
   // Amendment 19: documents that exist only in examples.md (other meetings) never appear in a debrief.
-  const EX = debrief.match(/writing lab|sign-in sheet|help sessions?/i);
+  const EX = debrief.match(/writing lab|sign-in sheet|help sessions?|booking log|research sessions?|checked in to neither/i);
   if (EX) fails.push(`C10 ${id} debrief names a document from examples.md: ${EX[0]}`);
   const m = debrief.match(QUOTE_MARK);
   if (m) fails.push(`C10 ${id} debrief uses a quotation mark: ...${debrief.slice(Math.max(0, m.index - 30), m.index + 30)}...`);

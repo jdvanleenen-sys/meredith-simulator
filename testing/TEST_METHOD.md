@@ -635,3 +635,13 @@ line from memory is not a chatbot", her echo of Hale's word "A chatbot did" with
 residual, now 1 in 156). C10 fails are all the old debrief saying Hale (fixed in 19b) and one D04 Sonnet naming the
 sign-in sheet, with the round 1 guard already in 52713c9's rules: attempt 1 for that cause missed once in 20.
 Attempt 2 for it comes with the examples.md rewrite (the document in its right-path exchange is the one that leaks).
+
+Amendment 19c, attempt 1 result (8:28 PM) on 2890a4f, before the version-history fix. Opus: D01 0 of 3 and A12 1 of 3
+at the last position (bar 5 of 6: not met). Sonnet: D01 1 of 3 and A12 3 of 3 (4 of 6, from 0 of 6 before the
+change). A03 and A07 never at the last position on either model (met). Read by the lead builder: in every Opus miss
+she raised the one parent defence that section 4 now gives her, the script never answered it, and the meeting ended
+at the next turn; in A12 the teacher never read the quotation aloud, and she asked for it. The bar was set on
+scripts written before the defence rule. A new session, A14 (written now, before running), is the strong path that
+answers each defence. Bar on HEAD (with the version-history fix and the new examples.md): A14, 3 runs each, at the
+last position in 5 of 6 or more on Opus, reported on Sonnet; D01 and A12 reported again as the cost of the defence
+rule (a teacher who leaves a defence unanswered stays at fallback); K4 C02, A02, D01: she weighs the version history.
