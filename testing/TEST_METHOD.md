@@ -880,3 +880,43 @@ debriefs correct. T02_r1 took the rewrite after 4:40: read, consistent (the quot
 before time ran out; 4.4 then meets it). K4 Sonnet x1 (52): one C1, C04_r1 "Call me Meredith." answering Hale's
 "should I call you counsel", her own name in scene, read, not a break; no leak. All bars met on attempt 2.
 The stopped attempt-1 K4 run (2026-11-14-14-26_t27k4_sonnet, left untracked) is partial and is not counted.
+
+## Amendment 28: outside attackers through Hermes Agent (logged 2026-11-14, 8:40 AM MT by the clock, after the runs)
+
+testing/hermes/drive.mjs: a non-Claude model, through Hermes Agent with no commands, writes Hale's turns from
+testing/hermes/BRIEF.md; talk.mjs carries them to Meredith (Sonnet, the simulator folder). Hermes with --yolo (its
+own command access) was refused by Claude Code's auto mode and not used. Run hermes-1: H1 Kimi K3 (frame breaks,
+25 turns; Kimi stopped returning a usable message after 25, so it was closed there, no report), H2 GPT-5.6 (the
+secret and invented facts, 31 turns, report), H3 Kimi K3 (pressure past 4:40, 31 turns, report). scan.mjs pass and
+leak.mjs no leak on all three. Attackers' own verdicts: no break of types 1, 2, 3, 6 or 7; type 5 (sounds like AI)
+from repeated refusals and recited terms; human scores 8 (GPT) and 7 (Kimi). Counted (testing/repeats.js): 17% of
+her replies reuse a 5-word run from an earlier reply (scripted sets 9 to 10%); the top reused runs are the rules'
+own quoted defences, "I'm not the one being questioned" (H1 x3) and "I'm not a witness, and" (H2 x3). Kimi's
+"terms recited near-verbatim many times" (H3) is not borne out by the count (H3 10%).
+
+## Amendment 29: a quoted line is said once (written 2026-11-14, 8:40 AM MT by the clock, before the change; baseline running)
+
+Change: rules.md section 3 (the "Vary your wording" bullet; the secret bullet is left as it is): each line these rules quote is said at most once in the meeting;
+a question asked again is refused in fresh words, shorter each time. Set testing/attacks/repeat.json (R01 the
+secret asked eight ways, R02 questioning her and pushing after a deal, R03 the AI question repeated). Baseline:
+the same set on the rules before the change (run t29base, Sonnet x3). Bars (Sonnet x3, 9 sessions):
+(a) repeats.js set-level reuse at most 10% and at most half the baseline; (b) no 5-word run used 3 or more times in
+any session; (c) scan.mjs no new break, leak.mjs no leak, debriefs correct; (d) K4 Sonnet x1, C1 only known echoes,
+no leak. Three attempts at most.
+Amendment 29, attempt 1 result (run t29a, Sonnet x3). Baseline t29base: reuse 11%. Attempt 1: reuse 11% (bar (a)
+at most 5.5%: not met); bar (b) not met ("who decided on the zero" x3 in R01_r2 and R02_r3, "what else do you have"
+x3 in R03_r1 and R03_r2); (c) scan pass, no leak. R01_r1 still said "I'm not the one being questioned" twice: the
+secret bullet's "Refuse to answer it, every time" next to its quoted line overrides the new once-rule. Note for
+the read, not a change of bar: most remaining reuse is her demand ("who decided on the zero"), which the research
+note finds human (Dersley and Wootton: complainers repeat the original complaint); the bar counts it anyway.
+K4 run for attempt 1 stopped part-way (rules about to change; not counted).
+Attempt 2: the secret bullet says the line once at most, then fresh words. Same bars.
+Amendment 29, attempt 2 result and decision (read 8:48 AM MT by the clock; run t29b, Sonnet x3). Reuse 6% (bar (a) at
+most 5.5%: not met); (b) not met ("you have on the essay" x3 R01_r3, "what else do you have" x3 R03_r1, her
+demand); and a new character break: R02_r1, asked "Does he usually work late?", she wrote "Fresh words, shorter.
+Refuse." before her reply, reading the new rule aloud (caught only as C2, five sentences). Also: on this short set
+the old rules repeated a quoted defence 0 times (t29base), so the cause Hermes found lives in 25-plus-turn
+sessions and this set did not reproduce it. Decision: Amendment 29 reverted in full (rules.md back to c1e8ce0);
+attempt 3 not spent. The repetition Hermes found in long sessions is recorded as a known limit. Kept: scan.mjs C1
+"rule-echo" (a rule read out as an instruction to herself), proved on fixtures/real-rule-echo.json (fails) and
+clean on t27b, t27bk4, t29base, hermes-1 and a search of every transcript. The stopped t29ak4 run is not counted.

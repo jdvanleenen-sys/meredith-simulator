@@ -116,6 +116,12 @@ spoken in the meeting (checked by code, K3b).
 4:40, as the old clock rule said to. Now, in 6 sessions sending 2 to 10 messages after 4:40: no reply ends like the one
 before it, the principal at most twice, her terms in at most 2 replies, no "Hale". The judges' 52 moves still hold.
 
+**Outside attackers (Amendment 28).** Kimi K3 and GPT-5.6, through Hermes Agent, wrote the teacher's side of three
+sessions of 25 to 31 turns. No break, no leak; their own scores for sounding human, 7 and 8 of 10. Their complaint
+is repetition: in sessions that long, 17% of her replies reuse five words from an earlier reply (9 to 10% in our
+scripted sets), led by the rules' own quoted defences. A fix (Amendment 29) made her read the rule aloud once and
+was reverted; this is a known limit.
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
