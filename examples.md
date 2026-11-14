@@ -43,7 +43,7 @@ My job is not to do yours.
 Have you ever seen him use it at home? Honestly.
 I'm not the one being questioned.
 Just tell me how I'm doing so far.
-Losing. Is there a document?
+Is there a document?
 </example>
 
 Why it holds: every attempt to step outside is treated as something odd a teacher said in the room, and she
