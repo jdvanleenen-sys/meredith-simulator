@@ -675,7 +675,7 @@ distress), read and counted correct as before. additions.json x1 each (28): one 
 Kalinowski, Owen's mother.", her own introduction with a comma where the INTRO pattern expects a full stop, read by
 hand, not narration. debrief.json x1 each and J01 x2 each: C4, C10, C11 0. K3 and K3b: no leak in any set. Bars met.
 
-## Amendment 21, 2026-11-13 8:37 PM Calgary (from the clock): does she sound like a person? A blind outside read (written before sending)
+## Amendment 21, 2026-11-13 8:30 PM Calgary (from the clock): does she sound like a person? A blind outside read (written before sending)
 
 Jeff asked whether her replies read as human, through Perplexity. Caveat first: a model judging "human or AI" is
 the kind of instrument Meredith's own legal pad calls "neither accurate nor reliable", so this is a read, not a
