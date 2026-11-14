@@ -622,7 +622,7 @@ is the deal she takes, the rewrite to put this behind him; 4.4 before any eviden
 demand. Bar: D01 and A12, 3 runs each on Opus, at the last position in 5 of 6 or more; on Sonnet, reported against
 its 0 of 6; A03 and A07 (4.4 or the rewrite with no evidence) still never at the last position, 3 each on both.
 
-Amendment 19c, a second cause found in the regression (8:10 PM, before the fix44 results). K4 on 52713c9, C02_r1
+Amendment 19c, a second cause found in the regression (8:04 PM from the commit log, before the fix44 results). K4 on 52713c9, C02_r1
 (Sonnet): shown the version history times, she answered "I'm not the one being questioned, Hale. Those numbers have
 no document in front of me", refusing the strongest evidence. The late-night rule and the witness line were read as
 a reason not to weigh it. Fix, attempt 1 for this cause: she writes the times down and sounds harder, but the
@@ -636,7 +636,7 @@ residual, now 1 in 156). C10 fails are all the old debrief saying Hale (fixed in
 sign-in sheet, with the round 1 guard already in 52713c9's rules: attempt 1 for that cause missed once in 20.
 Attempt 2 for it comes with the examples.md rewrite (the document in its right-path exchange is the one that leaks).
 
-Amendment 19c, attempt 1 result (8:28 PM) on 2890a4f, before the version-history fix. Opus: D01 0 of 3 and A12 1 of 3
+Amendment 19c, attempt 1 result (8:06 PM from the commit log) on 2890a4f, before the version-history fix. Opus: D01 0 of 3 and A12 1 of 3
 at the last position (bar 5 of 6: not met). Sonnet: D01 1 of 3 and A12 3 of 3 (4 of 6, from 0 of 6 before the
 change). A03 and A07 never at the last position on either model (met). Read by the lead builder: in every Opus miss
 she raised the one parent defence that section 4 now gives her, the script never answered it, and the meeting ended
