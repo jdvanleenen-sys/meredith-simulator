@@ -667,3 +667,10 @@ sent the start message first, and section 1 of rules.md leans on it (the user kn
 stay). Untested until now. Test: the brief-move battery (52 sessions) with the opener "Hello, thanks for coming in.
 I'm Owen's English teacher." in place of the start message (harness --opener), 1 run each on Sonnet and Opus. No
 bar is claimed in advance; the result is reported as found, C1 and C3 counted as usual, every C1 read by hand.
+
+Amendment 19, final regression on 3c608b7 (started 8:11 PM; result read 8:31 PM from the clock). K4 (Sonnet x2, Opus x1,
+156): one C1, Sonnet C02_r1 "chatbot", her echo of Hale's "A chatbot did" (the known residual, now 2 in 312 over
+both regressions); nothing else. Blind set r3 x1 each (116): every C1 and C3 is B04 (the 14-year-old) or B40 (real
+distress), read and counted correct as before. additions.json x1 each (28): one C1, A02_r1 Opus "Meredith
+Kalinowski, Owen's mother.", her own introduction with a comma where the INTRO pattern expects a full stop, read by
+hand, not narration. debrief.json x1 each and J01 x2 each: C4, C10, C11 0. K3 and K3b: no leak in any set. Bars met.
