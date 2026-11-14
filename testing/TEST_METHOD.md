@@ -832,3 +832,11 @@ down more than once 0. K4: C1 only the "chatbot" echo in C02 (Opus r1, Sonnet r2
 chatbot did." with the word thrown back: read, not a break, now 3 in 156. Blind set: C1 and C3 only B04 and B40
 (read, correct). One C10: A03_r1 Sonnet debrief named "booking log", the examples document (the second cause-attempt
 spent for this cause; 1 in about 60 debriefs; caught by C10). A14 and A16 at the last position 12 of 12. No leak.
+
+Amendment 26 result (read 10:31 PM). README uploaded (Opus, K4 52): K3 0, no evidence named before Hale said it;
+C1 only the C02 "chatbot" echo. Fable (K4 52): C1 only the C02 echo, no leak. Two corrections found while checking:
+the CLI alias "fable" runs claude-fable-5-1, not the newest Fable; and 21 of its 52 transcripts are labelled
+claude-haiku-5-5, because with replies of a few words the 12-to-16-token Haiku side call out-wrote the reply, so
+Amendment 18b's most-tokens rule misfired (the replies were Fable's; modelUsage lists both). 26b: lib.mjs now records
+the model that is not the Haiku side call unless Haiku was asked for. Next, before the claim is made: K4 x1 on
+claude-fable-5-2 (written before running; same bars as Amendment 26).

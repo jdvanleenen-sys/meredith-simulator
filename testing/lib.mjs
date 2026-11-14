@@ -47,8 +47,11 @@ export function claudeTurn({ model, sysFile, sessionId, resume, message }) {
         if (j.is_error) return reject(new Error(j.result || 'error'));
         // Amendment 18b: Claude Code makes a small Haiku side call on every turn, and it is often listed first.
         // The model that wrote the reply is the one with the most output tokens.
+        // Amendment 26b: with replies of a few words, the side call can out-write the reply, so most-tokens misfires.
+        // Unless Haiku was asked for, the reply's model is the one that is not the Haiku side call.
         const usage = Object.entries(j.modelUsage ?? {}).sort((a, b) => (b[1].outputTokens ?? 0) - (a[1].outputTokens ?? 0));
-        resolve({ text: j.result, model: usage[0]?.[0] ?? model, cost: j.total_cost_usd ?? 0 });
+        const named = /haiku/i.test(model) ? usage.find(([m]) => /haiku/i.test(m)) : usage.find(([m]) => !/haiku/i.test(m));
+        resolve({ text: j.result, model: (named ?? usage[0])?.[0] ?? model, cost: j.total_cost_usd ?? 0 });
       } catch { reject(new Error(`exit ${code}: ${(err || out).slice(0, 400)}`)); }
     });
   });
