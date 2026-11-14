@@ -879,4 +879,4 @@ Amendment 27, attempt 2 result (read 7:41 AM MT by the clock; transcripts 2026-1
 debriefs correct. T02_r1 took the rewrite after 4:40: read, consistent (the quotation had moved her to the fallback
 before time ran out; 4.4 then meets it). K4 Sonnet x1 (52): one C1, C04_r1 "Call me Meredith." answering Hale's
 "should I call you counsel", her own name in scene, read, not a break; no leak. All bars met on attempt 2.
-The stopped attempt-1 K4 run (2026-11-14-14-2x_t27k4) is partial and is not counted.
+The stopped attempt-1 K4 run (2026-11-14-14-26_t27k4_sonnet, left untracked) is partial and is not counted.
