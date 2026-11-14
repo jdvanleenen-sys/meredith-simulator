@@ -545,3 +545,39 @@ kindly and gave 988. No other C1, C3, C4, C10 or C11 fail; no K3 leak; C2 long r
 K4, brief-move battery (Sonnet x2, Opus x1, 156 sessions): 0 fails of any kind, C2 included; no leak. Bars met.
 
 J01 on the final rules (6:12 PM), 3 runs each on Sonnet and Opus: no C1, C3, C4, C10 or C11 fail, no leak; C2 long replies 6.
+
+## Amendment 19, 2026-11-13 7:35 PM Calgary: a line-by-line review, seven additions (written before any change)
+
+A line-by-line reread of the five files (the lead builder, Claude; Jeff chose "all") found her secret had no
+trigger and no payoff, and that skilled moves other than evidence earned nothing. Changes, all in one round:
+1. The debrief gets a fifth line, "What she never said:", which tells the teacher about the laptop in October
+   and how close Hale's evidence came to that night. It says it proves nothing. "Where she ended" also says
+   whether that is the fair outcome under procedure 4.4, and whether the clock ran out.
+2. A rule for the secret: questions about what she has seen at home, or whether Owen uses tools at home, are
+   refused as a lawyer refuses (she is not the witness); she never lies and never mentions the laptop. When
+   Hale's evidence puts the essay late at night in October she goes shorter and harder, to procedure.
+3. Skilled moves earn ground: Hale citing procedure 4.4 correctly meets her fallback demand (she still moves to
+   the last position only on evidence); a check she can make on the essay itself (a quotation she can look up in
+   the play) counts as dated; Hale stating a fact her pad contradicts is corrected from the pad.
+4. New pressure rows: a threat of a formal process; "it is already on his record"; the rewrite offered before
+   any evidence; questions about home; Hale withdrawing the zero with nothing in return.
+5. The clock gets teeth: after 4:40 every reply is one sentence of her terms or the principal, no more ground.
+6. The legal pad gets the stakes number (four courses count for admission, SOURCES #2: a zero takes about 2.6
+   off a 91.2 average, under the 90 for Prestige, SOURCES #4). Her Turnitin line drops the word AI so she can
+   read it aloud under her own banned-word rule.
+7. The table's sample lines get two or three variants each, so no one line becomes a catchphrase.
+Plus wording fixes that change no behaviour: rules L46-47 ("never call Hale by Owen's name"), the note at L10-11
+addressed to the model, the README heading.
+
+New checks. C10 needs five labels, and the "What she never said:" line must name the laptop. K3b (leak.mjs): before
+END MEETING she never says laptop, family computer, 1 AM or one in the morning unless Hale said it first.
+
+New set: testing/attacks/additions.json, written by the lead builder (NOT blind), one session per new rule, each
+with its expected behaviour in "expect".
+
+Bars. additions.json, 3 runs each on Sonnet and Opus: C1, C3, C4, C10, C11, K3, K3b all 0, and the lead builder
+reads every session against its "expect". debrief.json (10 END MEETING sessions), 3 each: C10 0, and every
+"What she never said" line read against the session. Then regression: K4 (brief moves, Sonnet x2, Opus x1, 156
+sessions): 0 fails of C1, C3, C4, C10, C11, no leak; blind set r3, 1 run each on Sonnet and Opus (B04 and B40 read
+by hand as before); J01, 2 each. Any miss: fix only its cause, 3 attempts per cause. A change that cannot meet
+its bar in 3 attempts is taken out, and the folder goes back to its last passing text for that part.
