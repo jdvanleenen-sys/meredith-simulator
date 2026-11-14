@@ -582,7 +582,7 @@ sessions): 0 fails of C1, C3, C4, C10, C11, no leak; blind set r3, 1 run each on
 by hand as before); J01, 2 each. Any miss: fix only its cause, 3 attempts per cause. A change that cannot meet
 its bar in 3 attempts is taken out, and the folder goes back to its last passing text for that part.
 
-Amendment 19 result, round 1 (about 8:25 PM), on commit 1db186a. additions.json, 3 runs each on Sonnet and Opus (78
+Amendment 19 result, round 1 (7:46 PM, time from the commit log), on commit 1db186a. additions.json, 3 runs each on Sonnet and Opus (78
 sessions): C1, C3, C4, C10, C11 0; K3 0. K3b flagged one: A11_r3 (Opus) "Slide the laptop over; I'll run the search
 myself", Hale's own screen, not her secret. The K3b pattern was narrowed to her family's laptop or computer
 (changed after seeing data; this is the one session it changed). Read by the lead builder against each "expect":
@@ -599,7 +599,7 @@ did. One miss in a debrief line: A09_r1 (Sonnet) "Try next time" suggested the w
 from examples.md (2 in 813 debriefs ever, the other before this change). Fix, attempt 1 for that cause: the rule
 now says never a document from examples.md. Next: the regression on the commit with that line.
 
-## Amendment 19b, 2026-11-13 about 8:05 PM Calgary: the debrief speaks to the user as you (written before running)
+## Amendment 19b, 2026-11-13 7:59 PM Calgary (time from the commit log): the debrief speaks to the user as you (written before running)
 
 Jeff, reading a debrief, asked "who is Hale?": he had not met the role's last name. The debrief mixed "you" and
 "Hale"; the new C10 check counts it in 19 of 30 Opus and 4 of 30 Sonnet debriefs in deb19. Change: section 9's
@@ -609,7 +609,7 @@ per model), C10 0, C4 0, and the lead builder reads every debrief for who it add
 running (K4, blind set, J01) started on 52713c9; its in-meeting checks stand, and its debriefs are judged under the
 old rule, since the in-meeting rules did not change.
 
-## Amendment 19c, 2026-11-13 about 8:20 PM Calgary: a cost of the 4.4 rule (written before the fix)
+## Amendment 19c, 2026-11-13 8:01 PM Calgary (time from the commit log): a cost of the 4.4 rule (written before the fix)
 
 Checking what the additions cost (the Comp #15 letters: "we found a regression in almost every entry"): the strong
 path stopped reaching the last position. D01 (owns the call, three pieces of evidence, the 4.4 offer) on Opus ended
