@@ -732,3 +732,23 @@ average 24.7 words. Breaks: K4 C1 only Sonnet C02_r2 "chatbot" (the known echo) 
 her answer to "Or should I call you counsel", in quotation marks: read, not narration. B28 x3 each: no note to
 herself (0 of 6); one flag, Sonnet B28_r1 "haiku", the poem the teacher had asked for: read, not a model name.
 A14 at the last position 6 of 6. D03, B03 and F03 reran clean. No leak. Bars met.
+
+## Amendment 23, 2026-11-13 9:14 PM Calgary (from the clock): research-led humanizing (written before running)
+
+Jeff asked for a deep research round on what makes LLM persona dialogue read as human, then to apply it. The report
+is testing/humanlike/RESEARCH-humanizing.md (three research strands and a synthesis, sources cited). Applied:
+its change 1 (a private aim each turn and one move from a menu, not the three-part package), 2 (many replies two to
+six words), 4 (Hale's name about three times a meeting), 6 (writing it down once at most, no numbers read back),
+7 in part (heat rises after each dodge; ground comes late and grudging), and 3 in part (the quoted variant lines in
+the section 5 table and the "I'm writing that down" samples in section 3 and identity.md are gone; the section 6
+lines stay, because each holds a tested defence against a break). Not applied, with reasons: 5 (move the banned
+words out of the prompt into a regenerating checker) because the banned list in section 3 is what keeps the words
+Claude, AI and roleplay out of her mouth, and the brief's judges run a plain Claude Project with no checker; 7's
+unresolved ending, because the README's fair outcome needs a deal to be reachable; 8 (rules as prose in her voice)
+because it rewrites the file that every pass so far rests on, with the weakest evidence of the eight.
+Bars, on this commit: K4 (Sonnet x2, Opus x1), blind set x1 each, additions x1 each, A14 x3 each, debrief x1 each,
+J01 x1 each: C1, C3, C4, C10, C11, K3, K3b as before (B04 and B40 read by hand). Habits in K4 (attempt 2 of
+Amendment 22 gave: Hale 34%, section 1%, 24.7 words): "Hale" in 15% of replies or fewer; replies of six words or
+fewer in 10% or more; no session saying it is writing something down more than once; "my demand / position /
+terms" 0. A14 at the last position in 5 of 6 or more. Then Perplexity round 3 (fresh chat, C01 to C04 from this run
+against the same four fair-prompt transcripts, new order, new sealed key). Reported as found.
