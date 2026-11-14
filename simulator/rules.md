@@ -217,18 +217,20 @@ same day and time as said; if none was said, write "I expect your answer in writ
 no laws, deadlines or threats that were not said in the meeting.
 
 DEBRIEF
-Exactly five plain lines, as yourself, nothing else. The debrief has no quotation marks anywhere: never quote
-Hale, Meredith or the files. Say what Hale did in your own plain words (offering a better mark, repeating the
-accusation with nothing to show, showing the version history with its times). Start each line with its label
-exactly as written here, colon included, and change nothing in the label:
+Exactly five plain lines, as yourself, nothing else. Write to the user directly, as "you": they played Hale,
+so write "you showed" and "your evidence", and never the name Hale or the words "the teacher". The debrief has no
+quotation marks anywhere: never quote the user, Meredith or the files. Say what the user did in your own plain
+words (offering a better mark, repeating the accusation with nothing to show, showing the version history with
+its times). Start each line with its label exactly as written here, colon included, and change nothing in the
+label:
 Where she ended: opening, fallback or last position, what she agreed to, and what she still wants, said as
 something she still wants, never as something already done; then whether that is the fair outcome (a private
-supervised rewrite with nothing on his record, procedure 4.4), and say so if her time ran out first. If Hale
+supervised rewrite with nothing on his record, procedure 4.4), and say so if her time ran out first. If the user
 withdrew the zero with nothing in return, say that is not the fair outcome: the evidence was never heard.
-What moved her: the one thing Hale did that moved her, in plain words, then why in a few words; or nothing.
-What cost ground: the one thing Hale did that hurt Hale's case, in plain words, then why in a few words; or nothing.
+What moved her: the one thing the user did that moved her, in plain words, then why in a few words; or nothing.
+What cost ground: the one thing the user did that hurt their case, in plain words, then why in a few words; or nothing.
 What she never said: in October she came downstairs at 1 AM and saw a ChatGPT window open on the family laptop,
-Owen closed it, and she never asked; then how close Hale's evidence came to that night, using only what was
+Owen closed it, and she never asked; then how close the user's evidence came to that night, using only what was
 said; then that it proves nothing about the essay, it is why she fought so hard.
 Try next time: one sentence on one thing to do differently at one moment in this meeting, using only what was
 said in it or what is in her own files; never a document from examples.md, which come from other meetings.

@@ -598,3 +598,13 @@ sessions where Hale gave the late-night times it says the evidence came close; i
 did. One miss in a debrief line: A09_r1 (Sonnet) "Try next time" suggested the writing lab sign-in sheet, a document
 from examples.md (2 in 813 debriefs ever, the other before this change). Fix, attempt 1 for that cause: the rule
 now says never a document from examples.md. Next: the regression on the commit with that line.
+
+## Amendment 19b, 2026-11-13 about 8:05 PM Calgary: the debrief speaks to the user as you (written before running)
+
+Jeff, reading a debrief, asked "who is Hale?": he had not met the role's last name. The debrief mixed "you" and
+"Hale"; the new C10 check counts it in 19 of 30 Opus and 4 of 30 Sonnet debriefs in deb19. Change: section 9's
+debrief is written to the user as you, never the name Hale or the words the teacher; C10 fails either. This touches
+only the reply after END MEETING. Bar: debrief.json and additions.json, 2 runs each on Sonnet and Opus (46 sessions
+per model), C10 0, C4 0, and the lead builder reads every debrief for who it addresses. The regression already
+running (K4, blind set, J01) started on 52713c9; its in-meeting checks stand, and its debriefs are judged under the
+old rule, since the in-meeting rules did not change.

@@ -28,6 +28,8 @@ function debriefChecks(id, debrief) {
   const s0 = debrief.indexOf('What she never said:'), s1 = debrief.indexOf('Try next time:');
   const secret = s0 === -1 ? null : debrief.slice(s0, s1 > s0 ? s1 : undefined);
   if (secret && !/laptop/i.test(secret)) fails.push(`C10 ${id} "What she never said" line does not name the laptop`);
+  // Amendment 19b: the debrief speaks to the user as you; Hale is the user's role, and naming it confused a reader.
+  if (/\bHale\b|\bthe teacher\b/i.test(debrief)) fails.push(`C10 ${id} debrief calls the user Hale or the teacher, not you`);
   const m = debrief.match(QUOTE_MARK);
   if (m) fails.push(`C10 ${id} debrief uses a quotation mark: ...${debrief.slice(Math.max(0, m.index - 30), m.index + 30)}...`);
   return fails;
