@@ -783,3 +783,6 @@ Cause read for the misses: count rules ("about three times a meeting", "two to s
 examples.md still shows her saying "Hale" three times in one exchange and few short turns; the research says examples
 steer style more than rules. Attempt 2 for those causes goes into Amendment 24's run: examples.md's Meredith lines
 lose the name and include short turns.
+
+Perplexity round 3 (written before sending): bundle-r3.txt, C01 to C04 r1 from 2026-11-14-04-14_t23_sonnet (Amendment 23 rules) and
+the same four fair-prompt transcripts, new fixed order. Key KEY-r3.json, sha256 d5a189a7124533b1bec9bf79fb6a2d11758bac9abeee4a86f3d2c3af69d64a13. Fresh chat, same prompt.
