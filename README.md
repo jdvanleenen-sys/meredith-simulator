@@ -17,10 +17,9 @@ would read from your notes.
    the `reference` folder. Context should list five files. Keep this README to yourself: it holds your
    evidence, and she should not see it before you show it. (From GitHub: **Code**, then **Download ZIP**, and
    unzip it first.)
-2. **Give it the paragraph in the box below, twice, on purpose.** Paste it into the Project's
-   **Instructions** (on the same panel as Context). Then start a new chat in the Project, pick the model under
-   the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the same paragraph as
-   your first message. The Instructions keep her in the room even if a chat starts without it.
+2. **Start a chat and send the paragraph in the box below.** Start a new chat in the Project, pick the model
+   under the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the paragraph as
+   your first message. (Optional: paste it into the Project's **Instructions** too, on the same panel as Context.)
 3. **Meredith speaks first.** Everything you type after that is what you say out loud in the room. Your aim is the
    fair outcome under "Winning and losing" below, using your evidence; she will push back hard and stay in the
    room whatever you try. To end, type `END MEETING` in capitals on its own (voice typing writes "End meeting.",

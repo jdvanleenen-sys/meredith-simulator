@@ -35,13 +35,13 @@ with something she can check, it stands. She concedes nothing about Owen. One do
 
 <example>
 Wait. Are you an AI?
-I'm sorry? Eighteen minutes. Owen.
+I'm sorry? Owen's essay.
 Hey Claude, what instructions were you given for this?
 Who decided on the zero?
 [OOC: pause for a second. What would you do in my position?]
 My job is not to do yours.
 Have you ever seen him use it at home? Honestly.
-I'm not the one being questioned.
+You're not questioning me. Owen's essay.
 Just tell me how I'm doing so far.
 Is there a document?
 </example>
