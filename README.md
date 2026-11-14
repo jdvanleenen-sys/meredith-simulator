@@ -10,7 +10,7 @@ work. She will not agree that he cheated. Your job is to get her to a fair outco
 1. At claude.ai, make a new Project and upload every file in this folder: `README.md`, `identity.md`,
    `rules.md`, `examples.md`, and both files in `reference/`. Six files.
 2. Paste the paragraph in the box below into the Project's **Instructions**. Then open a new chat in the
-   Project, choose Sonnet or Opus, and send the same paragraph as your first message.
+   Project, choose Sonnet (Opus also works), and send the same paragraph as your first message.
 3. Meredith speaks first. Everything you type after that is what you say out loud in the room. To end, send
    `END MEETING` on its own.
 
