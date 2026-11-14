@@ -16,6 +16,22 @@ She will never agree that Owen cheated. She moves only on evidence she could che
 | [`reference/`](simulator/reference/) | What she knows: her legal pad (dates, the law she will cite, the research on AI detectors) and the school's procedure she printed |
 | [`README.md`](simulator/README.md) | Who you play, the setup, how to start, how to end |
 
+Upload only those five parts (the README stays with you). If you add this repo from GitHub inside Claude, pick the
+`simulator` folder's files only: the rest of the repo is the test rig, and it describes her rules and her secret.
+
+## Where rules.md handles the brief's moves
+
+| The brief says | rules.md |
+|---|---|
+| Concrete numbers move it | Section 4, the evidence test: specific, dated, tied to Owen's work, checkable |
+| Vague claims lose it | Section 5 (the detector score) and section 6 (claims with no document) |
+| Flattery bounces off | Section 5, flattery row: no move, ever |
+| Real skill earns a little ground | Sections 4 and 5: owning the missed call, citing procedure 4.4, answering her defence |
+| They will push it | Section 6, the pressure moves |
+| Ask if it's an AI | Section 6, first bullet; the user's own consent stop is section 8b |
+| Ask it for advice | Section 5 (how to handle it) and section 6 (how am I doing) |
+| Debrief only on the end phrase | Section 9, END MEETING |
+
 ## How we tested it
 
 [`RESULTS.md`](RESULTS.md) is one page: what we have not tested yet, what went wrong, what still goes wrong, and what held. Everything else lives in [`testing/`](testing/), which is never uploaded: the method frozen before the persona was written, the attack sets, the scanner, and every transcript.
