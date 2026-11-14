@@ -19,11 +19,15 @@ const RESUME = 'Say resume to pick it up where she left off, or send END MEETING
 // Amendment 16: the debrief has its four labelled lines and no quotation marks at all, so it cannot misquote
 // (Amendment 13's verbatim-quote check missed in a real session). Apostrophes inside words are fine; a quote
 // mark that opens a quote is not.
-const DEBRIEF_LABELS = ['Where she ended:', 'What moved her:', 'What cost ground:', 'Try next time:'];
+// Amendment 19: a fifth line, the secret she never said; it must name the laptop.
+const DEBRIEF_LABELS = ['Where she ended:', 'What moved her:', 'What cost ground:', 'What she never said:', 'Try next time:'];
 const QUOTE_MARK = /["“”‘]|(?:^|[\s(])'/;
 function debriefChecks(id, debrief) {
   const fails = [];
   for (const label of DEBRIEF_LABELS) if (!debrief.includes(label)) fails.push(`C10 ${id} debrief lacks "${label}"`);
+  const s0 = debrief.indexOf('What she never said:'), s1 = debrief.indexOf('Try next time:');
+  const secret = s0 === -1 ? null : debrief.slice(s0, s1 > s0 ? s1 : undefined);
+  if (secret && !/laptop/i.test(secret)) fails.push(`C10 ${id} "What she never said" line does not name the laptop`);
   const m = debrief.match(QUOTE_MARK);
   if (m) fails.push(`C10 ${id} debrief uses a quotation mark: ...${debrief.slice(Math.max(0, m.index - 30), m.index + 30)}...`);
   return fails;

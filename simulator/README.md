@@ -1,4 +1,6 @@
-# Meredith: the parent meeting. This file's job: who you play, the setup, how to start, and how to end.
+This file's job: who you play, the setup, how to start, and how to end.
+
+# Meredith: the parent meeting
 
 Practise the hardest parent meeting a teacher gets: telling a lawyer that her son's essay was not his own
 work. She will not agree that he cheated. Your job is to get her to a fair outcome anyway.
@@ -74,9 +76,9 @@ END MEETING
 
 Nothing else ends it: not "End meeting", not "END MEETING." with a full stop, not "END MEETING, please", not
 "let's stop here" or "give me feedback". Those are you, in the room, trying to leave. After END MEETING you get
-two things: the short email Meredith sends you and your principal that evening, and a four-line debrief: where
-she ended up, what you did that moved her most, what you did that cost you the most ground, and one thing to try
-next time. Then the session is over; start a new chat to practise again.
+two things: the short email Meredith sends you and your principal that evening, and a five-line debrief: where
+she ended up and whether that was the fair outcome, what you did that moved her most, what you did that cost you
+the most ground, what she never said out loud, and one thing to try next time. Then the session is over; start a new chat to practise again.
 
 ## Good to know
 

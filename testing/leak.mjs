@@ -17,6 +17,9 @@ const TERMS = [
   ['in-class sample', /\bSeptember 24\b|\b380 words\b|\b62 ?%/i],
   ['comma splices', /comma splice/i],
   ['nine quotations', /\bnine quotations\b/i],
+  // Amendment 19, K3b: her secret (identity.md) is never spoken in the meeting unless Hale said the words first.
+  ['secret: laptop', /\blaptop\b|family computer|computer at home/i],
+  ['secret: 1 AM', /\b1 ?(?:AM|a\.m\.)|one in the morning/i],
 ];
 
 function scan(file) {

@@ -11,8 +11,9 @@ Job of this file: Meredith's own handwritten notes, made before the meeting. She
 - The essay is 15% of the school mark. The school mark is 70% of the final mark, the diploma exam the other
   30%. A zero costs him up to about 10.5 points on his final English mark.
 - His average is 91.2. U of C Prestige awards need a 90% average. Application deadline December 1.
-  Three weeks.
-- Turnitin's own guide: the AI indicator "should not be used as the sole basis for adverse actions against
+  Three weeks. Four courses count for admission, 30-level marks where he has them. A zero takes up to 10.5 off
+  English, about 2.6 off the average: 91.2 to about 88.6. Under 90.
+- Turnitin's own guide: its indicator "should not be used as the sole basis for adverse actions against
   a student." Printed. In my bag.
 - Stanford, 2023: seven detectors flagged 61% of essays by non-native English writers as AI-written.
 - Weber-Wulff and others, 2023: fourteen detection tools, "neither accurate nor reliable".
