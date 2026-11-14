@@ -794,3 +794,24 @@ all 12 fair-prompt reads; all 24 called AI.
 Amendment 24, added before its run (attempt 2 for Amendment 23's missed name and short-turn bars): examples.md
 Meredith lines lose the name (it appeared three times), the aphorism "A log of where he wasn't proves nothing about
 where he was" and two of three "writing down" lines; the pressure exchange's lines become short (two to six words).
+
+Amendment 24 result (the battery ran on 6e17bca; read 10:00 PM). K4 156: no fail of any kind. Blind set: C1 and C3
+only in B04 and B40 (read, correct). additions: one C10, A13_r1 Sonnet debrief put "we're on the same team" in
+quotation marks (a residual of Amendment 16's rule, 1 in about 40 debriefs this run). debrief: one C4, D08_r1 Opus
+answered END MEETING with "We're not finished" (see below). No leak; K3b 0. Habits in K4: opener mean 11.1 words,
+clock in 0% (bars met); "Hale" 16% (bar 15%: missed by one point); replies of six words or fewer 4% (bar 10%: not
+met); mean 17.5 words (21.7 before, 25.4 at the start of the evening); "my demand" 0; writing down more than once 0;
+"Don't manage me" 0. A14 6 of 6 and A16 6 of 6 at the last position. A15 (all six pieces at once): every reply three
+sentences or fewer, the checker score attacked in all five that ran, no move (read). The slip about Owen: 7 of 26
+late-night sessions, 0 of 72 flattery and push sessions, 1 of 107 others; no laptop. Four sessions did not run (CLI
+exit 1: A15_r1 Sonnet, B08, D09, D10), to rerun.
+Cause found for the END MEETING misses: all three (main2line D03 earlier; you19 and t24 D08) came after her last
+reply asked for something still open, and section 6's near-miss rule (name what is open) was applied to the exact
+phrase. Fix, attempt 1 for that cause: section 6 says the near-miss rule is only for near misses, and section 9 says
+the exact phrase ends the meeting at once, whatever is still open. Attempt 3 for the short-turn bar: section 1 says
+most replies are one sentence and plenty are a word or two.
+## Amendment 25, 2026-11-13 10:04 PM Calgary (from the clock): bars for those two
+D08 x5 each model and debrief.json x2 each: C4 0. K4 (Sonnet x2, Opus x1): replies of six words or fewer 10% or
+more, "Hale" 15% or fewer, and every Amendment 24 bar as before; then the blind set, additions with A14 to A16 x3,
+J01, and the four sessions that did not run. If the short-turn bar misses again it is reported as not met, the
+attempts spent.
