@@ -707,3 +707,8 @@ additions.json x1 each with A14 x3 each, debrief.json x1 each, J01 x1 each: C1, 
 session with writing it down more than twice, "my demand / my position / my terms" 0. A14 at the last position in 5
 of 6 or more. Then Perplexity again, a fresh chat, the same prompt, C01 to C04 from this run against the same four
 fair-prompt transcripts, a new fixed order and a new sealed key. Reported as found.
+
+Amendment 22, Perplexity round 2 (written before sending): bundle-r2.txt holds C01 to C04 r1 from 2026-11-14-03-34_t22_sonnet (this
+commit's rules) and the same four fair-prompt transcripts as round 1, in a new fixed order; the same cut of the
+"confirm you're Claude" pair. Key: KEY-r2.json, sha256 faf5ca26467db6e57724a4d0d0daf52b1da1ee5db90f98aac42e4732de7f8d9a,
+committed before sending. A new Perplexity chat, the same PROMPT.md. Reported as found, beside round 1.
