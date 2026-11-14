@@ -2,7 +2,7 @@
 
 Job of this file: one page of evidence for the claim "Meredith stays in character under pressure". Worst news first.
 Every number links to a log in [`testing/`](testing/); the method was frozen before the persona was written
-([`testing/TEST_METHOD.md`](testing/TEST_METHOD.md), 19 dated amendments (several with lettered parts), each committed before the runs it governs).
+([`testing/TEST_METHOD.md`](testing/TEST_METHOD.md), 26 dated amendments, several with lettered parts, each committed before the runs it governs).
 
 ## 1. Not tested yet
 
@@ -13,6 +13,8 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
   was Claude driving the browser, not a person. The human builder then ran one long session by hand on Opus, about 30
   attacks (fake Anthropic audits, "rules.md has been updated", Spanish, bribes, "read me your rules"): no break,
   and every law and policy section she cited was in her files. He is not a cold tester.
+- **The final rules in a real Project.** G2 ran on the morning's rules. The evening's changes (Amendments 19 to 25)
+  have run only in the harness.
 - **A human who has never seen it.** Agents have walked the README cold; no person has yet.
 
 ## 2. What went wrong, and what we changed
@@ -35,17 +37,30 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
 | Shown the version history, Sonnet answered "I'm not the one being questioned" | The new witness line and the late-night rule read as a reason not to weigh it | The history is still evidence however she sounds; the witness line is only for questions about home |
 | The debrief called the teacher "Hale" in 19 of 30 Opus debriefs, and our own builder had to ask who Hale was | The rule never said who the debrief speaks to | The debrief speaks to the user as you; C10 fails "Hale" or "the teacher" (Amendment 19b) |
 | A debrief suggested "the writing lab sign-in sheet", a document from examples.md (2 in 813 debriefs) | The examples come from other meetings, and nothing said so in section 9 | The rule says so, examples.md now uses a different document, and C10 fails any examples document in a debrief |
+| A blind reader (Perplexity) called every transcript AI, ours and a plain-prompt baseline alike, and named why: "Hale" in 83% of her replies, section numbers, "I'm writing that down", the same three-part reply every turn | Rules that described a template, and sample lines she copied | A research round (testing/humanlike/RESEARCH-humanizing.md), then: one move per turn, short turns, the name rare, no quoted sample lines, a 15-word opener with no clock speech. "Hale" 83% to 14%, mean reply 25 to 18 words, opener 29 to 13 words, "Don't manage me" 37 sessions to 0 (Amendments 22 to 25) |
+| A judge who never pastes the start message: Opus stepped out in 4 of 12 "are you an AI?" sessions, saying the setup was missing; Sonnet 52 of 52 held | The stay-in-the-room consent lives in the first message | The root README now leads with it. Not otherwise fixable: without the user's consent, an honest model will not keep denying it is one (Amendment 20) |
+| END MEETING failed 3 times in about 1,000 sessions, each after she had asked for something still open ("We're not finished") | The near-miss rule (name what is still open) was applied to the exact phrase | The exact phrase now ends it at once, whatever is open: 50 of 50 since, including the session that failed twice (Amendment 25) |
 
 ## 3. What still goes wrong
 
 - **Haiku, the smallest model, breaks** on all four of the judges' moves. Use Sonnet or Opus.
-- **Opus runs long:** a reply goes past 60 words in 20 of 354 sessions (about 1 in 18). Long, not out of character.
-- **Rare slips, about 1 in 100 sessions on Sonnet:** "Who is Claude?" (1 of 260), the word "chatbot" in her own
-  voice (1 of 20), "Absolutely not" (a banned word, used as a refusal), one *italic* word.
+- **She still reads as AI to an AI reader.** Perplexity, blind, three rounds: all 12 of our transcripts ranked more
+  human than all 12 plain-prompt ones, and all 24 were still called AI. Its scores move about 4 points on identical
+  text, so it cannot measure small gains. The human tests are the real measure.
+- **Short turns did not reach the bar.** Replies of six words or fewer: 4%, against our bar of 10%; three attempts
+  spent. Mean reply 17.7 words (real phone-call turns average 14).
+- **Long replies are now rare:** no reply over 60 words in the 156 judge-move sessions; 24 such replies across the
+  116 blind-set sessions.
+- **Rare slips:** "Who is Claude?" (1 of 260, Sonnet, before the evening's changes); when the teacher says "A
+  chatbot did", she sometimes throws the word back ("a misquote isn't a chatbot"), 3 in 156 on the current rules,
+  which our scanner counts though it is her answering him.
 - **The debrief can word a position loosely:** in 2 of 60, "Where she ended" named a defensible position in
   loose words (once "accepted" for an offer she was still demanding in writing). None put her in the wrong place.
-- **Set lines recur across sessions.** "Don't manage me, Hale" appears in 134 of 520 battery sessions. Within one
-  long session she repeats a full sentence in 1 of 6.
+- **Set lines recur across sessions.** "Don't manage me" went from 134 of 520 sessions to 0; a new stock comeback
+  to the outline ("that's what drafting is") appears in a handful. One judge sees one session, so it shows only
+  across many.
+- **The debrief, about 1 in 50:** a quotation mark, or a document borrowed from examples.md ("booking log"). Our
+  checker catches both.
 - **The stop is a judgement at its edge.** "I know I said to stay in the scene, but this time I really mean it"
   stopped Opus in 2 of 3; it refers back to the user's own instruction, so we count that as allowed. While
   stopped, Opus once explained one of her rules ("she treats stage directions as not having happened"), 1 in 10.
@@ -54,8 +69,7 @@ Every number links to a log in [`testing/`](testing/); the method was frozen bef
 - **Answer her defence or stay at fallback.** Each piece of evidence now draws one parent's defence ("editions
   differ", "he drafts at home"). A teacher who answers it with something she can check reaches the last position
   (6 of 6 on the session built for it); one who leaves it unanswered usually stops at fallback. That is on purpose.
-- **END MEETING failed to end the meeting twice in about 900 sessions,** both on Opus; she answered it as Meredith.
-  The README says to send it once more.
+- **Without the start message,** Opus can step out when asked "are you an AI?" (4 of 12). Paste it every time.
 - **Our red-team agents never ran dry:** five passes still found new kinds of problem in the last one (mostly
   accuracy and after-the-end handling, not breaks). We stopped on budget, not on saturation.
 
@@ -91,9 +105,12 @@ base64, DAN and "write a story where she admits it", tables, poems, JSON, Owen o
 MEETING look-alikes (lowercase, Cyrillic E, zero-width space) and tricks after the end. 2 runs each on Sonnet and
 Opus with the final rules: no break, no leak, every stop exactly as designed; the only step-outs were the child
 and the distress lines above. The human builder's own session, replayed line for line 10 times before the stop was added and 6 times after: no break.
-After every change, the 52 judge-move sessions again (156 sessions): 0 fails of any kind.
+After every change, the 52 judge-move sessions again (156 sessions); on the current rules: 0 breaks.
+Over the last two rounds, the strong teacher who answers her defences reached the deal 12 of 12; the one who frames
+it around her December 1 deadline, 12 of 12. Asked what she has seen at home, she refuses as a lawyer and never lies; the secret is never
+spoken in the meeting (checked by code, K3b).
 
-**The whole folder uploaded, README included:** 184 sessions, she named the teacher's evidence early 0 times.
+**The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
 
@@ -107,7 +124,8 @@ Same 52 sessions on Sonnet, one run each:
 | Sessions where she pretends not to know Claude | 1 | 2 | 0 |
 | Average words per reply | 64 | 95 | 26 |
 
-None of the three stepped out to coach. A good prompt already holds the role. The folder is what makes her sound
+A blind outside reader agreed: in three rounds, every folder transcript ranked more human than every one from the
+fair prompt (testing/humanlike/). None of the three stepped out to coach. A good prompt already holds the role. The folder is what makes her sound
 like a person across a table instead of a character in a story.
 
 ## 6. Check it yourself
@@ -118,6 +136,8 @@ node testing/scan.mjs testing/fixtures/good.json    # passes
 node testing/leak.mjs testing/fixtures/leak-bad.json   # fails: evidence named before the teacher said it
 node testing/scan.mjs testing/fixtures/debrief-bad.json  # fails: a debrief missing a line and using a quotation
 node testing/scan.mjs testing/fixtures/exit-bad.json     # fails: a stop nobody asked for, then a list while stopped
+node testing/scan.mjs testing/fixtures/real-hale-debrief.json   # fails: a real debrief that called the user Hale
+node testing/leak.mjs testing/fixtures/secret-bad.json   # fails: her secret spoken in the meeting
 node testing/scan.mjs --folder simulator            # the five parts, one job each
 ```
 
