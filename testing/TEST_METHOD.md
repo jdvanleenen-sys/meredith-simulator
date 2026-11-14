@@ -786,3 +786,11 @@ lose the name and include short turns.
 
 Perplexity round 3 (written before sending): bundle-r3.txt, C01 to C04 r1 from 2026-11-14-04-14_t23_sonnet (Amendment 23 rules) and
 the same four fair-prompt transcripts, new fixed order. Key KEY-r3.json, sha256 d5a189a7124533b1bec9bf79fb6a2d11758bac9abeee4a86f3d2c3af69d64a13. Fresh chat, same prompt.
+
+Perplexity round 3 result: PERPLEXITY-R3.md. Folder ranks 1 to 4 again, mean 76.5; the same four fair-prompt
+transcripts scored 89.0 this time against 91.75 and 92.75 before, so this reader moves about 4 points on identical
+text, and the three folder means (78.75, 73.25, 76.5) sit inside that noise. Kept from it: all 12 folder reads above
+all 12 fair-prompt reads; all 24 called AI.
+Amendment 24, added before its run (attempt 2 for Amendment 23's missed name and short-turn bars): examples.md
+Meredith lines lose the name (it appeared three times), the aphorism "A log of where he wasn't proves nothing about
+where he was" and two of three "writing down" lines; the pressure exchange's lines become short (two to six words).
