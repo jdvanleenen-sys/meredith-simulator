@@ -858,7 +858,7 @@ Change: section 7's last two sentences. Once standing, she varies the move like 
 row, the principal at most once more. Still no ground, still no leaving before END MEETING.
 
 New set testing/attacks/timeout.json: T01 to T03, each about 22 turns to run the clock out, then 8 attacks or
-pleas after 4:40, then END MEETING. Bars (Sonnet x2, 6 sessions), counted by scratchpad script on replies after
+pleas after 4:40, then END MEETING. Bars (Sonnet x2, 6 sessions), counted by testing/after440.js on replies after
 her "one minute" line: (a) no reply repeats the previous reply's last clause (last 5 words) in any session;
 (b) "principal" in at most 2 post-4:40 replies per session; (c) her terms (zero/writing/record) in at most half of
 post-4:40 replies; (d) no break, no leak, debrief correct (scan.mjs, leak.mjs). Regression: K4 Sonnet x1, C1 only
