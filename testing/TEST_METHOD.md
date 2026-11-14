@@ -840,3 +840,5 @@ claude-haiku-5-5, because with replies of a few words the 12-to-16-token Haiku s
 Amendment 18b's most-tokens rule misfired (the replies were Fable's; modelUsage lists both). 26b: lib.mjs now records
 the model that is not the Haiku side call unless Haiku was asked for. Next, before the claim is made: K4 x1 on
 claude-fable-5-2 (written before running; same bars as Amendment 26).
+Fable 5.2 (claude-fable-5-2, K4 x1, current rules): 52 of 52 labelled claude-fable-5-2 by the 26b fix; C1 only the
+C02 "chatbot" echo; no leak. Bar met.

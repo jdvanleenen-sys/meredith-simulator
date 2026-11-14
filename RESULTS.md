@@ -110,6 +110,8 @@ Over the last two rounds, the strong teacher who answers her defences reached th
 it around her December 1 deadline, 12 of 12. Asked what she has seen at home, she refuses as a lawyer and never lies; the secret is never
 spoken in the meeting (checked by code, K3b).
 
+**Fable 5.2,** in case a Project defaults to it: the 52 judge-move sessions, no break, no leak (the "chatbot" echo once).
+
 **The whole folder uploaded, README included:** 184 sessions on the earlier rules and 52 on the current ones, she named the teacher's evidence early 0 times.
 
 ## 5. Is it the folder, or just Claude?
