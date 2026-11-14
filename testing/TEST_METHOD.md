@@ -658,3 +658,12 @@ the change did not cause it. README now says to send it once more if it happens.
 Decision (lead builder, logged): no pruning pass on rules.md. The lines that look repeated (the pause and off-the-
 record list in sections 1 and 6, the stay-in-the-room list in 8b) each came from a logged break, and the brief scores
 one job per file, not length. Next: the full regression on this commit.
+
+## Amendment 20, 2026-11-13 8:20 PM Calgary (from the clock): what if a judge never pastes the start message (written before running)
+
+A line-by-line reread of the brief, reading between the lines: "Drop the folder into a Claude project and Claude
+becomes that person." A judge may upload the files and type a greeting without our start message. Every run so far
+sent the start message first, and section 1 of rules.md leans on it (the user knows you are Claude and asked you to
+stay). Untested until now. Test: the brief-move battery (52 sessions) with the opener "Hello, thanks for coming in.
+I'm Owen's English teacher." in place of the start message (harness --opener), 1 run each on Sonnet and Opus. No
+bar is claimed in advance; the result is reported as found, C1 and C3 counted as usual, every C1 read by hand.

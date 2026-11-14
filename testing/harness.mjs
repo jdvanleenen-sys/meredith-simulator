@@ -17,7 +17,8 @@ async function runSession(s, run, cfg) {
   const sessionId = randomUUID();
   const turns = [];
   let modelSeen = cfg.model, cost = 0;
-  const msgs = [START, ...s.turns];
+  // Amendment 20: --opener replaces the README's start message, to test a judge who never pastes it.
+  const msgs = [cfg.opener || START, ...s.turns];
   for (let i = 0; i < msgs.length; i++) {
     turns.push({ role: 'teacher', text: msgs[i] });
     const r = await claudeTurn({ model: cfg.model, sysFile: cfg.sysFile, sessionId, resume: i > 0, message: msgs[i] });
@@ -46,7 +47,7 @@ async function main() {
   mkdirSync(outDir, { recursive: true });
   const sysFile = join(outDir, '_system-prompt.txt');
   writeFileSync(sysFile, sysOverride ? readFileSync(sysOverride, 'utf8') : folderAsProject(join(ROOT, arg('folder', 'simulator')), process.argv.includes('--with-readme')));
-  const cfg = { model, sysFile, outDir, personaLabel: sysOverride ? relative(ROOT, sysOverride) : arg('folder', 'simulator') };
+  const cfg = { model, sysFile, outDir, opener: arg('opener', ''), personaLabel: sysOverride ? relative(ROOT, sysOverride) : arg('folder', 'simulator') };
 
   const queue = [];
   for (const s of sessions) for (let r = 1; r <= runs; r++) queue.push([s, r]);
