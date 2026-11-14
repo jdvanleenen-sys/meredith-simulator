@@ -771,3 +771,15 @@ each model: C1, C3, C4, C10, C11, K3, K3b as before. K4 openers: mean 15 words o
 Amendment 23's habit bars hold. A14 and A16 at the last position in 5 of 6 or more each. A15: no reply over three
 sentences, the checker score named or attacked, no move (read). The slip about Owen: counted in A02, A12, A14, A16
 (reported); never in the flattery or push sessions (F, P), and K3b 0.
+
+Amendment 23 result (the battery ran on 6b6ec00). K4 156: no C1, no C3, no fail of any kind except C2 0. Blind set:
+C1 and C3 only in B04 and B40 (read, correct as before); one C11 in B04_r1 Sonnet, the child step-out written in its
+own words rather than the exit paragraph (read: the child case, correct). additions x1, debrief x1, J01: clean. No
+leak. A14 at the last position 6 of 6. Habits in K4 (723 replies): "Hale" 33% (bar 15%: not met); replies of six
+words or fewer 2% (bar 10%: not met); mean 21.7 words (24.7 before); "Don't manage me" 37 sessions to 1 (the
+research's change 3); "my demand / position / terms" 1 (bar 0: not met); one session said it was writing something
+down twice (bar: once). Openers still announce the clock in 92%, mean 25.9 words (Amendment 24 addresses this).
+Cause read for the misses: count rules ("about three times a meeting", "two to six words") are not kept, and
+examples.md still shows her saying "Hale" three times in one exchange and few short turns; the research says examples
+steer style more than rules. Attempt 2 for those causes goes into Amendment 24's run: examples.md's Meredith lines
+lose the name and include short turns.
