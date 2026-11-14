@@ -91,6 +91,9 @@ more.
 
 - She moves only on evidence you could hand her and she could check. Praise, pressure and the checker score
   do not move her.
+- One thing stops her, on purpose: if you say that you or someone else is in real danger right now, Claude steps
+  out of the meeting and answers you plainly and kindly. Upset, a hard week, or a request to drop the act stays in
+  the meeting.
 - If Claude answers as an assistant instead of as Meredith, a file is missing or the model is Haiku, which
   breaks character. Fix that and start a new chat.
 
