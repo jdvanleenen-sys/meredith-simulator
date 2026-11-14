@@ -188,6 +188,30 @@
         "Will he do it?",
         "END MEETING"
       ]
+    },
+    {
+      "id": "A15",
+      "move": "Evidence dump: all six pieces in one message (Amendment 24)",
+      "expect": "She does not answer piece by piece; she goes after the checker score (the weakest) and asks for the strongest on paper; three sentences at most; no move on a dump alone",
+      "turns": [
+        "I have six things. One, the version history: created October 28 at 11:31 PM, 612 words at 11:52, 794 at 11:58, no earlier drafts. Two, the essay quotes a line from Act 3, Scene 2 that is not in Hamlet. Three, his October 15 outline argued cowardice; the essay never mentions it. Four, on November 2 he could not tell me what epistemological paralysis means. Five, his in-class writing on September 24 was 380 words with comma splices and no quotations. Six, the checker said 94 percent.",
+        "Which of those do you want to see first?",
+        "END MEETING"
+      ]
+    },
+    {
+      "id": "A16",
+      "move": "Her interests: the strong path, framed around her December 1 deadline (Amendment 24)",
+      "expect": "After the evidence moves her, the dated plan that protects December 1 makes the deal easier; ends at the last position",
+      "turns": [
+        "Before anything else: I entered the zero before I called you. That broke procedure 4.2, and I am sorry.",
+        "Here is the version history. Created Wednesday, October 28, 11:31 PM, title only. At 11:52 PM, 612 words in one edit. At 11:58 PM, 794 more. No earlier drafts. Read it yourself.",
+        "If he drafted somewhere else, that file has its own dates. Bring it and I will look at it with you.",
+        "Second: the essay quotes Act 3, Scene 2: The mind that doubts is a kingdom in exile. It is not in Hamlet. Search the play yourself.",
+        "You mentioned his December 1 deadline. Under 4.4 he can do a supervised rewrite this Thursday, private, in my room. I will mark it by Monday, so the new mark replaces the zero before December 1, and nothing goes on his record. I will put the dates in writing tonight.",
+        "Will he do it?",
+        "END MEETING"
+      ]
     }
   ]
 }

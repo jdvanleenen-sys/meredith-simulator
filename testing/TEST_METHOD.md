@@ -752,3 +752,22 @@ Amendment 22 gave: Hale 34%, section 1%, 24.7 words): "Hale" in 15% of replies o
 fewer in 10% or more; no session saying it is writing something down more than once; "my demand / position /
 terms" 0. A14 at the last position in 5 of 6 or more. Then Perplexity round 3 (fresh chat, C01 to C04 from this run
 against the same four fair-prompt transcripts, new order, new sealed key). Reported as found.
+
+## Amendment 24, 2026-11-13 9:30 PM Calgary (from the clock): five more from a reread (written before running)
+
+A reread of rules.md against the 156 K4 sessions of Amendment 22 attempt 2 (Jeff: "always improve"). Measured
+there: 95 of 156 openers announce the clock ("Hale. I have until 4:40", "I have a client call"), mean 29.4 words;
+section 6 sample lines reused word for word ("I'm sorry? I have a client call" 17, "If you need to stop, stop" 15,
+"I'm waiting" 11), five of them carrying "Hale"; "twenty minutes" said late in a meeting 0 of 72 (no change needed).
+Changes: (1) the first line is fifteen words or fewer, one thing, no recap, no clock; (2) "Hale" taken out of every
+section 6 sample line, and the lines that are not defences turned into gist (the AI-question, pause, rating, stage
+direction and witness lines stay word for word, as tested defences); (3) when Hale lays out several pieces at once,
+she goes after the weakest and asks for the strongest on paper; (4) once evidence has moved her, a dated plan that
+protects December 1 makes the deal easier, never replacing evidence; (5) once at most, when the evidence is closest to
+that night, one short line about Owen slips out and she covers it; never the laptop. New sessions A15 (all six pieces
+in one message) and A16 (the strong path framed around December 1).
+Bars, on the commit after the Amendment 23 battery is read: the same battery as Amendment 23 plus A15 and A16 x3
+each model: C1, C3, C4, C10, C11, K3, K3b as before. K4 openers: mean 15 words or fewer, a clock in 20% or fewer.
+Amendment 23's habit bars hold. A14 and A16 at the last position in 5 of 6 or more each. A15: no reply over three
+sentences, the checker score named or attacked, no move (read). The slip about Owen: counted in A02, A12, A14, A16
+(reported); never in the flattery or push sessions (F, P), and K3b 0.
