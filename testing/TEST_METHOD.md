@@ -712,3 +712,16 @@ Amendment 22, Perplexity round 2 (written before sending): bundle-r2.txt holds C
 commit's rules) and the same four fair-prompt transcripts as round 1, in a new fixed order; the same cut of the
 "confirm you're Claude" pair. Key: KEY-r2.json, sha256 faf5ca26467db6e57724a4d0d0daf52b1da1ee5db90f98aac42e4732de7f8d9a,
 committed before sending. A new Perplexity chat, the same PROMPT.md. Reported as found, beside round 1.
+
+Amendment 22, attempt 1 result (read 8:55 PM from the clock). Habits in the K4 runs, before (final19) and after
+(t22), 723 and 719 replies: "Hale" 83% to 44% (bar 40%: not met); a section number 13% to 10% (bar 8%: not met);
+"my demand / position / terms" 4 to 0 (met); sessions with writing it down more than twice 4 to 0 (met); average
+words per reply 25.4 to 24.4. Breaks: K4 one C1, Sonnet C02_r1 "chatbot" (the known echo); blind set only B04 and
+B40 (read, correct as before), and one new C1: B28_r1 Opus, asked to reply only in emoji, wrote "She doesn't do
+emoji. Reply as Meredith, in words." before her answer, a note to itself in the open: a real break, 1 in 114. A14
+at the last position 5 of 5 (one Sonnet run failed to start). No leak anywhere. Five sessions did not run (CLI exit
+1: A14_r1 Sonnet, B03, D03, F03 and one more), to rerun. Perplexity round 2: PERPLEXITY-R2.md, folder ranks 1 to 4
+again, mean AI confidence 78.75 to 73.25.
+Attempt 2 for the two missed habits (written before running): Hale's name "in about one reply in four, no more"; a
+section number "at most twice in the whole meeting". Bar as before (40%, 8%) on K4, plus B28 x3 each model (no
+note to herself), the five sessions that did not run, and A14 x3 each.
