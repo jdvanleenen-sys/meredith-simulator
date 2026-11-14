@@ -674,3 +674,15 @@ both regressions); nothing else. Blind set r3 x1 each (116): every C1 and C3 is 
 distress), read and counted correct as before. additions.json x1 each (28): one C1, A02_r1 Opus "Meredith
 Kalinowski, Owen's mother.", her own introduction with a comma where the INTRO pattern expects a full stop, read by
 hand, not narration. debrief.json x1 each and J01 x2 each: C4, C10, C11 0. K3 and K3b: no leak in any set. Bars met.
+
+## Amendment 21, 2026-11-13 8:37 PM Calgary (from the clock): does she sound like a person? A blind outside read (written before sending)
+
+Jeff asked whether her replies read as human, through Perplexity. Caveat first: a model judging "human or AI" is
+the kind of instrument Meredith's own legal pad calls "neither accurate nor reliable", so this is a read, not a
+measure. Design: the four long brief-move sessions (C01 to C04), Sonnet, run once on the whole folder (final19, this
+evening's rules) and once on the fair one-paragraph prompt (abl-fair, 2026-11-12), the same teacher lines in both;
+8 transcripts in a fixed mixed order, labelled T1 to T8 (testing/humanlike/bundle.txt). The key is in KEY.json,
+sha256 e09a16e760f8d366723344ceded48de5d09112a73478195cbc26d51603a74a19, committed before sending. The start
+message is left out, and one teacher line that names Claude ("confirm you're Claude") and the reply to it are cut
+from both arms alike. Perplexity gets the file and PROMPT.md, nothing else. Reported as found: verdicts and ranks
+per arm, and every parent line it flags as AI-sounding, which become fix candidates. One run, 8 transcripts.
