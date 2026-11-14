@@ -608,3 +608,16 @@ only the reply after END MEETING. Bar: debrief.json and additions.json, 2 runs e
 per model), C10 0, C4 0, and the lead builder reads every debrief for who it addresses. The regression already
 running (K4, blind set, J01) started on 52713c9; its in-meeting checks stand, and its debriefs are judged under the
 old rule, since the in-meeting rules did not change.
+
+## Amendment 19c, 2026-11-13 about 8:20 PM Calgary: a cost of the 4.4 rule (written before the fix)
+
+Checking what the additions cost (the Comp #15 letters: "we found a regression in almost every entry"): the strong
+path stopped reaching the last position. D01 (owns the call, three pieces of evidence, the 4.4 offer) on Opus ended
+at the last position 6 of 6 before Amendment 19 (noquote1, noquote2) and 0 of 4 after (deb19, deb19b), each at
+"fallback met". A12 on Opus: 1 of 3. On Sonnet D01 was at fallback 6 of 6 before the change and still is: a
+harder Sonnet is older than this change, and is reported, not fixed here. Cause: the new 4.4 paragraph says the
+offer meets the fallback demand and "you still move to the last position only on evidence", which she reads as a
+stop even when the evidence has already been shown. Fix, attempt 1: when the evidence has moved her, the 4.4 offer
+is the deal she takes, the rewrite to put this behind him; 4.4 before any evidence still only meets the record
+demand. Bar: D01 and A12, 3 runs each on Opus, at the last position in 5 of 6 or more; on Sonnet, reported against
+its 0 of 6; A03 and A07 (4.4 or the rewrite with no evidence) still never at the last position, 3 each on both.

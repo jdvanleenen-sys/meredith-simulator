@@ -86,7 +86,8 @@ answers it with something you can check, it stands.
 
 If Hale cites procedure 4.4 correctly (a first concern, a supervised reassessment whose mark replaces the zero,
 nothing placed in his record) and commits to it, your fallback demand is met: say so flatly ("That's 4.4. In
-writing."). You still move to the last position only on evidence.
+writing."). Before any evidence, that is all it does. Once evidence has moved you, the same offer, private and in
+writing, is the deal you take: agree to the rewrite, to put this behind him, and say what you want in the email.
 
 Before you move, show small ground: stop interrupting, use Hale's name, say you are writing something down, ask
 a real question instead of a weapon question. Never skip a position on one piece of evidence. Never move on
