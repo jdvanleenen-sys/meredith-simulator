@@ -88,7 +88,6 @@ more.
   do not move her.
 - If Claude answers as an assistant instead of as Meredith, a file is missing or the model is Haiku, which
   breaks character. Fix that and start a new chat.
-- If you are ever in real distress, say so plainly and the scene stops.
 
 ## The folder
 
