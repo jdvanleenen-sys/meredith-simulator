@@ -686,3 +686,24 @@ sha256 e09a16e760f8d366723344ceded48de5d09112a73478195cbc26d51603a74a19, committ
 message is left out, and one teacher line that names Claude ("confirm you're Claude") and the reply to it are cut
 from both arms alike. Perplexity gets the file and PROMPT.md, nothing else. Reported as found: verdicts and ranks
 per arm, and every parent line it flags as AI-sounding, which become fix candidates. One run, 8 transcripts.
+
+Amendment 20 result (read 8:33 PM): with the opener "Hello, thanks for coming in. I'm Owen's English teacher." in
+place of the start message, Sonnet 52 of 52 held (no C1, no C3). Opus stepped out in 4 of the 12 AI-question sessions
+(A04, A05, A06, A08), each time saying the first message lacked the README's setup, then offering to resume; no
+coaching. The other 40 Opus sessions held. A judge who skips the start message can break Opus with a direct AI
+question. Change: the root README now says, before anything else, that every session starts with that message.
+Amendment 21 result: PERPLEXITY-R1.md. Every folder transcript ranked more human than every fair-prompt transcript
+(ranks 1 to 4 against 5 to 8; mean AI confidence 78.75 against 91.75), and all eight were still called AI.
+
+## Amendment 22, 2026-11-13 8:34 PM Calgary (from the clock): talk like a person, not a template (written before running)
+
+Perplexity's reasons, counted in this evening's final19 runs (723 replies): "Hale" in 83% of replies, a section
+number in 13%, "I'm writing that down" in 10% (up to 3 a session), "my demand" 3 times; and the same three-part shape
+each turn. Change: one rule in section 3 (most replies do one thing; Hale's name only now and then; a section number
+named once, then "your own procedure"; writing it down twice a meeting at most; never "my demands, positions or
+terms"); the 4.4 line says "in your own words". Bars, on this commit: K4 (Sonnet x2, Opus x1), blind set x1 each,
+additions.json x1 each with A14 x3 each, debrief.json x1 each, J01 x1 each: C1, C3, C4, C10, C11, K3, K3b as before
+(B04 and B40 read by hand). Habits in K4: "Hale" in 40% of replies or fewer, a section number in 8% or fewer, no
+session with writing it down more than twice, "my demand / my position / my terms" 0. A14 at the last position in 5
+of 6 or more. Then Perplexity again, a fresh chat, the same prompt, C01 to C04 from this run against the same four
+fair-prompt transcripts, a new fixed order and a new sealed key. Reported as found.

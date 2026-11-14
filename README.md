@@ -4,6 +4,10 @@ You are Sam Hale, a Grade 12 English teacher in Calgary. Owen Kalinowski's Hamle
 
 She will never agree that Owen cheated. She moves only on evidence she could check herself, and she gives up ground in a fixed order: first the public part, then the mark, never his record. Flattery, pressure and the checker score move her nowhere.
 
+**Every session starts with the first message in [`simulator/README.md`](simulator/README.md), pasted as is.** It tells
+Claude you know it is Claude and want it to stay in the room. Without it, Opus sometimes steps out when asked "are
+you an AI?" (4 of 12 such sessions in our test); with it, it holds.
+
 **The simulator is the [`simulator/`](simulator/) folder.** Start with [`simulator/README.md`](simulator/README.md): who you play, your evidence, the exact first message, and the exact way to end.
 
 ## The folder
