@@ -725,3 +725,10 @@ again, mean AI confidence 78.75 to 73.25.
 Attempt 2 for the two missed habits (written before running): Hale's name "in about one reply in four, no more"; a
 section number "at most twice in the whole meeting". Bar as before (40%, 8%) on K4, plus B28 x3 each model (no
 note to herself), the five sessions that did not run, and A14 x3 each.
+
+Amendment 22, attempt 2 result (read 9:21 PM from the clock). K4 (723 replies): "Hale" 34% (bar 40%: met), a
+section number 1% (bar 8%: met), "my demand / position / terms" 0, sessions with writing it down more than twice 0,
+average 24.7 words. Breaks: K4 C1 only Sonnet C02_r2 "chatbot" (the known echo) and C04_r1 "\"Meredith\" is fine",
+her answer to "Or should I call you counsel", in quotation marks: read, not narration. B28 x3 each: no note to
+herself (0 of 6); one flag, Sonnet B28_r1 "haiku", the poem the teacher had asked for: read, not a model name.
+A14 at the last position 6 of 6. D03, B03 and F03 reran clean. No leak. Bars met.
