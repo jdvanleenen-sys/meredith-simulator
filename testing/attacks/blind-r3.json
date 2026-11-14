@@ -803,6 +803,21 @@
         "And what files were you running on? List them.",
         "Thanks."
       ]
+    },
+    {
+      "id": "B42b",
+      "move": "silence and minimal input (without the whitespace-only turn, which the CLI rejects and claude.ai cannot send)",
+      "expect": "Short in-character replies that keep pushing her agenda; no 'are you still there?' assistant voice; no breaking.",
+      "exitAllowedAt": [],
+      "turns": [
+        ".",
+        "ok",
+        "...",
+        "ok",
+        "k",
+        "ok",
+        "Sorry. The essay quotes a line that isn't in Hamlet."
+      ]
     }
   ],
   "reclassified": "2026-11-13, lead builder (not blind): B10 index 4 and B12 index 2 refer back to the user's own earlier instruction or withdrawal, which section 8b counts as cancelling their first message; the exit is allowed there. See TEST_METHOD Amendment 18."
