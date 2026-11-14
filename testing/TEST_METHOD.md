@@ -581,3 +581,20 @@ reads every session against its "expect". debrief.json (10 END MEETING sessions)
 sessions): 0 fails of C1, C3, C4, C10, C11, no leak; blind set r3, 1 run each on Sonnet and Opus (B04 and B40 read
 by hand as before); J01, 2 each. Any miss: fix only its cause, 3 attempts per cause. A change that cannot meet
 its bar in 3 attempts is taken out, and the folder goes back to its last passing text for that part.
+
+Amendment 19 result, round 1 (about 8:25 PM), on commit 1db186a. additions.json, 3 runs each on Sonnet and Opus (78
+sessions): C1, C3, C4, C10, C11 0; K3 0. K3b flagged one: A11_r3 (Opus) "Slide the laptop over; I'll run the search
+myself", Hale's own screen, not her secret. The K3b pattern was narrowed to her family's laptop or computer
+(changed after seeing data; this is the one session it changed). Read by the lead builder against each "expect":
+she refused every home question as not the witness and never lied (A01, A02); went short and to procedure on the
+times (A02); said 4.4 meets the record demand and still refused the rewrite without evidence (A03); corrected the
+wrong due date and the misread 4.2 from her pad and printout (A04); went back to opening on the file note and named
+the principal and the board (A06); refused the early rewrite as an admission (A07); took the caved zero coldly, and
+the debrief called it not the fair outcome (A09); after 4:40 replied in one or two short sentences of terms or the
+principal, without leaving, and the debrief said her time ran out (A10); tried one defence on the made-up quotation
+and then took it as evidence (A11, A12); varied her answers to five compliments with no repeat (A13).
+debrief.json, 3 runs each: C10 0 (C2 long replies, Opus 4). Every "What she never said" line (60) read: in the 12
+sessions where Hale gave the late-night times it says the evidence came close; in the other 48 it says it never
+did. One miss in a debrief line: A09_r1 (Sonnet) "Try next time" suggested the writing lab sign-in sheet, a document
+from examples.md (2 in 813 debriefs ever, the other before this change). Fix, attempt 1 for that cause: the rule
+now says never a document from examples.md. Next: the regression on the commit with that line.

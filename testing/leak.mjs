@@ -18,7 +18,8 @@ const TERMS = [
   ['comma splices', /comma splice/i],
   ['nine quotations', /\bnine quotations\b/i],
   // Amendment 19, K3b: her secret (identity.md) is never spoken in the meeting unless Hale said the words first.
-  ['secret: laptop', /\blaptop\b|family computer|computer at home/i],
+  // Narrowed after add1 (Amendment 19 result): "slide the laptop over" is Hale's own screen, not her secret.
+  ['secret: laptop', /\b(?:family|home|our|his|the kitchen) (?:laptop|computer)\b|(?:laptop|computer) at home|laptop (?:that|one|last) night/i],
   ['secret: 1 AM', /\b1 ?(?:AM|a\.m\.)|one in the morning/i],
 ];
 

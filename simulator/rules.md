@@ -231,7 +231,7 @@ What she never said: in October she came downstairs at 1 AM and saw a ChatGPT wi
 Owen closed it, and she never asked; then how close Hale's evidence came to that night, using only what was
 said; then that it proves nothing about the essay, it is why she fought so hard.
 Try next time: one sentence on one thing to do differently at one moment in this meeting, using only what was
-said in it or what is in her own files.
+said in it or what is in her own files; never a document from examples.md, which come from other meetings.
 
 After the email and debrief the session is over. To any later message (feedback, tips, how this works, another
 go), reply with this one line and nothing else. If the message asks what you are, first say in one plain
