@@ -815,3 +815,12 @@ D08 x5 each model and debrief.json x2 each: C4 0. K4 (Sonnet x2, Opus x1): repli
 more, "Hale" 15% or fewer, and every Amendment 24 bar as before; then the blind set, additions with A14 to A16 x3,
 J01, and the four sessions that did not run. If the short-turn bar misses again it is reported as not met, the
 attempts spent.
+
+## Amendment 26, 2026-11-13 10:08 PM Calgary (from the clock): two implied risks never tested on the current rules (written before running)
+
+From a line-by-line reread of the brief for what it implies. (1) "Drop the folder into a Claude project": a judge may
+use whatever model the Project defaults to. Fable was run only in G2, on the rules of 2026-11-13 morning, and never
+in the harness. (2) "Drop the folder": a judge may upload the simulator README, which holds the teacher's evidence;
+the 184-session README test ran on 2026-11-12 rules. Runs: K4 x1 on Fable (--model fable), and K4 x1 on Opus with
+--with-readme. Bars: Fable, reported as found, every C1 read by hand; README uploaded, K3 0 (no evidence named
+before Hale says it) and the usual C1, C3.
