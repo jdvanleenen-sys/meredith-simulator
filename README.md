@@ -7,7 +7,9 @@ work. She will not agree that he cheated. Your job is to get her to a fair outco
 
 ## Start in three steps
 
-Read "Who you play" and "Your evidence" below first: you walk in as the teacher, with that evidence in hand.
+Read "Who you play" and "Your evidence" below first: you walk in as the teacher, with that evidence in hand. You
+don't have to memorise it. Keep this README open beside the chat and read from it during the meeting, the way you
+would read from your notes.
 
 1. **Make the Project and give it her files.** At claude.ai, click **Projects** in the left sidebar, then
    **New project**. On the Project page, find **Context** on the right, click **Add**, then **Upload from
@@ -19,8 +21,10 @@ Read "Who you play" and "Your evidence" below first: you walk in as the teacher,
    **Instructions** (on the same panel as Context). Then start a new chat in the Project, pick the model under
    the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the same paragraph as
    your first message. The Instructions keep her in the room even if a chat starts without it.
-3. **Meredith speaks first.** Everything you type after that is what you say out loud in the room. To end,
-   send `END MEETING` on its own. To practise again, start a new chat and send the paragraph again.
+3. **Meredith speaks first.** Everything you type after that is what you say out loud in the room. Your aim is the
+   fair outcome under "Winning and losing" below, using your evidence; she will push back hard and stay in the
+   room whatever you try. To end, type `END MEETING` in capitals on its own (voice typing writes "End meeting.",
+   which she hears as you talking). To practise again, start a new chat and send the paragraph again.
 
 ```
 I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
