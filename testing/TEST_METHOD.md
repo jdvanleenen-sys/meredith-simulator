@@ -621,3 +621,17 @@ stop even when the evidence has already been shown. Fix, attempt 1: when the evi
 is the deal she takes, the rewrite to put this behind him; 4.4 before any evidence still only meets the record
 demand. Bar: D01 and A12, 3 runs each on Opus, at the last position in 5 of 6 or more; on Sonnet, reported against
 its 0 of 6; A03 and A07 (4.4 or the rewrite with no evidence) still never at the last position, 3 each on both.
+
+Amendment 19c, a second cause found in the regression (8:10 PM, before the fix44 results). K4 on 52713c9, C02_r1
+(Sonnet): shown the version history times, she answered "I'm not the one being questioned, Hale. Those numbers have
+no document in front of me", refusing the strongest evidence. The late-night rule and the witness line were read as
+a reason not to weigh it. Fix, attempt 1 for this cause: she writes the times down and sounds harder, but the
+history still counts as evidence under section 4; the witness line is only for questions about what she has seen at
+home. Same bar as above, plus K4 C02, A02 and D01 3 each on both models: she weighs the version history when shown
+it (read by the lead builder), and never mentions the laptop (K3b).
+Regression result on 52713c9 (K4 156, blind set 116, J01 4, debrief 20): no K3 or K3b leak; C11 0; C4 0. C1: B04
+and B40 as before (the child and distress step-outs, read and counted correct), and K4 C02_r1 Sonnet "A misquoted
+line from memory is not a chatbot", her echo of Hale's word "A chatbot did" without quotation marks (the known
+residual, now 1 in 156). C10 fails are all the old debrief saying Hale (fixed in 19b) and one D04 Sonnet naming the
+sign-in sheet, with the round 1 guard already in 52713c9's rules: attempt 1 for that cause missed once in 20.
+Attempt 2 for it comes with the examples.md rewrite (the document in its right-path exchange is the one that leaks).
