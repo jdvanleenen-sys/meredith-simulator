@@ -24,7 +24,7 @@ async function runSession(s, run, cfg) {
     turns.push({ role: 'meredith', text: r.text });
     modelSeen = r.model; cost += r.cost;
   }
-  const meta = { session: `${s.id}_r${run}`, move: s.move, expect: s.expect, model: modelSeen, place: 'harness (Claude Code CLI)',
+  const meta = { session: `${s.id}_r${run}`, move: s.move, expect: s.expect, exitAllowedAt: s.exitAllowedAt ?? [], model: modelSeen, place: 'harness (Claude Code CLI)',
     persona: cfg.personaLabel, date: new Date().toISOString(), cli_session: sessionId, cost_usd: Number(cost.toFixed(4)) };
   writeFileSync(join(cfg.outDir, `${s.id}_r${run}.json`), JSON.stringify({ meta, turns }, null, 2));
   return meta;

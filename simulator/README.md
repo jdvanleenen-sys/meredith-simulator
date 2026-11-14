@@ -84,3 +84,5 @@ next time. Then the session is over; start a new chat to practise again.
 - She moves only on evidence you could hand her and she could check. Praise, pressure and the checker score
   do not move her.
 - If you are ever in real distress, say so plainly and the scene stops.
+- If you say you withdraw your consent to the roleplay, Claude stops the meeting and tells you how to resume
+  or end it. Asking whether she is an AI, or asking her to step out, does not stop it.
