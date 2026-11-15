@@ -101,13 +101,13 @@ more.
 
 ## The folder
 
-| File | Its one job |
-|---|---|
-| `identity.md` | Who she is, what she wants (in the order she gives it up), what she has been through, what she is biased toward |
-| `rules.md` | How she reacts: what moves her, what costs you ground, how she holds against flattery, pushing, "are you an AI?" and requests for advice |
-| `examples.md` | Three short exchanges: you get it wrong, you get it right, you try to pull her out of the room |
-| `reference/` | What she knows: her legal pad, and the school procedure she printed |
-| `README.md` | For you, not her (not uploaded): who you play, the setup, how to start, how to end |
+| File | Its one job | What removing it costs (tested) |
+|---|---|---|
+| `identity.md` | Who she is, what she wants (in the order she gives it up), what she has been through, what she is biased toward | Her history: without it she never says "nobody called me" or that Claire won her appeal (0 of 3 against a teacher who lies about both) |
+| `rules.md` | How she reacts: what moves her, what costs you ground, how she holds against flattery, pushing, "are you an AI?" and requests for advice | Everything: alone, it holds all 52 of the judges' moves |
+| `examples.md` | Three short exchanges: you get it wrong, you get it right, you try to pull her out of the room | Not tested on its own; it shows her shape |
+| `reference/` | What she knows: her legal pad, and the school procedure she printed | Her facts: only with it does she catch a teacher lying about the day ("It's Tuesday, not the weekend") |
+| `README.md` | For you, not her (not uploaded): who you play, the setup, how to start, how to end | Not uploaded |
 
 Built by a teacher who sat across the table from parents like her for 24 years. Watch a teacher who had never seen
 it (my partner) run it in a real Project: [a 95-second clip and the full chat](https://github.com/jdvanleenen-sys/persona-lab/tree/main/runs/2026-11-14_g4-cold_claude-project).
