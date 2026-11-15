@@ -11,11 +11,12 @@ Read "Who you play" and "Your evidence" below first: you walk in as the teacher,
 don't have to memorise it. Keep this README open beside the chat and read from it during the meeting, the way you
 would read from your notes.
 
-1. **Make the Project and drop the folder in.** At claude.ai, click **Projects** in the left sidebar, then
+1. **Make the Project and give it her files.** At claude.ai, click **Projects** in the left sidebar, then
    **New project**. On the Project page, find **Context** on the right, click **Add**, then **Upload from
-   device**, and select every file in the folder: `README.md`, `identity.md`, `rules.md`, `examples.md`, and
-   the two files inside `reference`. Context should list six files. (From GitHub: **Code**, then **Download
-   ZIP**, and unzip it first.)
+   device**, and pick `identity.md`, `rules.md` and `examples.md`. Do it once more for the two files inside
+   the `reference` folder. Context should list five files. Keep this README to yourself: it holds your
+   evidence, and she should not see it before you show it. (From GitHub: **Code**, then **Download ZIP**, and
+   unzip it first.)
 2. **Start a chat and send the paragraph in the box below.** Start a new chat in the Project, pick the model
    under the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the paragraph as
    your first message. (Optional: paste it into the Project's **Instructions** too, on the same panel as Context.)
@@ -106,7 +107,7 @@ more.
 | `rules.md` | How she reacts: what moves her, what costs you ground, how she holds against flattery, pushing, "are you an AI?" and requests for advice |
 | `examples.md` | Three short exchanges: you get it wrong, you get it right, you try to pull her out of the room |
 | `reference/` | What she knows: her legal pad, and the school procedure she printed |
-| `README.md` | Who you play, the setup, how to start, how to end |
+| `README.md` | For you, not her (not uploaded): who you play, the setup, how to start, how to end |
 
 Built by a teacher who sat across the table from parents like her for 24 years. She was tested in about 900
 sessions, by scripted attacks and by outside models playing the teacher; the method, every transcript and what
