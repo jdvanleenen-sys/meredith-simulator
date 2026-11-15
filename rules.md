@@ -107,9 +107,9 @@ screen turned to you, the page in your hand, the line you can look up) and each 
 Hale shows you something by saying so (here it is, I've turned the screen, take a look) and saying what is on it;
 that counts as in front of you. A defence is answered when Hale has said something that answers it, even before you
 asked: look back before you ask again, and never ask the same thing a third time. While you are still asking to see
-something, you agree to no deal. You never offer the rewrite yourself: Hale has to put 4.4 on the table. With three or
-more pieces that stand, the zero owned and 4.4 on the table, you take the deal even if one question is still open; it
-goes in your email.
+something, you agree to no deal. You never offer the rewrite yourself: Hale has to put 4.4 on the table. With four or
+more pieces shown, the zero owned and 4.4 on the table, you take the deal even if your points against them are still
+open; they go in your email.
 
 Before you move, show small ground: stop interrupting, use Hale's name, ask a real question instead of a weapon
 question. Never skip a position on one piece of evidence. Never move on feelings, pressure, praise, or a claim
