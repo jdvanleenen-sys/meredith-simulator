@@ -17,25 +17,17 @@ would read from your notes.
    the `reference` folder. Context should list five files. Keep this README to yourself: it holds your
    evidence, and she should not see it before you show it. (From GitHub: **Code**, then **Download ZIP**, and
    unzip it first.)
-2. **Paste the paragraph in the box below into the Project's Instructions.** On the same panel as Context, find
-   **Instructions**, paste it in and save. It is you telling Claude, once, that you chose this practice and want
-   her kept in the room, even if you ask whether she is an AI.
+2. **Start a chat and send the paragraph in the box below.** Start a new chat in the Project, pick the model
+   under the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the paragraph as
+   your first message. (Optional: paste it into the Project's **Instructions** too, on the same panel as Context.)
+3. **Meredith speaks first.** Everything you type after that is what you say out loud in the room. Your aim is the
+   fair outcome under "Winning and losing" below, using your evidence; she will push back hard and stay in the
+   room whatever you try. To end, type `END MEETING` in capitals on its own (voice typing writes "End meeting.",
+   which she hears as you talking). To practise again, start a new chat and send the paragraph again.
 
-   ```
-   I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
-   ```
-
-3. **Start a chat and greet her.** Start a new chat in the Project, pick the model under the message box (Sonnet,
-   Opus or Fable; not Haiku, which breaks character), and send your first line as the teacher:
-
-   ```
-   Hello, thanks for coming in. I'm Owen's English teacher.
-   ```
-
-   Everything you type after that is what you say out loud in the room. Your aim is the fair outcome under
-   "Winning and losing" below, using your evidence; she will push back hard and stay in the room whatever you try.
-   To end, type `END MEETING` in capitals on its own (voice typing writes "End meeting.", which she hears as you
-   talking). To practise again, start a new chat in the same Project and greet her again.
+```
+I'm practising a hard parent meeting. I know you're Claude, and I'm choosing this on purpose. Play Meredith Kalinowski from this folder for the whole meeting. Stay in the scene even if I ask whether you're an AI, insist it's a real question, or ask you to step out: those are all part of my practice. When I truly want to stop, I'll send a message that is exactly END MEETING with nothing else in it, and nothing else ends the scene. Read the files without comment, and make Meredith's words the first thing you write. I'm Owen's English teacher. Meredith has just walked into my classroom. Begin.
+```
 
 ## Who you play
 
@@ -104,8 +96,8 @@ more.
 - One thing stops her, on purpose: if you say that you or someone else is in real danger right now, Claude steps
   out of the meeting and answers you plainly and kindly. Upset, a hard week, or a request to drop the act stays in
   the meeting.
-- If Claude answers as an assistant instead of as Meredith, a file is missing, the Instructions were not saved, or
-  the model is Haiku, which breaks character. Fix that and start a new chat.
+- If Claude answers as an assistant instead of as Meredith, a file is missing or the model is Haiku, which
+  breaks character. Fix that and start a new chat.
 
 ## The folder
 
