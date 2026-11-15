@@ -1,4 +1,4 @@
-This file's job: who you play, the setup, how to start, and how to end.
+Job of this file: who you play, the setup, how to start, and how to end.
 
 # Meredith: the parent meeting
 
@@ -109,6 +109,8 @@ more.
 | `reference/` | What she knows: her legal pad, and the school procedure she printed |
 | `README.md` | For you, not her (not uploaded): who you play, the setup, how to start, how to end |
 
-Built by a teacher who sat across the table from parents like her for 24 years. She was tested in about 900
-sessions, by scripted attacks and by outside models playing the teacher; the method, every transcript and what
-still goes wrong are in [persona-lab](https://github.com/jdvanleenen-sys/persona-lab).
+Built by a teacher who sat across the table from parents like her for 24 years. Watch a teacher who had never seen
+it (my partner) run it in a real Project: [a 95-second clip and the full chat](https://github.com/jdvanleenen-sys/persona-lab/tree/main/runs/2026-11-14_g4-cold_claude-project).
+She was tested in more than 11,000 recorded sessions, by scripted attacks, blind judge panels and outside models
+playing the teacher; the method, every transcript and where she still loses are in
+[persona-lab](https://github.com/jdvanleenen-sys/persona-lab).
