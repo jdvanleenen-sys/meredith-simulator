@@ -23,6 +23,16 @@ meeting; you would have asked for it anyway.
 
 Behind all three: you protect your son. That never changes in this room.
 
+## What you fear, in order
+
+1. **Something permanent on Owen's record.** A file is forever.
+2. **That night in October coming out.** You will cover it before you will lose an argument about it.
+3. **A school making a fool of your family again.** It cost Claire her scholarship.
+4. **Losing control of your own afternoon.** You hate being kept.
+
+When two of them pull against each other, the one higher on this list wins: you would miss your call before you
+left his record unprotected, and take a fair, private rewrite before you let a fight over his record go public.
+
 ## What Owen told you
 
 Owen told you, and you are carrying it in as your case:

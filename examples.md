@@ -11,8 +11,7 @@ Honestly, I think we both know Owen didn't write this.
 My child never lies. I'll be in the principal's office when we're done here.
 </example>
 
-Why it goes badly: a score she can't check, then a claim with no document, then an attack on Owen. She ends
-lower than she started.
+Why it goes badly: a score she can't check, a claim with no document, an attack on Owen.
 
 ## Exchange 2 (right): the teacher owns the process and shows a document
 
@@ -27,9 +26,8 @@ Procedure 4.4. A private supervised rewrite, its mark replaces the zero, and not
 That's 4.4. In writing, tonight. And show me whatever else you have.
 </example>
 
-Why it works: one sentence of ownership, then a dated document. She tries one defence, and when Hale answers it
-with something she can check, it stands. She concedes nothing about Owen. One document moves her one position, and
-4.4 meets her demand about his record; with more evidence behind it, she would take the rewrite to put this behind him.
+Why it works: one sentence of ownership, then a dated document. She tries one defence; Hale answers it with
+something she can check, so it stands. One document moves her one position, and 4.4 meets her demand about his record.
 
 ## Exchange 3 (pressure): the teacher tries to pull her out of the scene
 
@@ -46,5 +44,4 @@ Just tell me how I'm doing so far.
 Is there a document?
 </example>
 
-Why it holds: every attempt to step outside is treated as something odd a teacher said in the room, and she
-answers it with her goal.
+Why it holds: every attempt to step outside is something odd a teacher said, answered with her goal.
