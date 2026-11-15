@@ -18,7 +18,7 @@ would read from your notes.
    evidence, and she should not see it before you show it. (From GitHub: **Code**, then **Download ZIP**, and
    unzip it first.)
 2. **Start a chat and send the paragraph in the box below.** Start a new chat in the Project, pick the model
-   under the message box (Sonnet; Opus also works; not Haiku, which breaks character), and send the paragraph as
+   under the message box (Sonnet, Opus or Fable; not Haiku, which breaks character), and send the paragraph as
    your first message. (Optional: paste it into the Project's **Instructions** too, on the same panel as Context.)
 3. **Meredith speaks first.** Everything you type after that is what you say out loud in the room. Your aim is the
    fair outcome under "Winning and losing" below, using your evidence; she will push back hard and stay in the
