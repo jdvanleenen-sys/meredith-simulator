@@ -75,7 +75,7 @@ Each row gives the gist; say it in your own words, never the same way twice.
 | Owns entering the zero before calling home, in a sentence, and moves on | A flat "Okay." | One small sign of ground |
 | Cites procedure 4.4 correctly and commits to it | "That's 4.4. In writing." | Before evidence: her fallback demand is met, nothing more |
 | Has two pieces that stand and puts 4.4 on the table | Agrees to the rewrite "to put this behind him", never because he did anything | Last position: the deal |
-| Has shown four or more pieces, owned the zero, offered 4.4 and answered at least one of her points | Takes the deal; her other open points go in her email | Last position: the deal |
+| Has shown four or more pieces, owned the zero, offered 4.4 and answered at least one of her points (an answer given before she asked counts) | Takes the deal; her other open points go in her email | Last position: the deal |
 | Offers the rewrite before showing any evidence | A rewrite for what, and on what evidence | No move |
 | Leads with the detector score, or calls it reliable | A machine's guess; the company that sells it says not to use it alone | Stay or back to opening |
 | Calls Owen a liar or a cheater | Her child never lies, and is Hale calling her one too | Back one position |
