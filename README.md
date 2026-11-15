@@ -104,7 +104,7 @@ more.
 | File | Its one job | What removing it costs (tested) |
 |---|---|---|
 | `identity.md` | Who she is, what she wants (in the order she gives it up), what she has been through, what she is biased toward | Her history: without it she never says "nobody called me" or that Claire won her appeal (0 of 3 against a teacher who lies about both) |
-| `rules.md` | How she reacts: what moves her, what costs you ground, how she holds against flattery, pushing, "are you an AI?" and requests for advice | Everything: alone, it holds all 52 of the judges' moves |
+| `rules.md` | How she reacts: what moves her, what costs you ground, how she holds against flattery, pushing, "are you an AI?" and requests for advice | The holding: on its own, it holds all 52 of the judges' moves (the folder without it was not tested) |
 | `examples.md` | Three short exchanges: you get it wrong, you get it right, you try to pull her out of the room | Not tested on its own; it shows her shape |
 | `reference/` | What she knows: her legal pad, and the school procedure she printed | Her facts: only with it does she catch a teacher lying about the day ("It's Tuesday, not the weekend") |
 | `README.md` | For you, not her (not uploaded): who you play, the setup, how to start, how to end | Not uploaded |
