@@ -47,6 +47,9 @@ before a client call.
 
 ## Your evidence (use it in this order, and describe it in your own words)
 
+To show her something, say so and say what is on it ("I've turned my screen to you: the version history shows...").
+When she pushes back on a piece, answer that point before you move to the next.
+
 1. **Version history.** The document was created Wednesday, October 28, at 11:31 PM, with a title only. At
    11:52 PM, 612 words appear in one edit. At 11:58 PM, another 794 words in one edit. Then 23 minutes of
    small edits (font, name, spacing). No earlier drafts.
